@@ -25,10 +25,10 @@ Along the way I extract the pieces that keep coming back into small, focused pac
 
 ## Stack
 
-`PHP` `Laravel` `Symfony` `Doctrine` `TypeScript` `Vue 3` `React` `Node.js` `Prisma` `Stripe` `Tailwind` `PostgreSQL` `Redis` `Keycloak` `Docker` `Kubernetes` `GitHub Actions` `Pest` `Vitest`
+`PHP` `Laravel` `Filament` `Reverb` `Symfony` `Doctrine` `TypeScript` `Vue 3` `Pinia` `React` `Node.js` `Prisma` `Stripe` `Tailwind` `PostgreSQL` `Redis` `Keycloak` `Docker` `Kubernetes` `GitHub Actions` `Pest` `Vitest`
 
 ## Elsewhere
 
-- Website: [augustin-kavera.fr](https://augustin-kavera.fr)
+- Website: [augustin-kavera.fr](https://augustin-kavera.fr), built with Laravel, Filament and Reverb on the back-end, Vue 3 and Pinia on the front, self-hosted with Docker, nginx and PostgreSQL
 - Packagist: [kaveraa](https://packagist.org/users/kaveraa/)
 - npm: [@kaveraa](https://www.npmjs.com/~kaveraa)

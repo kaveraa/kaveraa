@@ -21,11 +21,11 @@ Along the way I extract the pieces that keep coming back into small, focused pac
 
 ## Side project
 
-**[Kadelio](https://kadelio.com)** is a SaaS to build a gift list from any online store and share it in one click, used by hundreds of people for births, weddings and birthdays. I design, build and run it end to end: React 19 and Tailwind front-end, Node.js API with Prisma and PostgreSQL, Stripe billing, transactional emails, a browser extension and Docker deployment. The code is private, the product is live.
+**[Kadelio](https://kadelio.com)** is a SaaS to build a gift list from any online store and share it in one click, used by hundreds of people for births, weddings and birthdays. I design, build and run it end to end: React 19 and Tailwind front-end, Node.js API with Prisma and PostgreSQL, Stripe billing, transactional emails with Resend, error tracking with Sentry, a browser extension and Docker deployment. The code is private, the product is live.
 
 ## Stack
 
-`PHP` `Laravel` `Filament` `Reverb` `Symfony` `Doctrine` `TypeScript` `Vue 3` `Pinia` `React` `Node.js` `Prisma` `Stripe` `Tailwind` `PostgreSQL` `Redis` `Keycloak` `Docker` `Kubernetes` `GitHub Actions` `Pest` `Vitest`
+`PHP` `Laravel` `Filament` `Reverb` `Symfony` `Doctrine` `TypeScript` `Vue 3` `Pinia` `React` `Node.js` `Prisma` `Stripe` `Resend` `Sentry` `Tailwind` `PostgreSQL` `Redis` `Keycloak` `Docker` `Kubernetes` `GitHub Actions` `Pest` `Vitest`
 
 ## Elsewhere
 

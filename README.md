@@ -13,12 +13,11 @@ Along the way I extract the pieces that keep coming back into small, focused pac
 | [unaccent-search](https://github.com/kaveraa/unaccent-search) [![Packagist](https://img.shields.io/packagist/v/kaveraa/unaccent-search?label=)](https://packagist.org/packages/kaveraa/unaccent-search) | Accent and case insensitive SQL search, without a database extension (MySQL, MariaDB, PostgreSQL, SQLite). |
 | [laravel-keycloak-sanctum](https://github.com/kaveraa/laravel-keycloak-sanctum) [![Packagist](https://img.shields.io/packagist/v/kaveraa/laravel-keycloak-sanctum?label=)](https://packagist.org/packages/kaveraa/laravel-keycloak-sanctum) | Keycloak SSO for a SPA backed by a Laravel API: Sanctum token, roles, back-channel logout and idle timeout. |
 
-## TypeScript packages
+## TypeScript package
 
 | Package | What it does |
 | --- | --- |
 | [keycloak-sanctum-vue](https://github.com/kaveraa/keycloak-sanctum-vue) [![npm](https://img.shields.io/npm/v/%40kaveraa%2Fkeycloak-sanctum-vue?label=)](https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue) | Vue 3 client for the package above: user, roles, router guard, authenticated fetch and inactivity logout. |
-| [prepare-image](https://github.com/kaveraa/prepare-image) | Turn the photo someone just picked into an image ready to upload: HEIC decoded, orientation applied, resized, GPS metadata removed. |
 
 ## Stack
 

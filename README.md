@@ -19,9 +19,13 @@ Along the way I extract the pieces that keep coming back into small, focused pac
 | --- | --- |
 | [keycloak-sanctum-vue](https://github.com/kaveraa/keycloak-sanctum-vue) [![npm](https://img.shields.io/npm/v/%40kaveraa%2Fkeycloak-sanctum-vue?label=)](https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue) | Vue 3 client for the package above: user, roles, router guard, authenticated fetch and inactivity logout. |
 
+## Side project
+
+**[Kadelio](https://kadelio.com)** is a SaaS to build a gift list from any online store and share it in one click, used by hundreds of people for births, weddings and birthdays. I design, build and run it end to end: React 19 and Tailwind front-end, Node.js API with Prisma and PostgreSQL, Stripe billing, transactional emails, a browser extension and Docker deployment. The code is private, the product is live.
+
 ## Stack
 
-`PHP` `Laravel` `Symfony` `Doctrine` `TypeScript` `Vue 3` `Tailwind` `PostgreSQL` `Redis` `Keycloak` `Docker` `Kubernetes` `GitHub Actions` `Pest` `Vitest`
+`PHP` `Laravel` `Symfony` `Doctrine` `TypeScript` `Vue 3` `React` `Node.js` `Prisma` `Stripe` `Tailwind` `PostgreSQL` `Redis` `Keycloak` `Docker` `Kubernetes` `GitHub Actions` `Pest` `Vitest`
 
 ## Elsewhere
 

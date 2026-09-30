@@ -8,6 +8,7 @@ Along the way I extract the pieces that keep coming back into small, focused pac
 
 | Package | What it does |
 | --- | --- |
+| [api-gouv-publique-fr](https://github.com/kaveraa/api-gouv-publique-fr) [![Packagist](https://img.shields.io/packagist/v/kaveraa/api-gouv-publique-fr?label=)](https://packagist.org/packages/kaveraa/api-gouv-publique-fr) | Typed client for French public APIs: company search by SIREN or SIRET, address search, communes and departements, with a Laravel bridge, validation rules and test fakes. |
 | [data-lifecycle](https://github.com/kaveraa/data-lifecycle) [![Packagist](https://img.shields.io/packagist/v/kaveraa/data-lifecycle?label=)](https://packagist.org/packages/kaveraa/data-lifecycle) | Keep personal data only as long as needed (GDPR): warn before expiry, disable with a grace period, then anonymise or delete. |
 | [slug-history](https://github.com/kaveraa/slug-history) [![Packagist](https://img.shields.io/packagist/v/kaveraa/slug-history?label=)](https://packagist.org/packages/kaveraa/slug-history) | Keep old URLs working when a slug changes: past slugs are remembered and answered with a 301. |
 | [unaccent-search](https://github.com/kaveraa/unaccent-search) [![Packagist](https://img.shields.io/packagist/v/kaveraa/unaccent-search?label=)](https://packagist.org/packages/kaveraa/unaccent-search) | Accent and case insensitive SQL search, without a database extension (MySQL, MariaDB, PostgreSQL, SQLite). |

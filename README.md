@@ -1,36 +1,86 @@
-# Hi, I'm Augustin
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.e64c907c.svg">
+    <img src="assets/hero-light.1e828ea4.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
+  </picture>
+  <p>
+    <a href="https://augustin-kavera.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/site-dark.e9f3b2af.svg"><img src="assets/badges/site-light.f2d4aafc.svg" alt="site: augustin-kavera.fr" height="24"></picture></a>
+    <a href="https://packagist.org/users/kaveraa/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/packagist-dark.641ec81f.svg"><img src="assets/badges/packagist-light.7a75c765.svg" alt="packagist: kaveraa" height="24"></picture></a>
+    <a href="https://www.npmjs.com/~kaveraa"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/npm-dark.4ef37cbd.svg"><img src="assets/badges/npm-light.a27f1f44.svg" alt="npm: @kaveraa" height="24"></picture></a>
+    <a href="https://kadelio.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/kadelio-dark.9c58816b.svg"><img src="assets/badges/kadelio-light.eeda13be.svg" alt="kadelio: kadelio.com" height="24"></picture></a>
+  </p>
+</div>
 
-Full-stack developer based in Auvergne, France. I build business applications for the public sector with **Laravel**, **Symfony**, **Vue 3** and **PostgreSQL**, deployed with Docker, Kubernetes and GitHub Actions.
+I build line-of-business applications for the public sector with **Laravel**, **Symfony**, **Vue 3** and **PostgreSQL**, deployed with Docker, Kubernetes and GitHub Actions. The pieces that keep coming back become small, focused packages, on Packagist and npm: one problem each, Laravel and Symfony/Doctrine support when it makes sense, tests and a short README.
 
-Along the way I extract the pieces that keep coming back into small, focused packages. Each one solves a single problem, works with both Laravel and Symfony/Doctrine when it makes sense, and comes with tests and a short README.
+### Shipping log
 
-## PHP packages
+<!-- shipping-log:start -->
+| Released | Package | What shipped |
+| :-- | :-- | :-- |
+| <sub><code>2026-10-01</code></sub> | [**api-gouv-publique-fr**](https://github.com/kaveraa/api-gouv-publique-fr) [`v1.0.0`](https://packagist.org/packages/kaveraa/api-gouv-publique-fr) | Typed client for French public APIs |
+| <sub><code>2026-09-30</code></sub> | [**prepare-image**](https://github.com/kaveraa/prepare-image) [`v1.0.3`](https://www.npmjs.com/package/@kaveraa/prepare-image) | Prepare a user-picked photo for upload |
+| <sub><code>2026-09-30</code></sub> | [**keycloak-sanctum-vue**](https://github.com/kaveraa/keycloak-sanctum-vue) [`v1.0.3`](https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue) | Vue 3 client for laravel-keycloak-sanctum |
+| <sub><code>2026-09-29</code></sub> | [**laravel-keycloak-sanctum**](https://github.com/kaveraa/laravel-keycloak-sanctum) [`v1.0.3`](https://packagist.org/packages/kaveraa/laravel-keycloak-sanctum) | Keycloak SSO for a SPA backed by a Laravel API |
+| <sub><code>2026-09-29</code></sub> | [**unaccent-search**](https://github.com/kaveraa/unaccent-search) [`v2.0.3`](https://packagist.org/packages/kaveraa/unaccent-search) | Accent and case insensitive SQL search, without a database extension |
+<!-- shipping-log:end -->
 
-| Package | What it does |
-| --- | --- |
-| [api-gouv-publique-fr](https://github.com/kaveraa/api-gouv-publique-fr) [![Packagist](https://img.shields.io/packagist/v/kaveraa/api-gouv-publique-fr?label=)](https://packagist.org/packages/kaveraa/api-gouv-publique-fr) | Typed client for French public APIs: company search by SIREN or SIRET, address search and the Geo API (communes, departements, regions, EPCI), with a Laravel bridge, validation rules and test fakes. |
-| [data-lifecycle](https://github.com/kaveraa/data-lifecycle) [![Packagist](https://img.shields.io/packagist/v/kaveraa/data-lifecycle?label=)](https://packagist.org/packages/kaveraa/data-lifecycle) | Keep personal data only as long as needed (GDPR): warn before expiry, disable with a grace period, then anonymise or delete. |
-| [slug-history](https://github.com/kaveraa/slug-history) [![Packagist](https://img.shields.io/packagist/v/kaveraa/slug-history?label=)](https://packagist.org/packages/kaveraa/slug-history) | Keep old URLs working when a slug changes: past slugs are remembered and answered with a 301. |
-| [unaccent-search](https://github.com/kaveraa/unaccent-search) [![Packagist](https://img.shields.io/packagist/v/kaveraa/unaccent-search?label=)](https://packagist.org/packages/kaveraa/unaccent-search) | Accent and case insensitive SQL search, without a database extension (MySQL, MariaDB, PostgreSQL, SQLite). |
-| [laravel-keycloak-sanctum](https://github.com/kaveraa/laravel-keycloak-sanctum) [![Packagist](https://img.shields.io/packagist/v/kaveraa/laravel-keycloak-sanctum?label=)](https://packagist.org/packages/kaveraa/laravel-keycloak-sanctum) | Keycloak SSO for a SPA backed by a Laravel API: Sanctum token, roles, back-channel logout and idle timeout. |
+### Packages
 
-## TypeScript packages
+<!-- packages:start -->
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/kaveraa/api-gouv-publique-fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/api-gouv-publique-fr-dark.722fd4bd.svg"><img src="assets/packages/api-gouv-publique-fr-light.9f7ace12.svg" alt="api-gouv-publique-fr: Typed client for French public APIs: company search by SIREN or SIRET, address search and the Geo API, with a Laravel bridge, validation rules and test fakes." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/prepare-image"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/prepare-image-dark.3043c341.svg"><img src="assets/packages/prepare-image-light.6e98bab3.svg" alt="prepare-image: Prepare a user-picked photo for upload: decode HEIC, apply camera orientation, resize and strip GPS location." width="100%"></picture></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/kaveraa/keycloak-sanctum-vue"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/keycloak-sanctum-vue-dark.bc6132e4.svg"><img src="assets/packages/keycloak-sanctum-vue-light.7cf2efdb.svg" alt="keycloak-sanctum-vue: Vue 3 client for laravel-keycloak-sanctum: user, roles, router guard, authenticated fetch and inactivity logout." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/laravel-keycloak-sanctum"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/laravel-keycloak-sanctum-dark.1b41c408.svg"><img src="assets/packages/laravel-keycloak-sanctum-light.2cd71d50.svg" alt="laravel-keycloak-sanctum: Keycloak SSO for a SPA backed by a Laravel API: Sanctum token, roles, back-channel logout and idle timeout." width="100%"></picture></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/kaveraa/unaccent-search"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/unaccent-search-dark.302ef72b.svg"><img src="assets/packages/unaccent-search-light.fbdaa102.svg" alt="unaccent-search: Accent and case insensitive SQL search, without a database extension (MySQL, MariaDB, PostgreSQL, SQLite)." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/slug-history"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/slug-history-dark.812f8391.svg"><img src="assets/packages/slug-history-light.c5251807.svg" alt="slug-history: Keep old URLs working when a slug changes: past slugs are remembered and answered with a 301." width="100%"></picture></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/kaveraa/data-lifecycle"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/data-lifecycle-dark.6a6da735.svg"><img src="assets/packages/data-lifecycle-light.fed7c5e5.svg" alt="data-lifecycle: Keep personal data only as long as needed (GDPR): warn before expiry, disable with a grace period, then anonymise or delete." width="100%"></picture></a></td>
+    <td width="50%"></td>
+  </tr>
+</table>
+<!-- packages:end -->
 
-| Package | What it does |
-| --- | --- |
-| [keycloak-sanctum-vue](https://github.com/kaveraa/keycloak-sanctum-vue) [![npm](https://img.shields.io/npm/v/%40kaveraa%2Fkeycloak-sanctum-vue?label=)](https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue) | Vue 3 client for the package above: user, roles, router guard, authenticated fetch and inactivity logout. |
-| [prepare-image](https://github.com/kaveraa/prepare-image) [![npm](https://img.shields.io/npm/v/%40kaveraa%2Fprepare-image?label=)](https://www.npmjs.com/package/@kaveraa/prepare-image) | Prepare a user-picked photo for upload: decode HEIC, apply camera orientation, resize and strip GPS location. |
-
-## Side project
+### Kadelio
 
 **[Kadelio](https://kadelio.com)** is a SaaS to build a gift list from any online store and share it in one click, used by hundreds of people for births, weddings and birthdays. I design, build and run it end to end: React 19 and Tailwind front-end, Node.js API with Prisma and PostgreSQL, Stripe billing, transactional emails with Resend, error tracking with Sentry, a browser extension and Docker deployment. The code is private, the product is live.
 
-## Stack
+### Stack
 
-`PHP` `Laravel` `Filament` `Reverb` `Symfony` `Doctrine` `TypeScript` `Vue 3` `Pinia` `React` `Node.js` `Prisma` `Stripe` `Resend` `Sentry` `Tailwind` `PostgreSQL` `Redis` `Keycloak` `Docker` `Kubernetes` `GitHub Actions` `Pest` `Vitest`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.c6f93c72.svg">
+  <img src="assets/stack-light.56e59016.svg" alt="Back-end: PHP, Laravel, Filament, Reverb, Symfony, Doctrine, Node.js, Prisma. Front-end: TypeScript, Vue 3, Pinia, React, Tailwind. Data and infrastructure: PostgreSQL, Redis, Keycloak, Docker, Kubernetes, nginx, GitHub Actions. Testing and services: Pest, Vitest, Stripe, Resend, Sentry." width="100%">
+</picture>
 
-## Elsewhere
+### Activity
 
-- Website: [augustin-kavera.fr](https://augustin-kavera.fr), built with Laravel, Filament and Reverb on the back-end, Vue 3 and Pinia on the front, self-hosted with Docker, nginx and PostgreSQL
-- Packagist: [kaveraa](https://packagist.org/users/kaveraa/)
-- npm: [@kaveraa](https://www.npmjs.com/~kaveraa)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.f969e864.svg">
+  <img src="assets/activity-light.becc7088.svg" alt="Contribution heatmap and language breakdown" width="100%">
+</picture>
+
+### How I work
+
+- **One problem per package.** If a class keeps getting copied between projects, it becomes a package with tests (Pest, Vitest) and a README you can read in two minutes.
+- **Framework-agnostic when it matters.** Laravel and Symfony share the same core; the bridge is thin and optional.
+- **Boring infrastructure on purpose.** PostgreSQL, Redis, Docker, Kubernetes, GitHub Actions. Keycloak for SSO when the client already has it.
+- **Front-end that stays close to the data.** Vue 3 with Pinia on the day job, React 19 on Kadelio, TypeScript on both.
+
+### Elsewhere
+
+- **Website:** [augustin-kavera.fr](https://augustin-kavera.fr), Laravel, Filament and Reverb on the back-end, Vue 3 and Pinia on the front, self-hosted with Docker, nginx and PostgreSQL
+- **Packagist:** [kaveraa](https://packagist.org/users/kaveraa/)
+- **npm:** [@kaveraa](https://www.npmjs.com/~kaveraa)
+
+<div align="center">
+<!-- built:start -->
+<sub>Assets regenerated 2026-10-02 by <a href="https://github.com/kaveraa/kaveraa/actions">a scheduled workflow</a>. No third-party stat cards, everything on this page is rendered from <a href="https://github.com/kaveraa/kaveraa/tree/main/scripts">scripts/</a>.</sub>
+<!-- built:end -->
+</div>

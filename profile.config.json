@@ -1,0 +1,112 @@
+{
+  "login": "kaveraa",
+  "name": "Augustin Kavera",
+  "firstName": "Augustin",
+  "title": "Full-stack developer",
+  "location": "Auvergne, France",
+  "website": "https://augustin-kavera.fr",
+  "typewriter": [
+    "I build line-of-business apps for the public sector.",
+    "I ship small, focused packages on Packagist and npm.",
+    "I run Kadelio, a gift-list SaaS, end to end."
+  ],
+  "badges": [
+    {
+      "id": "site",
+      "label": "site",
+      "value": "augustin-kavera.fr",
+      "url": "https://augustin-kavera.fr"
+    },
+    {
+      "id": "packagist",
+      "label": "packagist",
+      "value": "kaveraa",
+      "url": "https://packagist.org/users/kaveraa/"
+    },
+    {
+      "id": "npm",
+      "label": "npm",
+      "value": "@kaveraa",
+      "url": "https://www.npmjs.com/~kaveraa"
+    },
+    {
+      "id": "kadelio",
+      "label": "kadelio",
+      "value": "kadelio.com",
+      "url": "https://kadelio.com"
+    }
+  ],
+  "stack": {
+    "Back-end": [
+      "PHP",
+      "Laravel",
+      "Filament",
+      "Reverb",
+      "Symfony",
+      "Doctrine",
+      "Node.js",
+      "Prisma"
+    ],
+    "Front-end": [
+      "TypeScript",
+      "Vue 3",
+      "Pinia",
+      "React",
+      "Tailwind"
+    ],
+    "Data & infrastructure": [
+      "PostgreSQL",
+      "Redis",
+      "Keycloak",
+      "Docker",
+      "Kubernetes",
+      "nginx",
+      "GitHub Actions"
+    ],
+    "Testing & services": [
+      "Pest",
+      "Vitest",
+      "Stripe",
+      "Resend",
+      "Sentry"
+    ]
+  },
+  "packagesPerPage": 8,
+  "packageOverrides": [
+    {
+      "name": "api-gouv-publique-fr",
+      "tag": "Laravel · Symfony",
+      "summary": "Typed client for French public APIs: company search by SIREN or SIRET, address search and the Geo API, with a Laravel bridge, validation rules and test fakes."
+    },
+    {
+      "name": "data-lifecycle",
+      "tag": "Laravel · Symfony",
+      "summary": "Keep personal data only as long as needed (GDPR): warn before expiry, disable with a grace period, then anonymise or delete."
+    },
+    {
+      "name": "slug-history",
+      "tag": "Laravel · Symfony",
+      "summary": "Keep old URLs working when a slug changes: past slugs are remembered and answered with a 301."
+    },
+    {
+      "name": "unaccent-search",
+      "tag": "Laravel · Symfony",
+      "summary": "Accent and case insensitive SQL search, without a database extension (MySQL, MariaDB, PostgreSQL, SQLite)."
+    },
+    {
+      "name": "laravel-keycloak-sanctum",
+      "tag": "Laravel",
+      "summary": "Keycloak SSO for a SPA backed by a Laravel API: Sanctum token, roles, back-channel logout and idle timeout."
+    },
+    {
+      "name": "keycloak-sanctum-vue",
+      "tag": "Vue 3",
+      "summary": "Vue 3 client for laravel-keycloak-sanctum: user, roles, router guard, authenticated fetch and inactivity logout."
+    },
+    {
+      "name": "prepare-image",
+      "tag": "Browser",
+      "summary": "Prepare a user-picked photo for upload: decode HEIC, apply camera orientation, resize and strip GPS location."
+    }
+  ]
+}

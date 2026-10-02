@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="146" height="24" viewBox="0 0 146 24" role="img" aria-label="packagist: kaveraa">
+  <title>packagist: kaveraa</title>
+  <style>text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }</style>
+  <clipPath id="r"><rect width="146" height="24" rx="6"/></clipPath>
+  <g clip-path="url(#r)">
+    <rect width="81" height="24" fill="#c0392b"/>
+    <rect x="81" width="65" height="24" fill="#1c1c1f"/>
+  </g>
+  <rect x="0.5" y="0.5" width="145" height="23" rx="6" fill="none" stroke="rgba(255,255,255,0.10)"/>
+  <text x="40.5" y="16" text-anchor="middle" font-size="11" font-weight="700" letter-spacing=".2" fill="#ffffff">PACKAGIST</text>
+  <text x="113.5" y="16" text-anchor="middle" font-size="11" font-weight="600" fill="#faf6f3">kaveraa</text>
+</svg>

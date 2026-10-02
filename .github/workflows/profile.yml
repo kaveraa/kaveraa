@@ -1,0 +1,54 @@
+name: Build profile
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - profile.config.json
+      - scripts/**
+      - .github/workflows/profile.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-profile
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # With PROFILE_TOKEN the commit is pushed as the account owner, which
+      # lets it through a protected main branch that admins may bypass.
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PROFILE_TOKEN || github.token }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # PROFILE_TOKEN is an optional personal access token: with it, private
+      # repositories you own count towards the language breakdown. Without it
+      # the default token only sees public data.
+      - name: Build the SVG assets and README sections
+        run: npm run build
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Commit the result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets data README.md
+          if git diff --cached --quiet; then
+            echo "Nothing changed"
+            exit 0
+          fi
+          git commit -m "chore: refresh profile assets"
+          git push

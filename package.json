@@ -1,0 +1,12 @@
+{
+  "name": "kaveraa-profile",
+  "private": true,
+  "type": "module",
+  "description": "Builds the animated SVG assets and the auto-updated sections of my GitHub profile README.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  }
+}

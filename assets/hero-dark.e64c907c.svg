@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="Augustin Kavera, Full-stack developer">
+  <title>Augustin Kavera · Full-stack developer</title>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    .fade { opacity: 0; animation: fade .9s ease-out forwards; }
+    .draw { animation: draw 1.6s cubic-bezier(.4,0,.2,1) forwards; }
+    .cursor { animation: blink 1s steps(2, start) infinite; }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes fade { to { opacity: 1; } }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes blink { 50% { visibility: hidden; } }
+    @media (prefers-reduced-motion: reduce) {
+      .rise, .fade, .draw { animation: none; opacity: 1; stroke-dashoffset: 0; }
+    }
+  </style>
+  <defs>
+    <clipPath id="frame"><rect width="900" height="280" rx="24"/></clipPath>
+    <linearGradient id="sparkFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c0392b" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#c0392b" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="rgba(255,255,255,0.045)"/>
+    </pattern>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="280" fill="#0a0a0b"/>
+    <rect width="900" height="280" fill="url(#dots)"/>
+    <rect x="0.5" y="0.5" width="899" height="279" rx="24" fill="none" stroke="rgba(255,255,255,0.08)"/>
+
+    <!-- left column -->
+    <g class="rise" style="animation-delay:.05s">
+      <rect x="44" y="44" width="178" height="24" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.10)"/>
+      <circle cx="58" cy="56" r="4" fill="#c0392b"/>
+      <text x="70" y="60" font-size="11.5" font-weight="600" letter-spacing=".4" fill="#b5aaa6">FULL-STACK DEVELOPER</text>
+    </g>
+    <text class="rise" style="animation-delay:.2s" x="44" y="120" font-size="46" font-weight="800" letter-spacing="-1.2" fill="#faf6f3">Augustin Kavera</text>
+    <g class="rise" style="animation-delay:.4s">
+      <text x="44" y="152" font-size="15" fill="#b5aaa6">Auvergne, France</text>
+    </g>
+    <g class="fade" style="animation-delay:.7s">
+      <text class="mono" x="44" y="200" font-size="14" fill="#c0392b">$</text>
+      
+    <clipPath id="tw0"><rect x="62" y="186" height="22.400000000000002" width="0">
+      <animate attributeName="width" values="0;0;436.8;436.8;0;0" keyTimes="0;0.0000;0.1222;0.2667;0.3167;1" calcMode="linear" dur="18.000000000000004s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <text class="mono" x="62" y="200" font-size="14" fill="#b5aaa6" clip-path="url(#tw0)" textLength="436.8" lengthAdjust="spacingAndGlyphs">I build line-of-business apps for the public sector.</text>
+    <rect class="cursor" x="62" y="187" width="2" height="17" fill="#c0392b" opacity="0">
+      <animate attributeName="x" values="62;62;498.8;498.8;62;62" keyTimes="0;0.0000;0.1222;0.2667;0.3167;1" calcMode="linear" dur="18.000000000000004s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;1;1;0" keyTimes="0;0.0000;0.1222;0.2667;0.3167;1" calcMode="discrete" dur="18.000000000000004s" repeatCount="indefinite"/>
+    </rect>
+    <clipPath id="tw1"><rect x="62" y="186" height="22.400000000000002" width="0">
+      <animate attributeName="width" values="0;0;436.8;436.8;0;0" keyTimes="0;0.3333;0.4556;0.6000;0.6500;1" calcMode="linear" dur="18.000000000000004s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <text class="mono" x="62" y="200" font-size="14" fill="#b5aaa6" clip-path="url(#tw1)" textLength="436.8" lengthAdjust="spacingAndGlyphs">I ship small, focused packages on Packagist and npm.</text>
+    <rect class="cursor" x="62" y="187" width="2" height="17" fill="#c0392b" opacity="0">
+      <animate attributeName="x" values="62;62;498.8;498.8;62;62" keyTimes="0;0.3333;0.4556;0.6000;0.6500;1" calcMode="linear" dur="18.000000000000004s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;1;1;0" keyTimes="0;0.3333;0.4556;0.6000;0.6500;1" calcMode="discrete" dur="18.000000000000004s" repeatCount="indefinite"/>
+    </rect>
+    <clipPath id="tw2"><rect x="62" y="186" height="22.400000000000002" width="0">
+      <animate attributeName="width" values="0;0;369.6;369.6;0;0" keyTimes="0;0.6667;0.7889;0.9333;0.9833;1" calcMode="linear" dur="18.000000000000004s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <text class="mono" x="62" y="200" font-size="14" fill="#b5aaa6" clip-path="url(#tw2)" textLength="369.6" lengthAdjust="spacingAndGlyphs">I run Kadelio, a gift-list SaaS, end to end.</text>
+    <rect class="cursor" x="62" y="187" width="2" height="17" fill="#c0392b" opacity="0">
+      <animate attributeName="x" values="62;62;431.6;431.6;62;62" keyTimes="0;0.6667;0.7889;0.9333;0.9833;1" calcMode="linear" dur="18.000000000000004s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;1;1;0" keyTimes="0;0.6667;0.7889;0.9333;0.9833;1" calcMode="discrete" dur="18.000000000000004s" repeatCount="indefinite"/>
+    </rect>
+    </g>
+
+    <!-- right panel -->
+    <g class="rise" style="animation-delay:.5s">
+      <rect x="522" y="36" width="340" height="208" rx="18" fill="#171012" fill-opacity="0.55" stroke="rgba(255,255,255,0.08)"/>
+      
+      <g class="rise" style="animation-delay:0.80s">
+        <text x="542" y="86" text-anchor="start" font-size="26" font-weight="800" letter-spacing="-.5" fill="#faf6f3">7</text>
+        <text x="542" y="104" text-anchor="start" font-size="10.5" font-weight="600" letter-spacing=".2" fill="#857a76">PACKAGES</text>
+      </g>
+      <g class="rise" style="animation-delay:0.92s">
+        <text x="658" y="86" text-anchor="middle" font-size="26" font-weight="800" letter-spacing="-.5" fill="#faf6f3">31</text>
+        <text x="658" y="104" text-anchor="middle" font-size="10.5" font-weight="600" letter-spacing=".2" fill="#857a76">RELEASES</text>
+      </g>
+      <g class="rise" style="animation-delay:1.04s">
+        <text x="842" y="86" text-anchor="end" font-size="26" font-weight="800" letter-spacing="-.5" fill="#faf6f3">924</text>
+        <text x="842" y="104" text-anchor="end" font-size="10.5" font-weight="600" letter-spacing=".2" fill="#857a76">INSTALLS / MONTH</text>
+      </g>
+      <line x1="542" y1="126" x2="842" y2="126" stroke="rgba(255,255,255,0.08)"/>
+      <text x="542" y="148" font-size="10.5" font-weight="600" letter-spacing=".3" fill="#857a76"><tspan font-size="13" font-weight="800" fill="#faf6f3">3.7k</tspan> CONTRIBUTIONS</text>
+      <text x="842" y="148" text-anchor="end" font-size="10.5" font-weight="600" letter-spacing=".3" fill="#857a76">LAST 16 WEEKS</text>
+      
+    <path d="M542.0 177.7 L562.0 215.2 L582.0 205.3 L602.0 216.6 L622.0 219.2 L642.0 197.5 L662.0 206.3 L682.0 213.4 L702.0 215.2 L722.0 205.5 L742.0 215.0 L762.0 203.1 L782.0 217.2 L802.0 203.9 L822.0 211.7 L842.0 160.0 L842.0 220 L542 220 Z" fill="url(#sparkFill)" class="fade" style="animation-delay:1.6s"/>
+    <path d="M542.0 177.7 L562.0 215.2 L582.0 205.3 L602.0 216.6 L622.0 219.2 L642.0 197.5 L662.0 206.3 L682.0 213.4 L702.0 215.2 L722.0 205.5 L742.0 215.0 L762.0 203.1 L782.0 217.2 L802.0 203.9 L822.0 211.7 L842.0 160.0" fill="none" stroke="#c0392b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      stroke-dasharray="394" stroke-dashoffset="394" class="draw" style="animation-delay:1.1s"/>
+    <circle cx="842.0" cy="160.0" r="3.5" fill="#c0392b" class="fade" style="animation-delay:2.2s"/>
+    </g>
+  </g>
+</svg>

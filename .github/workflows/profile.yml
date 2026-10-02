@@ -23,19 +23,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      # With PROFILE_TOKEN the commit is pushed as the account owner, which
-      # lets it through a protected main branch that admins may bypass.
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PROFILE_TOKEN || github.token }}
 
       - uses: actions/setup-node@v4
         with:
           node-version: 22
 
-      # PROFILE_TOKEN is an optional personal access token: with it, private
-      # repositories you own count towards the language breakdown. Without it
-      # the default token only sees public data.
+      # PROFILE_TOKEN is an optional read-only personal access token: with it,
+      # private repositories count towards the language breakdown. It is only
+      # used to read the API; the commit below is pushed with the default token.
       - name: Build the SVG assets and README sections
         run: npm run build
         env:

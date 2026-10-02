@@ -33,7 +33,7 @@
     <g class="rise" style="animation-delay:.45s">
       <circle cx="30" cy="160" r="3.5" fill="#6b7280"/>
       <text class="mono" x="42" y="164" font-size="12.5" font-weight="700" fill="#f3f4f6">v2.0.3</text>
-      <text x="96.8" y="164" font-size="12" fill="#6b7280">released 2 days ago</text>
+      <text x="96.8" y="164" font-size="12" fill="#6b7280">released 3 days ago</text>
       <text x="416" y="164" text-anchor="end" font-size="12" fill="#6b7280">6 installs · Packagist</text>
     </g>
   </g>

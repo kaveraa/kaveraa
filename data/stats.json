@@ -171,6 +171,33 @@
       "id": "@kaveraa/keycloak-sanctum-vue",
       "name": "keycloak-sanctum-vue"
     },
+    "followtheme": {
+      "description": "A scoped theme follows the overlays it opens: dialogs, popovers and toasts portalled to body keep the theme of the section that opened them. React, Vue, any portal library.",
+      "keywords": [
+        "theme",
+        "portal",
+        "teleport",
+        "css-variables",
+        "dark-mode",
+        "radix",
+        "vaul",
+        "react",
+        "vue"
+      ],
+      "repo": "git+https://github.com/kaveraa/followtheme.git",
+      "language": "JavaScript",
+      "version": "0.1.0",
+      "releasedAt": "2026-10-02T20:10:20.917Z",
+      "releases": 1,
+      "downloads": null,
+      "period": "month",
+      "monthly": null,
+      "stars": null,
+      "url": "https://www.npmjs.com/package/followtheme",
+      "registry": "npm",
+      "id": "followtheme",
+      "name": "followtheme"
+    },
     "prepare-image": {
       "description": "Turn the photo someone just picked into an image you can upload: HEIC converted, orientation applied, resized, and location metadata removed.",
       "keywords": [
@@ -202,10 +229,10 @@
     }
   },
   "github": {
-    "commits": 205,
-    "contributions": 2678,
-    "commitsTotal": 205,
-    "contributionsTotal": 3666,
+    "commits": 242,
+    "contributions": 2734,
+    "commitsTotal": 242,
+    "contributionsTotal": 3722,
     "days": [
       [
         "2025-09-28",
@@ -1685,34 +1712,34 @@
       ],
       [
         "2026-10-02",
-        38
+        94
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.4965545454545454
+        "share": 0.4201615384615384
       },
       {
         "name": "JavaScript",
-        "share": 0.22193636363636363
+        "share": 0.26547692307692305
       },
       {
         "name": "TypeScript",
-        "share": 0.18181818181818182
+        "share": 0.2300076923076923
       },
       {
         "name": "Vue",
-        "share": 0.03753636363636364
+        "share": 0.03176153846153846
       },
       {
         "name": "Shell",
-        "share": 0.024136363636363636
+        "share": 0.020423076923076926
       }
     ],
     "stars": 4,
-    "repos": 12,
+    "repos": 13,
     "privateRepos": 3
   },
-  "builtAt": "2026-10-02T16:36:04.129Z"
+  "builtAt": "2026-10-02T20:12:24.893Z"
 }

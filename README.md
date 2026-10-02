@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.e64c907c.svg">
-    <img src="assets/hero-light.1e828ea4.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.4cc58342.svg">
+    <img src="assets/hero-light.d78f8e1a.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
   </picture>
   <p>
     <a href="https://augustin-kavera.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/site-dark.e9f3b2af.svg"><img src="assets/badges/site-light.f2d4aafc.svg" alt="site: augustin-kavera.fr" height="24"></picture></a>
@@ -18,11 +18,11 @@ I build line-of-business applications for the public sector with **Laravel**, **
 <!-- shipping-log:start -->
 | Released | Package | What shipped |
 | :-- | :-- | :-- |
+| <sub><code>2026-10-02</code></sub> | [**followtheme**](https://github.com/kaveraa/followtheme) [`v0.1.0`](https://www.npmjs.com/package/followtheme) | A scoped theme follows the overlays it opens |
 | <sub><code>2026-10-01</code></sub> | [**api-gouv-publique-fr**](https://github.com/kaveraa/api-gouv-publique-fr) [`v1.0.0`](https://packagist.org/packages/kaveraa/api-gouv-publique-fr) | Typed client for French public APIs |
 | <sub><code>2026-09-30</code></sub> | [**prepare-image**](https://github.com/kaveraa/prepare-image) [`v1.0.3`](https://www.npmjs.com/package/@kaveraa/prepare-image) | Prepare a user-picked photo for upload |
 | <sub><code>2026-09-30</code></sub> | [**keycloak-sanctum-vue**](https://github.com/kaveraa/keycloak-sanctum-vue) [`v1.0.3`](https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue) | Vue 3 client for laravel-keycloak-sanctum |
 | <sub><code>2026-09-29</code></sub> | [**laravel-keycloak-sanctum**](https://github.com/kaveraa/laravel-keycloak-sanctum) [`v1.0.3`](https://packagist.org/packages/kaveraa/laravel-keycloak-sanctum) | Keycloak SSO for a SPA backed by a Laravel API |
-| <sub><code>2026-09-29</code></sub> | [**unaccent-search**](https://github.com/kaveraa/unaccent-search) [`v2.0.3`](https://packagist.org/packages/kaveraa/unaccent-search) | Accent and case insensitive SQL search, without a database extension |
 <!-- shipping-log:end -->
 
 ### Packages
@@ -30,20 +30,20 @@ I build line-of-business applications for the public sector with **Laravel**, **
 <!-- packages:start -->
 <table>
   <tr>
+    <td width="50%"><a href="https://github.com/kaveraa/followtheme"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/followtheme-dark.54e689db.svg"><img src="assets/packages/followtheme-light.ded7c5c0.svg" alt="followtheme: A scoped theme follows the overlays it opens: dialogs, popovers and toasts portalled to body keep the theme of the section that opened them. React, Vue, any portal library." width="100%"></picture></a></td>
     <td width="50%"><a href="https://github.com/kaveraa/api-gouv-publique-fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/api-gouv-publique-fr-dark.722fd4bd.svg"><img src="assets/packages/api-gouv-publique-fr-light.9f7ace12.svg" alt="api-gouv-publique-fr: Typed client for French public APIs: company search by SIREN or SIRET, address search and the Geo API, with a Laravel bridge, validation rules and test fakes." width="100%"></picture></a></td>
+  </tr>
+  <tr>
     <td width="50%"><a href="https://github.com/kaveraa/prepare-image"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/prepare-image-dark.3043c341.svg"><img src="assets/packages/prepare-image-light.6e98bab3.svg" alt="prepare-image: Prepare a user-picked photo for upload: decode HEIC, apply camera orientation, resize and strip GPS location." width="100%"></picture></a></td>
-  </tr>
-  <tr>
     <td width="50%"><a href="https://github.com/kaveraa/keycloak-sanctum-vue"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/keycloak-sanctum-vue-dark.bc6132e4.svg"><img src="assets/packages/keycloak-sanctum-vue-light.7cf2efdb.svg" alt="keycloak-sanctum-vue: Vue 3 client for laravel-keycloak-sanctum: user, roles, router guard, authenticated fetch and inactivity logout." width="100%"></picture></a></td>
-    <td width="50%"><a href="https://github.com/kaveraa/laravel-keycloak-sanctum"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/laravel-keycloak-sanctum-dark.1b41c408.svg"><img src="assets/packages/laravel-keycloak-sanctum-light.2cd71d50.svg" alt="laravel-keycloak-sanctum: Keycloak SSO for a SPA backed by a Laravel API: Sanctum token, roles, back-channel logout and idle timeout." width="100%"></picture></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/kaveraa/unaccent-search"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/unaccent-search-dark.302ef72b.svg"><img src="assets/packages/unaccent-search-light.fbdaa102.svg" alt="unaccent-search: Accent and case insensitive SQL search, without a database extension (MySQL, MariaDB, PostgreSQL, SQLite)." width="100%"></picture></a></td>
-    <td width="50%"><a href="https://github.com/kaveraa/slug-history"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/slug-history-dark.812f8391.svg"><img src="assets/packages/slug-history-light.c5251807.svg" alt="slug-history: Keep old URLs working when a slug changes: past slugs are remembered and answered with a 301." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/laravel-keycloak-sanctum"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/laravel-keycloak-sanctum-dark.a56fd927.svg"><img src="assets/packages/laravel-keycloak-sanctum-light.42a1120a.svg" alt="laravel-keycloak-sanctum: Keycloak SSO for a SPA backed by a Laravel API: Sanctum token, roles, back-channel logout and idle timeout." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/unaccent-search"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/unaccent-search-dark.1e2038ab.svg"><img src="assets/packages/unaccent-search-light.a144b19f.svg" alt="unaccent-search: Accent and case insensitive SQL search, without a database extension (MySQL, MariaDB, PostgreSQL, SQLite)." width="100%"></picture></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/kaveraa/data-lifecycle"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/data-lifecycle-dark.6a6da735.svg"><img src="assets/packages/data-lifecycle-light.fed7c5e5.svg" alt="data-lifecycle: Keep personal data only as long as needed (GDPR): warn before expiry, disable with a grace period, then anonymise or delete." width="100%"></picture></a></td>
-    <td width="50%"></td>
+    <td width="50%"><a href="https://github.com/kaveraa/slug-history"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/slug-history-dark.1f2a7e20.svg"><img src="assets/packages/slug-history-light.848f550d.svg" alt="slug-history: Keep old URLs working when a slug changes: past slugs are remembered and answered with a 301." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/data-lifecycle"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/data-lifecycle-dark.130b7092.svg"><img src="assets/packages/data-lifecycle-light.f1be97ca.svg" alt="data-lifecycle: Keep personal data only as long as needed (GDPR): warn before expiry, disable with a grace period, then anonymise or delete." width="100%"></picture></a></td>
   </tr>
 </table>
 <!-- packages:end -->
@@ -62,8 +62,8 @@ I build line-of-business applications for the public sector with **Laravel**, **
 ### Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.f969e864.svg">
-  <img src="assets/activity-light.becc7088.svg" alt="Contribution heatmap and language breakdown" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.2d8f3a68.svg">
+  <img src="assets/activity-light.fe36e7b7.svg" alt="Contribution heatmap and language breakdown" width="100%">
 </picture>
 
 ### How I work

@@ -50,7 +50,7 @@
       <rect x="82" y="94" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:0.125s"/>
       <rect x="82" y="108" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:0.135s"/>
       <rect x="82" y="122" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:0.145s"/>
-      <rect x="82" y="136" width="11" height="11" rx="2.5" fill="#dc9a8e" class="cell" style="animation-delay:0.155s"/>
+      <rect x="82" y="136" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:0.155s"/>
       <rect x="82" y="150" width="11" height="11" rx="2.5" fill="rgba(28,25,23,0.06)" class="cell" style="animation-delay:0.165s"/>
       <rect x="96" y="66" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:0.140s"/>
       <rect x="96" y="80" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:0.150s"/>
@@ -159,7 +159,7 @@
       <rect x="292" y="150" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:0.690s"/>
       <rect x="306" y="66" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:0.665s"/>
       <rect x="306" y="80" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:0.675s"/>
-      <rect x="306" y="94" width="11" height="11" rx="2.5" fill="#c0392b" class="cell" style="animation-delay:0.685s"/>
+      <rect x="306" y="94" width="11" height="11" rx="2.5" fill="#dc9a8e" class="cell" style="animation-delay:0.685s"/>
       <rect x="306" y="108" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:0.695s"/>
       <rect x="306" y="122" width="11" height="11" rx="2.5" fill="#dc9a8e" class="cell" style="animation-delay:0.705s"/>
       <rect x="306" y="136" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:0.715s"/>
@@ -224,7 +224,7 @@
       <rect x="432" y="80" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:0.990s"/>
       <rect x="432" y="94" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:1.000s"/>
       <rect x="432" y="108" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:1.010s"/>
-      <rect x="432" y="122" width="11" height="11" rx="2.5" fill="#dc9a8e" class="cell" style="animation-delay:1.020s"/>
+      <rect x="432" y="122" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:1.020s"/>
       <rect x="432" y="136" width="11" height="11" rx="2.5" fill="rgba(28,25,23,0.06)" class="cell" style="animation-delay:1.030s"/>
       <rect x="432" y="150" width="11" height="11" rx="2.5" fill="rgba(28,25,23,0.06)" class="cell" style="animation-delay:1.040s"/>
       <rect x="446" y="66" width="11" height="11" rx="2.5" fill="#dc9a8e" class="cell" style="animation-delay:1.015s"/>
@@ -232,6 +232,7 @@
       <rect x="446" y="94" width="11" height="11" rx="2.5" fill="#7d2a22" class="cell" style="animation-delay:1.035s"/>
       <rect x="446" y="108" width="11" height="11" rx="2.5" fill="#7d2a22" class="cell" style="animation-delay:1.045s"/>
       <rect x="446" y="122" width="11" height="11" rx="2.5" fill="#7d2a22" class="cell" style="animation-delay:1.055s"/>
+      <rect x="446" y="136" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:1.065s"/>
 
     <text x="32" y="75" text-anchor="end" font-size="9" fill="#a39b96">Mon</text>
     <text x="32" y="103" text-anchor="end" font-size="9" fill="#a39b96">Wed</text>
@@ -242,7 +243,7 @@
       <text x="40" y="240" font-size="10" font-weight="600" letter-spacing=".3" fill="#a39b96">CONTRIBUTIONS · 1 YEAR</text>
       <text x="245" y="224" font-size="22" font-weight="800" letter-spacing="-.5" fill="#1c1917">3.7k</text>
       <text x="245" y="240" font-size="10" font-weight="600" letter-spacing=".3" fill="#a39b96">CONTRIBUTIONS · ALL TIME</text>
-      <text x="450" y="224" font-size="22" font-weight="800" letter-spacing="-.5" fill="#1c1917">5</text>
+      <text x="450" y="224" font-size="22" font-weight="800" letter-spacing="-.5" fill="#1c1917">6</text>
       <text x="450" y="240" font-size="10" font-weight="600" letter-spacing=".3" fill="#a39b96">CURRENT STREAK · DAYS</text>
       <text x="655" y="224" font-size="22" font-weight="800" letter-spacing="-.5" fill="#1c1917">27</text>
       <text x="655" y="240" font-size="10" font-weight="600" letter-spacing=".3" fill="#a39b96">LONGEST STREAK · DAYS</text>

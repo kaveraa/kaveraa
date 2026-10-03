@@ -162,9 +162,9 @@
       "version": "1.0.3",
       "releasedAt": "2026-09-30T14:12:05.473Z",
       "releases": 4,
-      "downloads": 513,
+      "downloads": 552,
       "period": "month",
-      "monthly": 513,
+      "monthly": 552,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
       "registry": "npm",
@@ -186,16 +186,16 @@
       ],
       "repo": "git+https://github.com/kaveraa/followtheme.git",
       "language": "JavaScript",
-      "version": "0.1.0",
-      "releasedAt": "2026-10-02T20:10:20.917Z",
+      "version": "0.1.1",
+      "releasedAt": "2026-10-02T20:14:37.726Z",
       "releases": 1,
       "downloads": null,
       "period": "month",
       "monthly": null,
       "stars": null,
-      "url": "https://www.npmjs.com/package/followtheme",
+      "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
-      "id": "followtheme",
+      "id": "@kaveraa/followtheme",
       "name": "followtheme"
     },
     "prepare-image": {
@@ -218,9 +218,9 @@
       "version": "1.0.3",
       "releasedAt": "2026-09-30T14:14:02.860Z",
       "releases": 3,
-      "downloads": 382,
+      "downloads": 414,
       "period": "month",
-      "monthly": 382,
+      "monthly": 414,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
@@ -229,10 +229,10 @@
     }
   },
   "github": {
-    "commits": 242,
-    "contributions": 2734,
-    "commitsTotal": 242,
-    "contributionsTotal": 3722,
+    "commits": 246,
+    "contributions": 2748,
+    "commitsTotal": 246,
+    "contributionsTotal": 3736,
     "days": [
       [
         "2025-09-28",
@@ -1712,7 +1712,11 @@
       ],
       [
         "2026-10-02",
-        94
+        98
+      ],
+      [
+        "2026-10-03",
+        10
       ]
     ],
     "languages": [
@@ -1741,5 +1745,5 @@
     "repos": 13,
     "privateRepos": 3
   },
-  "builtAt": "2026-10-02T20:12:24.893Z"
+  "builtAt": "2026-10-03T10:23:31.404Z"
 }

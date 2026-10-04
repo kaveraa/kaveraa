@@ -189,9 +189,9 @@
       "version": "0.1.1",
       "releasedAt": "2026-10-02T20:14:37.726Z",
       "releases": 1,
-      "downloads": null,
+      "downloads": 0,
       "period": "month",
-      "monthly": null,
+      "monthly": 0,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
@@ -229,39 +229,11 @@
     }
   },
   "github": {
-    "commits": 246,
-    "contributions": 2748,
-    "commitsTotal": 246,
-    "contributionsTotal": 3736,
+    "commits": 258,
+    "contributions": 2793,
+    "commitsTotal": 258,
+    "contributionsTotal": 3781,
     "days": [
-      [
-        "2025-09-28",
-        0
-      ],
-      [
-        "2025-09-29",
-        0
-      ],
-      [
-        "2025-09-30",
-        2
-      ],
-      [
-        "2025-10-01",
-        1
-      ],
-      [
-        "2025-10-02",
-        0
-      ],
-      [
-        "2025-10-03",
-        0
-      ],
-      [
-        "2025-10-04",
-        0
-      ],
       [
         "2025-10-05",
         0
@@ -1716,34 +1688,38 @@
       ],
       [
         "2026-10-03",
+        45
+      ],
+      [
+        "2026-10-04",
         10
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.4201615384615384
-      },
-      {
-        "name": "JavaScript",
-        "share": 0.26547692307692305
+        "share": 0.39014999999999994
       },
       {
         "name": "TypeScript",
-        "share": 0.2300076923076923
+        "share": 0.2850071428571428
+      },
+      {
+        "name": "JavaScript",
+        "share": 0.2466428571428571
       },
       {
         "name": "Vue",
-        "share": 0.03176153846153846
+        "share": 0.029492857142857137
       },
       {
         "name": "Shell",
-        "share": 0.020423076923076926
+        "share": 0.018835714285714282
       }
     ],
-    "stars": 4,
-    "repos": 13,
-    "privateRepos": 3
+    "stars": 0,
+    "repos": 15,
+    "privateRepos": 5
   },
-  "builtAt": "2026-10-03T10:23:31.404Z"
+  "builtAt": "2026-10-04T11:05:12.956Z"
 }

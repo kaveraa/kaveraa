@@ -162,9 +162,9 @@
       "version": "1.0.3",
       "releasedAt": "2026-09-30T14:12:05.473Z",
       "releases": 4,
-      "downloads": 552,
+      "downloads": 583,
       "period": "month",
-      "monthly": 552,
+      "monthly": 583,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
       "registry": "npm",
@@ -189,9 +189,9 @@
       "version": "0.1.1",
       "releasedAt": "2026-10-02T20:14:37.726Z",
       "releases": 1,
-      "downloads": 0,
+      "downloads": 43,
       "period": "month",
-      "monthly": 0,
+      "monthly": 43,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
@@ -218,9 +218,9 @@
       "version": "1.0.3",
       "releasedAt": "2026-09-30T14:14:02.860Z",
       "releases": 3,
-      "downloads": 414,
+      "downloads": 426,
       "period": "month",
-      "monthly": 414,
+      "monthly": 426,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
@@ -229,10 +229,10 @@
     }
   },
   "github": {
-    "commits": 258,
-    "contributions": 2793,
-    "commitsTotal": 258,
-    "contributionsTotal": 3781,
+    "commits": 282,
+    "contributions": 2848,
+    "commitsTotal": 282,
+    "contributionsTotal": 3839,
     "days": [
       [
         "2025-10-05",
@@ -1692,34 +1692,38 @@
       ],
       [
         "2026-10-04",
-        10
+        67
+      ],
+      [
+        "2026-10-05",
+        1
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.39014999999999994
-      },
-      {
-        "name": "TypeScript",
-        "share": 0.2850071428571428
+        "share": 0.3641399999999999
       },
       {
         "name": "JavaScript",
-        "share": 0.2466428571428571
+        "share": 0.29763999999999996
+      },
+      {
+        "name": "TypeScript",
+        "share": 0.2660066666666666
       },
       {
         "name": "Vue",
-        "share": 0.029492857142857137
+        "share": 0.02752666666666666
       },
       {
         "name": "Shell",
-        "share": 0.018835714285714282
+        "share": 0.016806666666666664
       }
     ],
     "stars": 0,
-    "repos": 15,
-    "privateRepos": 5
+    "repos": 16,
+    "privateRepos": 6
   },
-  "builtAt": "2026-10-04T11:05:12.956Z"
+  "builtAt": "2026-10-05T12:14:23.113Z"
 }

@@ -189,9 +189,9 @@
       "version": "0.1.1",
       "releasedAt": "2026-10-02T20:14:37.726Z",
       "releases": 1,
-      "downloads": 43,
+      "downloads": 105,
       "period": "month",
-      "monthly": 43,
+      "monthly": 105,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
@@ -218,9 +218,9 @@
       "version": "1.0.3",
       "releasedAt": "2026-09-30T14:14:02.860Z",
       "releases": 3,
-      "downloads": 426,
+      "downloads": 439,
       "period": "month",
-      "monthly": 426,
+      "monthly": 439,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
@@ -229,10 +229,10 @@
     }
   },
   "github": {
-    "commits": 282,
-    "contributions": 2848,
-    "commitsTotal": 282,
-    "contributionsTotal": 3839,
+    "commits": 286,
+    "contributions": 2865,
+    "commitsTotal": 286,
+    "contributionsTotal": 3856,
     "days": [
       [
         "2025-10-05",
@@ -1696,34 +1696,38 @@
       ],
       [
         "2026-10-05",
-        1
+        14
+      ],
+      [
+        "2026-10-06",
+        4
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.3641399999999999
+        "share": 0.36413999999999996
       },
       {
         "name": "JavaScript",
-        "share": 0.29763999999999996
+        "share": 0.29828666666666664
       },
       {
         "name": "TypeScript",
-        "share": 0.2660066666666666
+        "share": 0.26600666666666667
       },
       {
         "name": "Vue",
-        "share": 0.02752666666666666
+        "share": 0.027526666666666665
       },
       {
         "name": "Shell",
-        "share": 0.016806666666666664
+        "share": 0.01616
       }
     ],
     "stars": 0,
     "repos": 16,
     "privateRepos": 6
   },
-  "builtAt": "2026-10-05T12:14:23.113Z"
+  "builtAt": "2026-10-06T12:00:07.830Z"
 }

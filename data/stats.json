@@ -226,13 +226,41 @@
       "registry": "npm",
       "id": "@kaveraa/followtheme",
       "name": "followtheme"
+    },
+    "site-audit": {
+      "description": "Audit a website you own from the command line: SEO, security headers, TLS and known vulnerabilities, with a fix for every finding.",
+      "keywords": [
+        "seo",
+        "security",
+        "audit",
+        "headers",
+        "tls",
+        "csp",
+        "hsts",
+        "vulnerabilities",
+        "osv",
+        "cli"
+      ],
+      "repo": "git+https://github.com/kaveraa/site-audit.git",
+      "language": "JavaScript",
+      "version": "0.1.0",
+      "releasedAt": "2026-10-08T12:51:17.385Z",
+      "releases": 1,
+      "downloads": null,
+      "period": "month",
+      "monthly": null,
+      "stars": null,
+      "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
+      "registry": "npm",
+      "id": "@kaveraa/site-audit",
+      "name": "site-audit"
     }
   },
   "github": {
-    "commits": 442,
-    "contributions": 3113,
-    "commitsTotal": 442,
-    "contributionsTotal": 4104,
+    "commits": 463,
+    "contributions": 3136,
+    "commitsTotal": 463,
+    "contributionsTotal": 4127,
     "days": [
       [
         "2025-10-05",
@@ -1708,7 +1736,7 @@
       ],
       [
         "2026-10-08",
-        69
+        92
       ]
     ],
     "languages": [
@@ -1735,7 +1763,7 @@
     ],
     "stars": 0,
     "repos": 17,
-    "privateRepos": 6
+    "privateRepos": 5
   },
-  "builtAt": "2026-10-08T12:00:14.614Z"
+  "builtAt": "2026-10-08T12:59:06.608Z"
 }

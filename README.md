@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.d12cdbd6.svg">
-    <img src="assets/hero-light.d5246578.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.d5dd5185.svg">
+    <img src="assets/hero-light.d7ce3de4.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
   </picture>
   <p>
     <a href="https://augustin-kavera.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/site-dark.e9f3b2af.svg"><img src="assets/badges/site-light.f2d4aafc.svg" alt="site: augustin-kavera.fr" height="24"></picture></a>
@@ -18,10 +18,10 @@ I build line-of-business applications for the public sector with **Laravel**, **
 <!-- shipping-log:start -->
 | Released | Package | What shipped |
 | :-- | :-- | :-- |
-| <sub><code>2026-10-02</code></sub> | [**followtheme**](https://github.com/kaveraa/followtheme) [`v0.1.1`](https://www.npmjs.com/package/@kaveraa/followtheme) | A scoped theme follows the overlays it opens |
+| <sub><code>2026-10-08</code></sub> | [**followtheme**](https://github.com/kaveraa/followtheme) [`v0.1.2`](https://www.npmjs.com/package/@kaveraa/followtheme) | A scoped theme follows the overlays it opens |
+| <sub><code>2026-10-08</code></sub> | [**keycloak-sanctum-vue**](https://github.com/kaveraa/keycloak-sanctum-vue) [`v1.1.0`](https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue) | Vue 3 client for laravel-keycloak-sanctum |
+| <sub><code>2026-10-08</code></sub> | [**prepare-image**](https://github.com/kaveraa/prepare-image) [`v1.1.0`](https://www.npmjs.com/package/@kaveraa/prepare-image) | Prepare a user-picked photo for upload |
 | <sub><code>2026-10-01</code></sub> | [**api-gouv-publique-fr**](https://github.com/kaveraa/api-gouv-publique-fr) [`v1.0.0`](https://packagist.org/packages/kaveraa/api-gouv-publique-fr) | Typed client for French public APIs |
-| <sub><code>2026-09-30</code></sub> | [**prepare-image**](https://github.com/kaveraa/prepare-image) [`v1.0.3`](https://www.npmjs.com/package/@kaveraa/prepare-image) | Prepare a user-picked photo for upload |
-| <sub><code>2026-09-30</code></sub> | [**keycloak-sanctum-vue**](https://github.com/kaveraa/keycloak-sanctum-vue) [`v1.0.3`](https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue) | Vue 3 client for laravel-keycloak-sanctum |
 | <sub><code>2026-09-29</code></sub> | [**laravel-keycloak-sanctum**](https://github.com/kaveraa/laravel-keycloak-sanctum) [`v1.0.3`](https://packagist.org/packages/kaveraa/laravel-keycloak-sanctum) | Keycloak SSO for a SPA backed by a Laravel API |
 <!-- shipping-log:end -->
 
@@ -30,12 +30,12 @@ I build line-of-business applications for the public sector with **Laravel**, **
 <!-- packages:start -->
 <table>
   <tr>
-    <td width="50%"><a href="https://github.com/kaveraa/followtheme"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/followtheme-dark.2f341a5d.svg"><img src="assets/packages/followtheme-light.4bddc4d9.svg" alt="followtheme: A scoped theme follows the overlays it opens: dialogs, popovers and toasts portalled to body keep the theme of the section that opened them. React, Vue, any portal library." width="100%"></picture></a></td>
-    <td width="50%"><a href="https://github.com/kaveraa/api-gouv-publique-fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/api-gouv-publique-fr-dark.9396e3ff.svg"><img src="assets/packages/api-gouv-publique-fr-light.e04bfdde.svg" alt="api-gouv-publique-fr: Typed client for French public APIs: company search by SIREN or SIRET, address search and the Geo API, with a Laravel bridge, validation rules and test fakes." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/followtheme"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/followtheme-dark.f3689cb5.svg"><img src="assets/packages/followtheme-light.2cf3768a.svg" alt="followtheme: A scoped theme follows the overlays it opens: dialogs, popovers and toasts portalled to body keep the theme of the section that opened them. React, Vue, any portal library." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/keycloak-sanctum-vue"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/keycloak-sanctum-vue-dark.eb983f19.svg"><img src="assets/packages/keycloak-sanctum-vue-light.c4fa7dea.svg" alt="keycloak-sanctum-vue: Vue 3 client for laravel-keycloak-sanctum: user, roles, router guard, authenticated fetch and inactivity logout." width="100%"></picture></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/kaveraa/prepare-image"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/prepare-image-dark.234ae29c.svg"><img src="assets/packages/prepare-image-light.861686be.svg" alt="prepare-image: Prepare a user-picked photo for upload: decode HEIC, apply camera orientation, resize and strip GPS location." width="100%"></picture></a></td>
-    <td width="50%"><a href="https://github.com/kaveraa/keycloak-sanctum-vue"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/keycloak-sanctum-vue-dark.ad8a7363.svg"><img src="assets/packages/keycloak-sanctum-vue-light.88610d59.svg" alt="keycloak-sanctum-vue: Vue 3 client for laravel-keycloak-sanctum: user, roles, router guard, authenticated fetch and inactivity logout." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/prepare-image"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/prepare-image-dark.650a3910.svg"><img src="assets/packages/prepare-image-light.93427fea.svg" alt="prepare-image: Prepare a user-picked photo for upload: decode HEIC, apply camera orientation, resize and strip GPS location." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/api-gouv-publique-fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/api-gouv-publique-fr-dark.9396e3ff.svg"><img src="assets/packages/api-gouv-publique-fr-light.e04bfdde.svg" alt="api-gouv-publique-fr: Typed client for French public APIs: company search by SIREN or SIRET, address search and the Geo API, with a Laravel bridge, validation rules and test fakes." width="100%"></picture></a></td>
   </tr>
   <tr>
     <td width="50%"><a href="https://github.com/kaveraa/laravel-keycloak-sanctum"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/laravel-keycloak-sanctum-dark.2c359276.svg"><img src="assets/packages/laravel-keycloak-sanctum-light.b3baeeb7.svg" alt="laravel-keycloak-sanctum: Keycloak SSO for a SPA backed by a Laravel API: Sanctum token, roles, back-channel logout and idle timeout." width="100%"></picture></a></td>
@@ -62,8 +62,8 @@ I build line-of-business applications for the public sector with **Laravel**, **
 ### Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.b0e695ec.svg">
-  <img src="assets/activity-light.6dda7b77.svg" alt="Contribution heatmap and language breakdown" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.d5892edd.svg">
+  <img src="assets/activity-light.c9ef9df7.svg" alt="Contribution heatmap and language breakdown" width="100%">
 </picture>
 
 ### How I work

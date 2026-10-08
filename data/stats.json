@@ -171,33 +171,6 @@
       "id": "@kaveraa/keycloak-sanctum-vue",
       "name": "keycloak-sanctum-vue"
     },
-    "followtheme": {
-      "description": "A scoped theme follows the overlays it opens: dialogs, popovers and toasts portalled to body keep the theme of the section that opened them. React, Vue, any portal library.",
-      "keywords": [
-        "theme",
-        "portal",
-        "teleport",
-        "css-variables",
-        "dark-mode",
-        "radix",
-        "vaul",
-        "react",
-        "vue"
-      ],
-      "repo": "git+https://github.com/kaveraa/followtheme.git",
-      "language": "JavaScript",
-      "version": "0.1.1",
-      "releasedAt": "2026-10-02T20:14:37.726Z",
-      "releases": 1,
-      "downloads": 105,
-      "period": "month",
-      "monthly": 105,
-      "stars": null,
-      "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
-      "registry": "npm",
-      "id": "@kaveraa/followtheme",
-      "name": "followtheme"
-    },
     "prepare-image": {
       "description": "Turn the photo someone just picked into an image you can upload: HEIC converted, orientation applied, resized, and location metadata removed.",
       "keywords": [
@@ -226,13 +199,40 @@
       "registry": "npm",
       "id": "@kaveraa/prepare-image",
       "name": "prepare-image"
+    },
+    "followtheme": {
+      "description": "A scoped theme follows the overlays it opens: dialogs, popovers and toasts portalled to body keep the theme of the section that opened them. React, Vue, any portal library.",
+      "keywords": [
+        "theme",
+        "portal",
+        "teleport",
+        "css-variables",
+        "dark-mode",
+        "radix",
+        "vaul",
+        "react",
+        "vue"
+      ],
+      "repo": "git+https://github.com/kaveraa/followtheme.git",
+      "language": "JavaScript",
+      "version": "0.1.1",
+      "releasedAt": "2026-10-02T20:14:37.726Z",
+      "releases": 1,
+      "downloads": 105,
+      "period": "month",
+      "monthly": 105,
+      "stars": null,
+      "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
+      "registry": "npm",
+      "id": "@kaveraa/followtheme",
+      "name": "followtheme"
     }
   },
   "github": {
-    "commits": 377,
-    "contributions": 2987,
-    "commitsTotal": 377,
-    "contributionsTotal": 3978,
+    "commits": 411,
+    "contributions": 3048,
+    "commitsTotal": 411,
+    "contributionsTotal": 4039,
     "days": [
       [
         "2025-10-05",
@@ -1704,7 +1704,11 @@
       ],
       [
         "2026-10-07",
-        7
+        63
+      ],
+      [
+        "2026-10-08",
+        5
       ]
     ],
     "languages": [
@@ -1714,7 +1718,7 @@
       },
       {
         "name": "JavaScript",
-        "share": 0.3234875
+        "share": 0.31914375
       },
       {
         "name": "TypeScript",
@@ -1726,12 +1730,12 @@
       },
       {
         "name": "Python",
-        "share": 0.01838125
+        "share": 0.0235625
       }
     ],
     "stars": 0,
     "repos": 17,
     "privateRepos": 6
   },
-  "builtAt": "2026-10-07T11:45:26.258Z"
+  "builtAt": "2026-10-08T10:19:52.030Z"
 }

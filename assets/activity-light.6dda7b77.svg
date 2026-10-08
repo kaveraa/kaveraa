@@ -230,7 +230,8 @@
       <rect x="432" y="150" width="11" height="11" rx="2.5" fill="#c0392b" class="cell" style="animation-delay:1.040s"/>
       <rect x="446" y="66" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:1.015s"/>
       <rect x="446" y="80" width="11" height="11" rx="2.5" fill="#7d2a22" class="cell" style="animation-delay:1.025s"/>
-      <rect x="446" y="94" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:1.035s"/>
+      <rect x="446" y="94" width="11" height="11" rx="2.5" fill="#c0392b" class="cell" style="animation-delay:1.035s"/>
+      <rect x="446" y="108" width="11" height="11" rx="2.5" fill="#f1d0cb" class="cell" style="animation-delay:1.045s"/>
 
     <text x="32" y="75" text-anchor="end" font-size="9" fill="#a39b96">Mon</text>
     <text x="32" y="103" text-anchor="end" font-size="9" fill="#a39b96">Wed</text>
@@ -241,7 +242,7 @@
       <text x="40" y="240" font-size="10" font-weight="600" letter-spacing=".3" fill="#a39b96">CONTRIBUTIONS · 1 YEAR</text>
       <text x="245" y="224" font-size="22" font-weight="800" letter-spacing="-.5" fill="#1c1917">4k</text>
       <text x="245" y="240" font-size="10" font-weight="600" letter-spacing=".3" fill="#a39b96">CONTRIBUTIONS · ALL TIME</text>
-      <text x="450" y="224" font-size="22" font-weight="800" letter-spacing="-.5" fill="#1c1917">10</text>
+      <text x="450" y="224" font-size="22" font-weight="800" letter-spacing="-.5" fill="#1c1917">11</text>
       <text x="450" y="240" font-size="10" font-weight="600" letter-spacing=".3" fill="#a39b96">CURRENT STREAK · DAYS</text>
       <text x="655" y="224" font-size="22" font-weight="800" letter-spacing="-.5" fill="#1c1917">27</text>
       <text x="655" y="240" font-size="10" font-weight="600" letter-spacing=".3" fill="#a39b96">LONGEST STREAK · DAYS</text>
@@ -259,9 +260,9 @@
       </g>
       <g class="rise" style="animation-delay:0.40s">
         <text x="513" y="94" font-size="12" font-weight="600" fill="#1c1917">JavaScript</text>
-        <text x="860" y="94" text-anchor="end" font-size="11.5" class="mono" fill="#a39b96">32.3%</text>
+        <text x="860" y="94" text-anchor="end" font-size="11.5" class="mono" fill="#a39b96">31.9%</text>
         <rect x="513" y="99" width="347" height="5" rx="2.5" fill="rgba(28,25,23,0.08)"/>
-        <rect x="513" y="99" width="112" height="5" rx="2.5" fill="#9cc6bd" class="grow" style="animation-delay:0.60s"/>
+        <rect x="513" y="99" width="111" height="5" rx="2.5" fill="#9cc6bd" class="grow" style="animation-delay:0.60s"/>
       </g>
       <g class="rise" style="animation-delay:0.50s">
         <text x="513" y="120" font-size="12" font-weight="600" fill="#1c1917">TypeScript</text>
@@ -277,9 +278,9 @@
       </g>
       <g class="rise" style="animation-delay:0.70s">
         <text x="513" y="172" font-size="12" font-weight="600" fill="#1c1917">Python</text>
-        <text x="860" y="172" text-anchor="end" font-size="11.5" class="mono" fill="#a39b96">1.8%</text>
+        <text x="860" y="172" text-anchor="end" font-size="11.5" class="mono" fill="#a39b96">2.4%</text>
         <rect x="513" y="177" width="347" height="5" rx="2.5" fill="rgba(28,25,23,0.08)"/>
-        <rect x="513" y="177" width="6" height="5" rx="2.5" fill="#a93226" class="grow" style="animation-delay:0.90s"/>
+        <rect x="513" y="177" width="8" height="5" rx="2.5" fill="#a93226" class="grow" style="animation-delay:0.90s"/>
       </g>
   </g>
 </svg>

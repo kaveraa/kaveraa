@@ -18,12 +18,12 @@
       ],
       "repo": "https://github.com/kaveraa/api-gouv-publique-fr",
       "language": "PHP",
-      "version": "1.0.0",
-      "releasedAt": "2026-10-01T14:39:36+00:00",
-      "releases": 5,
-      "downloads": 7,
+      "version": "1.1.0",
+      "releasedAt": "2026-10-08T11:05:53+00:00",
+      "releases": 7,
+      "downloads": 9,
       "period": "total",
-      "monthly": 7,
+      "monthly": 9,
       "stars": 0,
       "url": "https://packagist.org/packages/kaveraa/api-gouv-publique-fr",
       "registry": "packagist",
@@ -47,12 +47,12 @@
       ],
       "repo": "https://github.com/kaveraa/data-lifecycle",
       "language": "PHP",
-      "version": "1.0.3",
-      "releasedAt": "2026-09-29T17:59:00+00:00",
-      "releases": 4,
-      "downloads": 5,
+      "version": "1.0.4",
+      "releasedAt": "2026-10-08T10:47:57+00:00",
+      "releases": 5,
+      "downloads": 6,
       "period": "total",
-      "monthly": 5,
+      "monthly": 6,
       "stars": 0,
       "url": "https://packagist.org/packages/kaveraa/data-lifecycle",
       "registry": "packagist",
@@ -75,12 +75,12 @@
       ],
       "repo": "https://github.com/kaveraa/laravel-keycloak-sanctum",
       "language": "PHP",
-      "version": "1.0.3",
-      "releasedAt": "2026-09-29T17:59:17+00:00",
-      "releases": 4,
-      "downloads": 3,
+      "version": "1.0.4",
+      "releasedAt": "2026-10-08T10:49:05+00:00",
+      "releases": 5,
+      "downloads": 4,
       "period": "total",
-      "monthly": 3,
+      "monthly": 4,
       "stars": 0,
       "url": "https://packagist.org/packages/kaveraa/laravel-keycloak-sanctum",
       "registry": "packagist",
@@ -104,12 +104,12 @@
       ],
       "repo": "https://github.com/kaveraa/slug-history",
       "language": "PHP",
-      "version": "1.0.3",
-      "releasedAt": "2026-09-29T17:59:06+00:00",
-      "releases": 4,
-      "downloads": 8,
+      "version": "1.0.4",
+      "releasedAt": "2026-10-08T10:48:53+00:00",
+      "releases": 5,
+      "downloads": 9,
       "period": "total",
-      "monthly": 8,
+      "monthly": 9,
       "stars": 0,
       "url": "https://packagist.org/packages/kaveraa/slug-history",
       "registry": "packagist",
@@ -132,12 +132,12 @@
       ],
       "repo": "https://github.com/kaveraa/unaccent-search",
       "language": "PHP",
-      "version": "2.0.3",
-      "releasedAt": "2026-09-29T17:59:11+00:00",
-      "releases": 7,
-      "downloads": 6,
+      "version": "2.0.4",
+      "releasedAt": "2026-10-08T10:48:40+00:00",
+      "releases": 8,
+      "downloads": 7,
       "period": "total",
-      "monthly": 6,
+      "monthly": 7,
       "stars": 0,
       "url": "https://packagist.org/packages/kaveraa/unaccent-search",
       "registry": "packagist",
@@ -162,9 +162,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:29:31.566Z",
       "releases": 5,
-      "downloads": 583,
+      "downloads": 597,
       "period": "month",
-      "monthly": 583,
+      "monthly": 597,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
       "registry": "npm",
@@ -191,9 +191,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:27:18.844Z",
       "releases": 4,
-      "downloads": 439,
+      "downloads": 446,
       "period": "month",
-      "monthly": 439,
+      "monthly": 446,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
@@ -218,9 +218,9 @@
       "version": "0.1.2",
       "releasedAt": "2026-10-08T10:38:05.078Z",
       "releases": 2,
-      "downloads": 105,
+      "downloads": 108,
       "period": "month",
-      "monthly": 105,
+      "monthly": 108,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
@@ -258,9 +258,9 @@
   },
   "github": {
     "commits": 463,
-    "contributions": 3136,
+    "contributions": 3178,
     "commitsTotal": 463,
-    "contributionsTotal": 4127,
+    "contributionsTotal": 4169,
     "days": [
       [
         "2025-10-05",
@@ -1736,34 +1736,38 @@
       ],
       [
         "2026-10-08",
-        92
+        133
+      ],
+      [
+        "2026-10-09",
+        1
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.34138124999999997
+        "share": 0.34138338364614773
       },
       {
         "name": "JavaScript",
-        "share": 0.31914375
+        "share": 0.3191457446609041
       },
       {
         "name": "TypeScript",
-        "share": 0.24938125
+        "share": 0.24938280864255402
       },
       {
         "name": "Vue",
-        "share": 0.02580625
+        "share": 0.025806411290070563
       },
       {
         "name": "Python",
-        "share": 0.0235625
+        "share": 0.02355639722748267
       }
     ],
     "stars": 0,
     "repos": 17,
     "privateRepos": 5
   },
-  "builtAt": "2026-10-08T12:59:06.608Z"
+  "builtAt": "2026-10-09T11:52:26.878Z"
 }

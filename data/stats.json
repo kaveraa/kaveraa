@@ -162,9 +162,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:29:31.566Z",
       "releases": 5,
-      "downloads": 597,
+      "downloads": 758,
       "period": "month",
-      "monthly": 597,
+      "monthly": 758,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
       "registry": "npm",
@@ -191,9 +191,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:27:18.844Z",
       "releases": 4,
-      "downloads": 446,
+      "downloads": 600,
       "period": "month",
-      "monthly": 446,
+      "monthly": 600,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
@@ -218,9 +218,9 @@
       "version": "0.1.2",
       "releasedAt": "2026-10-08T10:38:05.078Z",
       "releases": 2,
-      "downloads": 108,
+      "downloads": 263,
       "period": "month",
-      "monthly": 108,
+      "monthly": 263,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
@@ -246,9 +246,9 @@
       "version": "0.1.0",
       "releasedAt": "2026-10-08T12:51:17.385Z",
       "releases": 1,
-      "downloads": null,
+      "downloads": 236,
       "period": "month",
-      "monthly": null,
+      "monthly": 236,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
       "registry": "npm",
@@ -258,9 +258,9 @@
   },
   "github": {
     "commits": 463,
-    "contributions": 3178,
+    "contributions": 3208,
     "commitsTotal": 463,
-    "contributionsTotal": 4169,
+    "contributionsTotal": 4199,
     "days": [
       [
         "2025-10-05",
@@ -1740,34 +1740,38 @@
       ],
       [
         "2026-10-09",
-        1
+        31
+      ],
+      [
+        "2026-10-10",
+        0
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.34138338364614773
+        "share": 0.34138125
       },
       {
         "name": "JavaScript",
-        "share": 0.3191457446609041
+        "share": 0.31898125000000005
       },
       {
         "name": "TypeScript",
-        "share": 0.24938280864255402
+        "share": 0.24938125000000003
       },
       {
         "name": "Vue",
-        "share": 0.025806411290070563
+        "share": 0.025806250000000003
       },
       {
         "name": "Python",
-        "share": 0.02355639722748267
+        "share": 0.023725000000000003
       }
     ],
     "stars": 0,
     "repos": 17,
     "privateRepos": 5
   },
-  "builtAt": "2026-10-09T11:52:26.878Z"
+  "builtAt": "2026-10-10T11:09:10.452Z"
 }

@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.4446fda0.svg">
-    <img src="assets/hero-light.c2c1a691.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.40ccb420.svg">
+    <img src="assets/hero-light.54684e17.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
   </picture>
   <p>
     <a href="https://augustin-kavera.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/site-dark.e9f3b2af.svg"><img src="assets/badges/site-light.f2d4aafc.svg" alt="site: augustin-kavera.fr" height="24"></picture></a>
@@ -30,20 +30,20 @@ I build line-of-business applications for the public sector with **Laravel**, **
 <!-- packages:start -->
 <table>
   <tr>
-    <td width="50%"><a href="https://github.com/kaveraa/site-audit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/site-audit-dark.518bd0d1.svg"><img src="assets/packages/site-audit-light.b851291b.svg" alt="site-audit: Audit a website you own from the command line: SEO, security headers, TLS and known vulnerabilities, with a fix for every finding." width="100%"></picture></a></td>
-    <td width="50%"><a href="https://github.com/kaveraa/api-gouv-publique-fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/api-gouv-publique-fr-dark.727d3fc9.svg"><img src="assets/packages/api-gouv-publique-fr-light.9d287909.svg" alt="api-gouv-publique-fr: Typed client for French public APIs: company search by SIREN or SIRET, address search and the Geo API, with a Laravel bridge, validation rules and test fakes." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/site-audit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/site-audit-dark.85a25ed8.svg"><img src="assets/packages/site-audit-light.4c113890.svg" alt="site-audit: Audit a website you own from the command line: SEO, security headers, TLS and known vulnerabilities, with a fix for every finding." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/api-gouv-publique-fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/api-gouv-publique-fr-dark.f42a557a.svg"><img src="assets/packages/api-gouv-publique-fr-light.eb416595.svg" alt="api-gouv-publique-fr: Typed client for French public APIs: company search by SIREN or SIRET, address search and the Geo API, with a Laravel bridge, validation rules and test fakes." width="100%"></picture></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/kaveraa/laravel-keycloak-sanctum"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/laravel-keycloak-sanctum-dark.0703b4ba.svg"><img src="assets/packages/laravel-keycloak-sanctum-light.c0f5abb0.svg" alt="laravel-keycloak-sanctum: Keycloak SSO for a SPA backed by a Laravel API: Sanctum token, roles, back-channel logout and idle timeout." width="100%"></picture></a></td>
-    <td width="50%"><a href="https://github.com/kaveraa/slug-history"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/slug-history-dark.045a695b.svg"><img src="assets/packages/slug-history-light.dddf4488.svg" alt="slug-history: Keep old URLs working when a slug changes: past slugs are remembered and answered with a 301." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/laravel-keycloak-sanctum"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/laravel-keycloak-sanctum-dark.9089e667.svg"><img src="assets/packages/laravel-keycloak-sanctum-light.3d5d7a3f.svg" alt="laravel-keycloak-sanctum: Keycloak SSO for a SPA backed by a Laravel API: Sanctum token, roles, back-channel logout and idle timeout." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/slug-history"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/slug-history-dark.eab13bd9.svg"><img src="assets/packages/slug-history-light.1e3f9446.svg" alt="slug-history: Keep old URLs working when a slug changes: past slugs are remembered and answered with a 301." width="100%"></picture></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/kaveraa/unaccent-search"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/unaccent-search-dark.2573bf08.svg"><img src="assets/packages/unaccent-search-light.04892057.svg" alt="unaccent-search: Accent and case insensitive SQL search, without a database extension (MySQL, MariaDB, PostgreSQL, SQLite)." width="100%"></picture></a></td>
-    <td width="50%"><a href="https://github.com/kaveraa/data-lifecycle"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/data-lifecycle-dark.e6c583ed.svg"><img src="assets/packages/data-lifecycle-light.9cc854d0.svg" alt="data-lifecycle: Keep personal data only as long as needed (GDPR): warn before expiry, disable with a grace period, then anonymise or delete." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/unaccent-search"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/unaccent-search-dark.df94fb67.svg"><img src="assets/packages/unaccent-search-light.44c72b7e.svg" alt="unaccent-search: Accent and case insensitive SQL search, without a database extension (MySQL, MariaDB, PostgreSQL, SQLite)." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/data-lifecycle"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/data-lifecycle-dark.93761759.svg"><img src="assets/packages/data-lifecycle-light.90780bf2.svg" alt="data-lifecycle: Keep personal data only as long as needed (GDPR): warn before expiry, disable with a grace period, then anonymise or delete." width="100%"></picture></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/kaveraa/followtheme"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/followtheme-dark.a3d3ecb9.svg"><img src="assets/packages/followtheme-light.3ec52fe9.svg" alt="followtheme: A scoped theme follows the overlays it opens: dialogs, popovers and toasts portalled to body keep the theme of the section that opened them. React, Vue, any portal library." width="100%"></picture></a></td>
-    <td width="50%"><a href="https://github.com/kaveraa/keycloak-sanctum-vue"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/keycloak-sanctum-vue-dark.e782eea9.svg"><img src="assets/packages/keycloak-sanctum-vue-light.ff4b9cb4.svg" alt="keycloak-sanctum-vue: Vue 3 client for laravel-keycloak-sanctum: user, roles, router guard, authenticated fetch and inactivity logout." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/followtheme"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/followtheme-dark.4800f411.svg"><img src="assets/packages/followtheme-light.f7b70d2d.svg" alt="followtheme: A scoped theme follows the overlays it opens: dialogs, popovers and toasts portalled to body keep the theme of the section that opened them. React, Vue, any portal library." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/keycloak-sanctum-vue"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/keycloak-sanctum-vue-dark.4d16776a.svg"><img src="assets/packages/keycloak-sanctum-vue-light.9af1f619.svg" alt="keycloak-sanctum-vue: Vue 3 client for laravel-keycloak-sanctum: user, roles, router guard, authenticated fetch and inactivity logout." width="100%"></picture></a></td>
   </tr>
 </table>
 
@@ -52,7 +52,7 @@ I build line-of-business applications for the public sector with **Laravel**, **
 
 <table>
   <tr>
-    <td width="50%"><a href="https://github.com/kaveraa/prepare-image"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/prepare-image-dark.6852f5c5.svg"><img src="assets/packages/prepare-image-light.a913aa71.svg" alt="prepare-image: Prepare a user-picked photo for upload: decode HEIC, apply camera orientation, resize and strip GPS location." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/prepare-image"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/prepare-image-dark.8c91dc40.svg"><img src="assets/packages/prepare-image-light.0449e40f.svg" alt="prepare-image: Prepare a user-picked photo for upload: decode HEIC, apply camera orientation, resize and strip GPS location." width="100%"></picture></a></td>
     <td width="50%"></td>
   </tr>
 </table>
@@ -74,8 +74,8 @@ I build line-of-business applications for the public sector with **Laravel**, **
 ### Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.87bab58c.svg">
-  <img src="assets/activity-light.7ee0fb48.svg" alt="Contribution heatmap and language breakdown" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.d1b4b1ab.svg">
+  <img src="assets/activity-light.43b9c154.svg" alt="Contribution heatmap and language breakdown" width="100%">
 </picture>
 
 ### How I work
@@ -93,6 +93,6 @@ I build line-of-business applications for the public sector with **Laravel**, **
 
 <div align="center">
 <!-- built:start -->
-<sub>Assets regenerated 2026-10-09 by <a href="https://github.com/kaveraa/kaveraa/actions">a scheduled workflow</a>. No third-party stat cards, everything on this page is rendered from <a href="https://github.com/kaveraa/kaveraa/tree/main/scripts">scripts/</a>.</sub>
+<sub>Assets regenerated 2026-10-10 by <a href="https://github.com/kaveraa/kaveraa/actions">a scheduled workflow</a>. No third-party stat cards, everything on this page is rendered from <a href="https://github.com/kaveraa/kaveraa/tree/main/scripts">scripts/</a>.</sub>
 <!-- built:end -->
 </div>

@@ -162,9 +162,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:29:31.566Z",
       "releases": 5,
-      "downloads": 758,
+      "downloads": 784,
       "period": "month",
-      "monthly": 758,
+      "monthly": 784,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
       "registry": "npm",
@@ -191,9 +191,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:27:18.844Z",
       "releases": 4,
-      "downloads": 600,
+      "downloads": 628,
       "period": "month",
-      "monthly": 600,
+      "monthly": 628,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
@@ -218,9 +218,9 @@
       "version": "0.1.2",
       "releasedAt": "2026-10-08T10:38:05.078Z",
       "releases": 2,
-      "downloads": 263,
+      "downloads": 286,
       "period": "month",
-      "monthly": 263,
+      "monthly": 286,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
@@ -246,9 +246,9 @@
       "version": "0.1.0",
       "releasedAt": "2026-10-08T12:51:17.385Z",
       "releases": 1,
-      "downloads": 236,
+      "downloads": 265,
       "period": "month",
-      "monthly": 236,
+      "monthly": 265,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
       "registry": "npm",
@@ -258,38 +258,10 @@
   },
   "github": {
     "commits": 463,
-    "contributions": 3208,
+    "contributions": 3271,
     "commitsTotal": 463,
-    "contributionsTotal": 4199,
+    "contributionsTotal": 4262,
     "days": [
-      [
-        "2025-10-05",
-        0
-      ],
-      [
-        "2025-10-06",
-        0
-      ],
-      [
-        "2025-10-07",
-        0
-      ],
-      [
-        "2025-10-08",
-        1
-      ],
-      [
-        "2025-10-09",
-        4
-      ],
-      [
-        "2025-10-10",
-        6
-      ],
-      [
-        "2025-10-11",
-        0
-      ],
       [
         "2025-10-12",
         0
@@ -1744,7 +1716,11 @@
       ],
       [
         "2026-10-10",
-        0
+        58
+      ],
+      [
+        "2026-10-11",
+        5
       ]
     ],
     "languages": [
@@ -1773,5 +1749,5 @@
     "repos": 17,
     "privateRepos": 5
   },
-  "builtAt": "2026-10-10T11:09:10.452Z"
+  "builtAt": "2026-10-11T11:22:45.740Z"
 }

@@ -229,6 +229,7 @@
       <rect x="432" y="136" width="11" height="11" rx="2.5" fill="#7d2a22" class="cell" style="animation-delay:1.030s"/>
       <rect x="432" y="150" width="11" height="11" rx="2.5" fill="#4a1f1a" class="cell" style="animation-delay:1.040s"/>
       <rect x="446" y="66" width="11" height="11" rx="2.5" fill="#4a1f1a" class="cell" style="animation-delay:1.015s"/>
+      <rect x="446" y="80" width="11" height="11" rx="2.5" fill="#4a1f1a" class="cell" style="animation-delay:1.025s"/>
 
     <text x="32" y="75" text-anchor="end" font-size="9" fill="#857a76">Mon</text>
     <text x="32" y="103" text-anchor="end" font-size="9" fill="#857a76">Wed</text>
@@ -239,7 +240,7 @@
       <text x="40" y="240" font-size="10" font-weight="600" letter-spacing=".3" fill="#857a76">CONTRIBUTIONS · 1 YEAR</text>
       <text x="245" y="224" font-size="22" font-weight="800" letter-spacing="-.5" fill="#faf6f3">4.3k</text>
       <text x="245" y="240" font-size="10" font-weight="600" letter-spacing=".3" fill="#857a76">CONTRIBUTIONS · ALL TIME</text>
-      <text x="450" y="224" font-size="22" font-weight="800" letter-spacing="-.5" fill="#faf6f3">15</text>
+      <text x="450" y="224" font-size="22" font-weight="800" letter-spacing="-.5" fill="#faf6f3">16</text>
       <text x="450" y="240" font-size="10" font-weight="600" letter-spacing=".3" fill="#857a76">CURRENT STREAK · DAYS</text>
       <text x="655" y="224" font-size="22" font-weight="800" letter-spacing="-.5" fill="#faf6f3">27</text>
       <text x="655" y="240" font-size="10" font-weight="600" letter-spacing=".3" fill="#857a76">LONGEST STREAK · DAYS</text>
@@ -257,7 +258,7 @@
       </g>
       <g class="rise" style="animation-delay:0.40s">
         <text x="513" y="94" font-size="12" font-weight="600" fill="#faf6f3">JavaScript</text>
-        <text x="860" y="94" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">31.9%</text>
+        <text x="860" y="94" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">32.0%</text>
         <rect x="513" y="99" width="347" height="5" rx="2.5" fill="rgba(255,255,255,0.08)"/>
         <rect x="513" y="99" width="111" height="5" rx="2.5" fill="#9cc6bd" class="grow" style="animation-delay:0.60s"/>
       </g>
@@ -275,7 +276,7 @@
       </g>
       <g class="rise" style="animation-delay:0.70s">
         <text x="513" y="172" font-size="12" font-weight="600" fill="#faf6f3">Python</text>
-        <text x="860" y="172" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">2.4%</text>
+        <text x="860" y="172" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">2.3%</text>
         <rect x="513" y="177" width="347" height="5" rx="2.5" fill="rgba(255,255,255,0.08)"/>
         <rect x="513" y="177" width="8" height="5" rx="2.5" fill="#c0392b" class="grow" style="animation-delay:0.90s"/>
       </g>

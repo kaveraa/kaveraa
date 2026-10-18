@@ -234,6 +234,7 @@
       <rect x="446" y="108" width="11" height="11" rx="2.5" fill="#b0382a" class="cell" style="animation-delay:1.045s"/>
       <rect x="446" y="122" width="11" height="11" rx="2.5" fill="#dd6a55" class="cell" style="animation-delay:1.055s"/>
       <rect x="446" y="136" width="11" height="11" rx="2.5" fill="#4a1f1a" class="cell" style="animation-delay:1.065s"/>
+      <rect x="446" y="150" width="11" height="11" rx="2.5" fill="#4a1f1a" class="cell" style="animation-delay:1.075s"/>
 
     <text x="32" y="75" text-anchor="end" font-size="9" fill="#857a76">Mon</text>
     <text x="32" y="103" text-anchor="end" font-size="9" fill="#857a76">Wed</text>
@@ -244,7 +245,7 @@
       <text x="40" y="240" font-size="10" font-weight="600" letter-spacing=".3" fill="#857a76">CONTRIBUTIONS · 1 YEAR</text>
       <text x="245" y="224" font-size="22" font-weight="800" letter-spacing="-.5" fill="#faf6f3">5.1k</text>
       <text x="245" y="240" font-size="10" font-weight="600" letter-spacing=".3" fill="#857a76">CONTRIBUTIONS · ALL TIME</text>
-      <text x="450" y="224" font-size="22" font-weight="800" letter-spacing="-.5" fill="#faf6f3">20</text>
+      <text x="450" y="224" font-size="22" font-weight="800" letter-spacing="-.5" fill="#faf6f3">21</text>
       <text x="450" y="240" font-size="10" font-weight="600" letter-spacing=".3" fill="#857a76">CURRENT STREAK · DAYS</text>
       <text x="655" y="224" font-size="22" font-weight="800" letter-spacing="-.5" fill="#faf6f3">27</text>
       <text x="655" y="240" font-size="10" font-weight="600" letter-spacing=".3" fill="#857a76">LONGEST STREAK · DAYS</text>
@@ -262,7 +263,7 @@
       </g>
       <g class="rise" style="animation-delay:0.40s">
         <text x="513" y="94" font-size="12" font-weight="600" fill="#faf6f3">JavaScript</text>
-        <text x="860" y="94" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">31.2%</text>
+        <text x="860" y="94" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">31.1%</text>
         <rect x="513" y="99" width="347" height="5" rx="2.5" fill="rgba(255,255,255,0.08)"/>
         <rect x="513" y="99" width="108" height="5" rx="2.5" fill="#9cc6bd" class="grow" style="animation-delay:0.60s"/>
       </g>

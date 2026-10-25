@@ -74,8 +74,8 @@ I build line-of-business applications for the public sector with **Laravel**, **
 ### Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.84f4aa55.svg">
-  <img src="assets/activity-light.514999ae.svg" alt="Contribution heatmap and language breakdown" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.9578d4ff.svg">
+  <img src="assets/activity-light.6f893b95.svg" alt="Contribution heatmap and language breakdown" width="100%">
 </picture>
 
 ### How I work
@@ -93,6 +93,6 @@ I build line-of-business applications for the public sector with **Laravel**, **
 
 <div align="center">
 <!-- built:start -->
-<sub>Assets regenerated 2026-10-24 by <a href="https://github.com/kaveraa/kaveraa/actions">a scheduled workflow</a>. No third-party stat cards, everything on this page is rendered from <a href="https://github.com/kaveraa/kaveraa/tree/main/scripts">scripts/</a>.</sub>
+<sub>Assets regenerated 2026-10-25 by <a href="https://github.com/kaveraa/kaveraa/actions">a scheduled workflow</a>. No third-party stat cards, everything on this page is rendered from <a href="https://github.com/kaveraa/kaveraa/tree/main/scripts">scripts/</a>.</sub>
 <!-- built:end -->
 </div>

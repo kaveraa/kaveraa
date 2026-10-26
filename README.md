@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.2359246d.svg">
-    <img src="assets/hero-light.9ba8531b.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.6e7ed36d.svg">
+    <img src="assets/hero-light.8c4b5c73.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
   </picture>
   <p>
     <a href="https://augustin-kavera.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/site-dark.e9f3b2af.svg"><img src="assets/badges/site-light.f2d4aafc.svg" alt="site: augustin-kavera.fr" height="24"></picture></a>
@@ -34,16 +34,16 @@ I build line-of-business applications for the public sector with **Laravel**, **
     <td width="50%"><a href="https://github.com/kaveraa/api-gouv-publique-fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/api-gouv-publique-fr-dark.4b0416d5.svg"><img src="assets/packages/api-gouv-publique-fr-light.1d46e183.svg" alt="api-gouv-publique-fr: Typed client for French public APIs: company search by SIREN or SIRET, address search and the Geo API, with a Laravel bridge, validation rules and test fakes." width="100%"></picture></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/kaveraa/laravel-keycloak-sanctum"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/laravel-keycloak-sanctum-dark.5f8b2351.svg"><img src="assets/packages/laravel-keycloak-sanctum-light.739ce582.svg" alt="laravel-keycloak-sanctum: Keycloak SSO for a SPA backed by a Laravel API: Sanctum token, roles, back-channel logout and idle timeout." width="100%"></picture></a></td>
-    <td width="50%"><a href="https://github.com/kaveraa/slug-history"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/slug-history-dark.fa683f1e.svg"><img src="assets/packages/slug-history-light.3ff19308.svg" alt="slug-history: Keep old URLs working when a slug changes: past slugs are remembered and answered with a 301." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/laravel-keycloak-sanctum"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/laravel-keycloak-sanctum-dark.d50696d2.svg"><img src="assets/packages/laravel-keycloak-sanctum-light.bfc67a10.svg" alt="laravel-keycloak-sanctum: Keycloak SSO for a SPA backed by a Laravel API: Sanctum token, roles, back-channel logout and idle timeout." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/slug-history"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/slug-history-dark.5e3257a2.svg"><img src="assets/packages/slug-history-light.711a146c.svg" alt="slug-history: Keep old URLs working when a slug changes: past slugs are remembered and answered with a 301." width="100%"></picture></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/kaveraa/unaccent-search"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/unaccent-search-dark.bc02e0b9.svg"><img src="assets/packages/unaccent-search-light.7b4c43f6.svg" alt="unaccent-search: Accent and case insensitive SQL search, without a database extension (MySQL, MariaDB, PostgreSQL, SQLite)." width="100%"></picture></a></td>
-    <td width="50%"><a href="https://github.com/kaveraa/data-lifecycle"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/data-lifecycle-dark.292e85d5.svg"><img src="assets/packages/data-lifecycle-light.407ee535.svg" alt="data-lifecycle: Keep personal data only as long as needed (GDPR): warn before expiry, disable with a grace period, then anonymise or delete." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/unaccent-search"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/unaccent-search-dark.4de60e2e.svg"><img src="assets/packages/unaccent-search-light.38b6010c.svg" alt="unaccent-search: Accent and case insensitive SQL search, without a database extension (MySQL, MariaDB, PostgreSQL, SQLite)." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/data-lifecycle"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/data-lifecycle-dark.0ad6c4a2.svg"><img src="assets/packages/data-lifecycle-light.12370fbd.svg" alt="data-lifecycle: Keep personal data only as long as needed (GDPR): warn before expiry, disable with a grace period, then anonymise or delete." width="100%"></picture></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/kaveraa/followtheme"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/followtheme-dark.eb8a3688.svg"><img src="assets/packages/followtheme-light.ad7878f6.svg" alt="followtheme: A scoped theme follows the overlays it opens: dialogs, popovers and toasts portalled to body keep the theme of the section that opened them. React, Vue, any portal library." width="100%"></picture></a></td>
-    <td width="50%"><a href="https://github.com/kaveraa/keycloak-sanctum-vue"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/keycloak-sanctum-vue-dark.85678803.svg"><img src="assets/packages/keycloak-sanctum-vue-light.52f18403.svg" alt="keycloak-sanctum-vue: Vue 3 client for laravel-keycloak-sanctum: user, roles, router guard, authenticated fetch and inactivity logout." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/followtheme"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/followtheme-dark.88a7a703.svg"><img src="assets/packages/followtheme-light.0d056495.svg" alt="followtheme: A scoped theme follows the overlays it opens: dialogs, popovers and toasts portalled to body keep the theme of the section that opened them. React, Vue, any portal library." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/keycloak-sanctum-vue"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/keycloak-sanctum-vue-dark.53abd9ff.svg"><img src="assets/packages/keycloak-sanctum-vue-light.d820ae69.svg" alt="keycloak-sanctum-vue: Vue 3 client for laravel-keycloak-sanctum: user, roles, router guard, authenticated fetch and inactivity logout." width="100%"></picture></a></td>
   </tr>
 </table>
 
@@ -52,7 +52,7 @@ I build line-of-business applications for the public sector with **Laravel**, **
 
 <table>
   <tr>
-    <td width="50%"><a href="https://github.com/kaveraa/prepare-image"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/prepare-image-dark.337d97e0.svg"><img src="assets/packages/prepare-image-light.58d095aa.svg" alt="prepare-image: Prepare a user-picked photo for upload: decode HEIC, apply camera orientation, resize and strip GPS location." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/prepare-image"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/prepare-image-dark.dbd2ac98.svg"><img src="assets/packages/prepare-image-light.06d60203.svg" alt="prepare-image: Prepare a user-picked photo for upload: decode HEIC, apply camera orientation, resize and strip GPS location." width="100%"></picture></a></td>
     <td width="50%"></td>
   </tr>
 </table>
@@ -74,8 +74,8 @@ I build line-of-business applications for the public sector with **Laravel**, **
 ### Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.9578d4ff.svg">
-  <img src="assets/activity-light.6f893b95.svg" alt="Contribution heatmap and language breakdown" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.14e18c4c.svg">
+  <img src="assets/activity-light.0bc18601.svg" alt="Contribution heatmap and language breakdown" width="100%">
 </picture>
 
 ### How I work
@@ -93,6 +93,6 @@ I build line-of-business applications for the public sector with **Laravel**, **
 
 <div align="center">
 <!-- built:start -->
-<sub>Assets regenerated 2026-10-25 by <a href="https://github.com/kaveraa/kaveraa/actions">a scheduled workflow</a>. No third-party stat cards, everything on this page is rendered from <a href="https://github.com/kaveraa/kaveraa/tree/main/scripts">scripts/</a>.</sub>
+<sub>Assets regenerated 2026-10-26 by <a href="https://github.com/kaveraa/kaveraa/actions">a scheduled workflow</a>. No third-party stat cards, everything on this page is rendered from <a href="https://github.com/kaveraa/kaveraa/tree/main/scripts">scripts/</a>.</sub>
 <!-- built:end -->
 </div>

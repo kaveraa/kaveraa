@@ -162,9 +162,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:29:31.566Z",
       "releases": 5,
-      "downloads": 811,
+      "downloads": 0,
       "period": "month",
-      "monthly": 811,
+      "monthly": 0,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
       "registry": "npm",
@@ -191,9 +191,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:27:18.844Z",
       "releases": 4,
-      "downloads": 652,
+      "downloads": 0,
       "period": "month",
-      "monthly": 652,
+      "monthly": 0,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
@@ -218,9 +218,9 @@
       "version": "0.1.2",
       "releasedAt": "2026-10-08T10:38:05.078Z",
       "releases": 2,
-      "downloads": 307,
+      "downloads": 0,
       "period": "month",
-      "monthly": 307,
+      "monthly": 0,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
@@ -246,9 +246,9 @@
       "version": "0.1.0",
       "releasedAt": "2026-10-08T12:51:17.385Z",
       "releases": 1,
-      "downloads": 300,
+      "downloads": 0,
       "period": "month",
-      "monthly": 300,
+      "monthly": 0,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
       "registry": "npm",
@@ -258,9 +258,9 @@
   },
   "github": {
     "commits": 463,
-    "contributions": 4712,
+    "contributions": 4751,
     "commitsTotal": 463,
-    "contributionsTotal": 5723,
+    "contributionsTotal": 5762,
     "days": [
       [
         "2025-10-26",
@@ -1724,7 +1724,11 @@
       ],
       [
         "2026-10-26",
-        2
+        13
+      ],
+      [
+        "2026-10-27",
+        28
       ]
     ],
     "languages": [
@@ -1734,15 +1738,15 @@
       },
       {
         "name": "JavaScript",
-        "share": 0.29309999999999997
+        "share": 0.29474117647058823
       },
       {
         "name": "TypeScript",
-        "share": 0.24914705882352942
+        "share": 0.2533941176470588
       },
       {
         "name": "HTML",
-        "share": 0.060870588235294114
+        "share": 0.04183529411764706
       },
       {
         "name": "Vue",
@@ -1753,5 +1757,5 @@
     "repos": 18,
     "privateRepos": 6
   },
-  "builtAt": "2026-10-26T11:02:41.832Z"
+  "builtAt": "2026-10-27T10:30:04.745Z"
 }

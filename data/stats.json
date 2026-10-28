@@ -162,9 +162,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:29:31.566Z",
       "releases": 5,
-      "downloads": 0,
+      "downloads": 740,
       "period": "month",
-      "monthly": 0,
+      "monthly": 740,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
       "registry": "npm",
@@ -191,9 +191,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:27:18.844Z",
       "releases": 4,
-      "downloads": 0,
+      "downloads": 660,
       "period": "month",
-      "monthly": 0,
+      "monthly": 660,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
@@ -218,9 +218,9 @@
       "version": "0.1.2",
       "releasedAt": "2026-10-08T10:38:05.078Z",
       "releases": 2,
-      "downloads": 0,
+      "downloads": 311,
       "period": "month",
-      "monthly": 0,
+      "monthly": 311,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
@@ -246,9 +246,9 @@
       "version": "0.1.0",
       "releasedAt": "2026-10-08T12:51:17.385Z",
       "releases": 1,
-      "downloads": 0,
+      "downloads": 312,
       "period": "month",
-      "monthly": 0,
+      "monthly": 312,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
       "registry": "npm",
@@ -258,9 +258,9 @@
   },
   "github": {
     "commits": 463,
-    "contributions": 4751,
+    "contributions": 5002,
     "commitsTotal": 463,
-    "contributionsTotal": 5762,
+    "contributionsTotal": 6013,
     "days": [
       [
         "2025-10-26",
@@ -1704,19 +1704,19 @@
       ],
       [
         "2026-10-21",
-        99
-      ],
-      [
-        "2026-10-22",
         106
       ],
       [
+        "2026-10-22",
+        187
+      ],
+      [
         "2026-10-23",
-        78
+        80
       ],
       [
         "2026-10-24",
-        19
+        21
       ],
       [
         "2026-10-25",
@@ -1724,11 +1724,15 @@
       ],
       [
         "2026-10-26",
-        13
+        20
       ],
       [
         "2026-10-27",
-        28
+        169
+      ],
+      [
+        "2026-10-28",
+        11
       ]
     ],
     "languages": [
@@ -1738,15 +1742,15 @@
       },
       {
         "name": "JavaScript",
-        "share": 0.29474117647058823
+        "share": 0.2950764705882353
       },
       {
         "name": "TypeScript",
-        "share": 0.2533941176470588
+        "share": 0.25163529411764707
       },
       {
         "name": "HTML",
-        "share": 0.04183529411764706
+        "share": 0.044023529411764704
       },
       {
         "name": "Vue",
@@ -1757,5 +1761,5 @@
     "repos": 18,
     "privateRepos": 6
   },
-  "builtAt": "2026-10-27T10:30:04.745Z"
+  "builtAt": "2026-10-28T11:18:21.785Z"
 }

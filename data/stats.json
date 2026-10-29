@@ -52,7 +52,7 @@
       "releases": 5,
       "downloads": 7,
       "period": "total",
-      "monthly": 7,
+      "monthly": 2,
       "stars": 0,
       "url": "https://packagist.org/packages/kaveraa/data-lifecycle",
       "registry": "packagist",
@@ -80,7 +80,7 @@
       "releases": 5,
       "downloads": 4,
       "period": "total",
-      "monthly": 3,
+      "monthly": 2,
       "stars": 0,
       "url": "https://packagist.org/packages/kaveraa/laravel-keycloak-sanctum",
       "registry": "packagist",
@@ -109,7 +109,7 @@
       "releases": 5,
       "downloads": 9,
       "period": "total",
-      "monthly": 9,
+      "monthly": 1,
       "stars": 0,
       "url": "https://packagist.org/packages/kaveraa/slug-history",
       "registry": "packagist",
@@ -137,7 +137,7 @@
       "releases": 8,
       "downloads": 8,
       "period": "total",
-      "monthly": 4,
+      "monthly": 2,
       "stars": 0,
       "url": "https://packagist.org/packages/kaveraa/unaccent-search",
       "registry": "packagist",
@@ -162,9 +162,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:29:31.566Z",
       "releases": 5,
-      "downloads": 740,
+      "downloads": 729,
       "period": "month",
-      "monthly": 740,
+      "monthly": 729,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
       "registry": "npm",
@@ -191,9 +191,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:27:18.844Z",
       "releases": 4,
-      "downloads": 660,
+      "downloads": 662,
       "period": "month",
-      "monthly": 660,
+      "monthly": 662,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
@@ -218,9 +218,9 @@
       "version": "0.1.2",
       "releasedAt": "2026-10-08T10:38:05.078Z",
       "releases": 2,
-      "downloads": 311,
+      "downloads": 312,
       "period": "month",
-      "monthly": 311,
+      "monthly": 312,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
@@ -246,9 +246,9 @@
       "version": "0.1.0",
       "releasedAt": "2026-10-08T12:51:17.385Z",
       "releases": 1,
-      "downloads": 312,
+      "downloads": 314,
       "period": "month",
-      "monthly": 312,
+      "monthly": 314,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
       "registry": "npm",
@@ -258,9 +258,9 @@
   },
   "github": {
     "commits": 463,
-    "contributions": 5002,
+    "contributions": 5247,
     "commitsTotal": 463,
-    "contributionsTotal": 6013,
+    "contributionsTotal": 6258,
     "days": [
       [
         "2025-10-26",
@@ -1708,7 +1708,7 @@
       ],
       [
         "2026-10-22",
-        187
+        186
       ],
       [
         "2026-10-23",
@@ -1732,34 +1732,38 @@
       ],
       [
         "2026-10-28",
-        11
+        187
+      ],
+      [
+        "2026-10-29",
+        70
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.321
+        "share": 0.34106036837269765
       },
       {
         "name": "JavaScript",
-        "share": 0.2950764705882353
+        "share": 0.31112305548090324
       },
       {
         "name": "TypeScript",
-        "share": 0.25163529411764707
-      },
-      {
-        "name": "HTML",
-        "share": 0.044023529411764704
+        "share": 0.2651670927056706
       },
       {
         "name": "Vue",
-        "share": 0.02394705882352941
+        "share": 0.025443590977556392
+      },
+      {
+        "name": "Python",
+        "share": 0.015849900938119138
       }
     ],
     "stars": 0,
-    "repos": 18,
-    "privateRepos": 6
+    "repos": 17,
+    "privateRepos": 5
   },
-  "builtAt": "2026-10-28T11:18:21.785Z"
+  "builtAt": "2026-10-29T11:29:48.612Z"
 }

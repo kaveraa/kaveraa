@@ -113,7 +113,26 @@ const CONTRIBUTIONS_QUERY = `
   }
 `;
 
-export async function fetchGitHub(login, token) {
+// Repositories named in config.extraRepos are fetched one by one, so a repo
+// the "contributed to" list misses (organisation, old contribution) still
+// counts. A repo the token cannot see is skipped with a warning.
+async function fetchExtraRepos(extraRepos, token) {
+  if (!extraRepos?.length) return [];
+  const aliases = extraRepos.map((full, i) => {
+    const [owner, name] = full.split('/');
+    return `r${i}: repository(owner: ${JSON.stringify(owner)}, name: ${JSON.stringify(name)}) { ...repoFields }`;
+  });
+  const query = `${CONTRIBUTIONS_QUERY.split('query(')[0]} query { ${aliases.join(' ')} }`;
+  const { data, errors } = await getJson('https://api.github.com/graphql', {
+    method: 'POST',
+    body: JSON.stringify({ query }),
+    headers: { authorization: `bearer ${token}`, 'content-type': 'application/json' },
+  });
+  for (const e of errors ?? []) warn('github extra repo', e);
+  return extraRepos.map((full, i) => data?.[`r${i}`] ?? null).filter(Boolean);
+}
+
+export async function fetchGitHub(login, token, extraRepos = []) {
   if (!token) {
     console.warn('  ! GITHUB_TOKEN not set, skipping GitHub data');
     return null;
@@ -135,6 +154,10 @@ export async function fetchGitHub(login, token) {
     const repos = new Map();
     for (const repo of [...user.repositories.nodes, ...user.contributed.nodes]) {
       if (repo && !repo.isFork) repos.set(repo.nameWithOwner, repo);
+    }
+    for (const repo of await fetchExtraRepos(extraRepos, token)) repos.set(repo.nameWithOwner, repo);
+    for (const full of extraRepos) {
+      if (!repos.has(full)) console.warn(`  ! extra repo ${full} not visible to the token`);
     }
     // Each repository weighs the same: its languages are normalised to shares
     // first, then averaged. A single project with huge compiled assets can

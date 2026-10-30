@@ -71,6 +71,9 @@
       "Sentry"
     ]
   },
+  "extraRepos": [
+    "Ogaleo-group/quotidou"
+  ],
   "packagesPerPage": 8,
   "packageOverrides": [
     {

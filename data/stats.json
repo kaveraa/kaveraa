@@ -23,7 +23,7 @@
       "releases": 7,
       "downloads": 9,
       "period": "total",
-      "monthly": 9,
+      "monthly": 6,
       "stars": 0,
       "url": "https://packagist.org/packages/kaveraa/api-gouv-publique-fr",
       "registry": "packagist",
@@ -80,7 +80,7 @@
       "releases": 5,
       "downloads": 4,
       "period": "total",
-      "monthly": 2,
+      "monthly": 1,
       "stars": 0,
       "url": "https://packagist.org/packages/kaveraa/laravel-keycloak-sanctum",
       "registry": "packagist",
@@ -162,9 +162,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:29:31.566Z",
       "releases": 5,
-      "downloads": 729,
+      "downloads": 728,
       "period": "month",
-      "monthly": 729,
+      "monthly": 728,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
       "registry": "npm",
@@ -200,33 +200,6 @@
       "id": "@kaveraa/prepare-image",
       "name": "prepare-image"
     },
-    "followtheme": {
-      "description": "A scoped theme follows the overlays it opens: dialogs, popovers and toasts portalled to body keep the theme of the section that opened them. React, Vue, any portal library.",
-      "keywords": [
-        "theme",
-        "portal",
-        "teleport",
-        "css-variables",
-        "dark-mode",
-        "radix",
-        "vaul",
-        "react",
-        "vue"
-      ],
-      "repo": "git+https://github.com/kaveraa/followtheme.git",
-      "language": "JavaScript",
-      "version": "0.1.2",
-      "releasedAt": "2026-10-08T10:38:05.078Z",
-      "releases": 2,
-      "downloads": 312,
-      "period": "month",
-      "monthly": 312,
-      "stars": null,
-      "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
-      "registry": "npm",
-      "id": "@kaveraa/followtheme",
-      "name": "followtheme"
-    },
     "site-audit": {
       "description": "Audit a website you own from the command line: SEO, security headers, TLS and known vulnerabilities, with a fix for every finding.",
       "keywords": [
@@ -254,13 +227,40 @@
       "registry": "npm",
       "id": "@kaveraa/site-audit",
       "name": "site-audit"
+    },
+    "followtheme": {
+      "description": "A scoped theme follows the overlays it opens: dialogs, popovers and toasts portalled to body keep the theme of the section that opened them. React, Vue, any portal library.",
+      "keywords": [
+        "theme",
+        "portal",
+        "teleport",
+        "css-variables",
+        "dark-mode",
+        "radix",
+        "vaul",
+        "react",
+        "vue"
+      ],
+      "repo": "git+https://github.com/kaveraa/followtheme.git",
+      "language": "JavaScript",
+      "version": "0.1.2",
+      "releasedAt": "2026-10-08T10:38:05.078Z",
+      "releases": 2,
+      "downloads": 312,
+      "period": "month",
+      "monthly": 312,
+      "stars": null,
+      "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
+      "registry": "npm",
+      "id": "@kaveraa/followtheme",
+      "name": "followtheme"
     }
   },
   "github": {
     "commits": 463,
-    "contributions": 5247,
+    "contributions": 5557,
     "commitsTotal": 463,
-    "contributionsTotal": 6258,
+    "contributionsTotal": 6568,
     "days": [
       [
         "2025-10-26",
@@ -1732,11 +1732,15 @@
       ],
       [
         "2026-10-28",
-        187
+        189
       ],
       [
         "2026-10-29",
-        70
+        273
+      ],
+      [
+        "2026-10-30",
+        105
       ]
     ],
     "languages": [
@@ -1765,5 +1769,5 @@
     "repos": 17,
     "privateRepos": 5
   },
-  "builtAt": "2026-10-29T11:29:48.612Z"
+  "builtAt": "2026-10-30T11:21:34.847Z"
 }

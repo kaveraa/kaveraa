@@ -23,7 +23,7 @@
       "releases": 7,
       "downloads": 9,
       "period": "total",
-      "monthly": 6,
+      "monthly": 2,
       "stars": 0,
       "url": "https://packagist.org/packages/kaveraa/api-gouv-publique-fr",
       "registry": "packagist",
@@ -162,9 +162,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:29:31.566Z",
       "releases": 5,
-      "downloads": 728,
+      "downloads": 455,
       "period": "month",
-      "monthly": 728,
+      "monthly": 455,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
       "registry": "npm",
@@ -191,9 +191,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:27:18.844Z",
       "releases": 4,
-      "downloads": 662,
+      "downloads": 402,
       "period": "month",
-      "monthly": 662,
+      "monthly": 402,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
@@ -219,9 +219,9 @@
       "version": "0.1.0",
       "releasedAt": "2026-10-08T12:51:17.385Z",
       "releases": 1,
-      "downloads": 314,
+      "downloads": 317,
       "period": "month",
-      "monthly": 314,
+      "monthly": 317,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
       "registry": "npm",
@@ -246,9 +246,9 @@
       "version": "0.1.2",
       "releasedAt": "2026-10-08T10:38:05.078Z",
       "releases": 2,
-      "downloads": 312,
+      "downloads": 316,
       "period": "month",
-      "monthly": 312,
+      "monthly": 316,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
@@ -258,9 +258,9 @@
   },
   "github": {
     "commits": 463,
-    "contributions": 5557,
+    "contributions": 5657,
     "commitsTotal": 463,
-    "contributionsTotal": 6568,
+    "contributionsTotal": 6668,
     "days": [
       [
         "2025-10-26",
@@ -1740,7 +1740,11 @@
       ],
       [
         "2026-10-30",
-        105
+        189
+      ],
+      [
+        "2026-10-31",
+        16
       ]
     ],
     "languages": [
@@ -1769,5 +1773,5 @@
     "repos": 17,
     "privateRepos": 5
   },
-  "builtAt": "2026-10-30T11:21:34.847Z"
+  "builtAt": "2026-10-31T10:53:57.071Z"
 }

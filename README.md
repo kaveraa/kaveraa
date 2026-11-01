@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.7c3cf5f3.svg">
-    <img src="assets/hero-light.a1e19155.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.39e97bdd.svg">
+    <img src="assets/hero-light.b89eea50.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
   </picture>
   <p>
     <a href="https://augustin-kavera.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/site-dark.e9f3b2af.svg"><img src="assets/badges/site-light.f2d4aafc.svg" alt="site: augustin-kavera.fr" height="24"></picture></a>
@@ -74,15 +74,15 @@ I build line-of-business applications for the public sector with **Laravel**, **
 ### Pulse
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/pulse-dark.db4b2cb9.svg">
-  <img src="assets/pulse-light.75dc724a.svg" alt="Contributions per month and package releases over the last twelve months" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pulse-dark.03cb1d70.svg">
+  <img src="assets/pulse-light.568e8f2f.svg" alt="Contributions per month and package releases over the last twelve months" width="100%">
 </picture>
 
 ### Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.cf231de4.svg">
-  <img src="assets/activity-light.28339e47.svg" alt="Contribution heatmap and language breakdown" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.96dfa294.svg">
+  <img src="assets/activity-light.d2d52687.svg" alt="Contribution heatmap and language breakdown" width="100%">
 </picture>
 
 ### How I work

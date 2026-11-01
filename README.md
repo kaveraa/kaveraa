@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.538a1353.svg">
-    <img src="assets/hero-light.d300fa0e.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.c23f1f47.svg">
+    <img src="assets/hero-light.51e7188f.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
   </picture>
   <p>
     <a href="https://augustin-kavera.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/site-dark.e9f3b2af.svg"><img src="assets/badges/site-light.f2d4aafc.svg" alt="site: augustin-kavera.fr" height="24"></picture></a>
@@ -74,8 +74,8 @@ I build line-of-business applications for the public sector with **Laravel**, **
 ### Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.32dea1ec.svg">
-  <img src="assets/activity-light.5938d6fa.svg" alt="Contribution heatmap and language breakdown" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.cf231de4.svg">
+  <img src="assets/activity-light.28339e47.svg" alt="Contribution heatmap and language breakdown" width="100%">
 </picture>
 
 ### How I work

@@ -71,8 +71,8 @@ I build line-of-business applications for the public sector with **Laravel**, **
 ### Pulse
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/pulse-dark.bc8e29a9.svg">
-  <img src="assets/pulse-light.a5f4577f.svg" alt="Contributions per month and package releases over the last twelve months" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pulse-dark.bdc97502.svg">
+  <img src="assets/pulse-light.c7cc8f16.svg" alt="Contributions per month and package releases over the last twelve months" width="100%">
 </picture>
 
 ### Activity

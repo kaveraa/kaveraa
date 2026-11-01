@@ -64,8 +64,8 @@ I build line-of-business applications for the public sector with **Laravel**, **
 ### Stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.c6f93c72.svg">
-  <img src="assets/stack-light.56e59016.svg" alt="Back-end: PHP, Laravel, Filament, Reverb, Symfony, Doctrine, Node.js, Prisma. Front-end: TypeScript, Vue 3, Pinia, React, Tailwind. Data and infrastructure: PostgreSQL, Redis, Keycloak, Docker, Kubernetes, nginx, GitHub Actions. Testing and services: Pest, Vitest, Stripe, Resend, Sentry." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.027cafb9.svg">
+  <img src="assets/stack-light.a32720c7.svg" alt="Back-end: PHP, Laravel, Filament, Reverb, Symfony, Doctrine, Node.js, Prisma. Front-end: TypeScript, Vue 3, Pinia, React, Tailwind. Data and infrastructure: PostgreSQL, Redis, Keycloak, Docker, Kubernetes, nginx, GitHub Actions. Testing and services: Pest, Vitest, Stripe, Resend, Sentry." width="100%">
 </picture>
 
 ### Pulse

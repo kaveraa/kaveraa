@@ -137,5 +137,6 @@
       "tag": "Browser",
       "summary": "Prepare a user-picked photo for upload: decode HEIC, apply camera orientation, resize and strip GPS location."
     }
-  ]
+  ],
+  "heroStyle": "terminal-system"
 }

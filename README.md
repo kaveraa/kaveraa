@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.c23f1f47.svg">
-    <img src="assets/hero-light.51e7188f.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.7c3cf5f3.svg">
+    <img src="assets/hero-light.a1e19155.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
   </picture>
   <p>
     <a href="https://augustin-kavera.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/site-dark.e9f3b2af.svg"><img src="assets/badges/site-light.f2d4aafc.svg" alt="site: augustin-kavera.fr" height="24"></picture></a>
@@ -69,6 +69,13 @@ I build line-of-business applications for the public sector with **Laravel**, **
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.c6f93c72.svg">
   <img src="assets/stack-light.56e59016.svg" alt="Back-end: PHP, Laravel, Filament, Reverb, Symfony, Doctrine, Node.js, Prisma. Front-end: TypeScript, Vue 3, Pinia, React, Tailwind. Data and infrastructure: PostgreSQL, Redis, Keycloak, Docker, Kubernetes, nginx, GitHub Actions. Testing and services: Pest, Vitest, Stripe, Resend, Sentry." width="100%">
+</picture>
+
+### Pulse
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pulse-dark.db4b2cb9.svg">
+  <img src="assets/pulse-light.75dc724a.svg" alt="Contributions per month and package releases over the last twelve months" width="100%">
 </picture>
 
 ### Activity

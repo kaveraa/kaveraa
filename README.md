@@ -1,7 +1,12 @@
 <div align="center">
   <picture>
+<<<<<<< Updated upstream
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.bc60cef8.svg">
     <img src="assets/hero-light.25016c6c.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
+=======
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.7e9f21f7.svg">
+    <img src="assets/hero-light.0bde8a28.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
+>>>>>>> Stashed changes
   </picture>
   <p>
     <a href="https://augustin-kavera.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/site-dark.e9f3b2af.svg"><img src="assets/badges/site-light.f2d4aafc.svg" alt="site: augustin-kavera.fr" height="24"></picture></a>

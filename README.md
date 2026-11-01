@@ -16,13 +16,10 @@ I build line-of-business applications for the public sector with **Laravel**, **
 ### Shipping log
 
 <!-- shipping-log:start -->
-| Released | Package | What shipped |
-| :-- | :-- | :-- |
-| <sub><code>2026-10-08</code></sub> | [**site-audit**](https://github.com/kaveraa/site-audit) [`v0.1.0`](https://www.npmjs.com/package/@kaveraa/site-audit) | Audit a website you own from the command line |
-| <sub><code>2026-10-08</code></sub> | [**api-gouv-publique-fr**](https://github.com/kaveraa/api-gouv-publique-fr) [`v1.1.0`](https://packagist.org/packages/kaveraa/api-gouv-publique-fr) | Typed client for French public APIs |
-| <sub><code>2026-10-08</code></sub> | [**laravel-keycloak-sanctum**](https://github.com/kaveraa/laravel-keycloak-sanctum) [`v1.0.4`](https://packagist.org/packages/kaveraa/laravel-keycloak-sanctum) | Keycloak SSO for a SPA backed by a Laravel API |
-| <sub><code>2026-10-08</code></sub> | [**slug-history**](https://github.com/kaveraa/slug-history) [`v1.0.4`](https://packagist.org/packages/kaveraa/slug-history) | Keep old URLs working when a slug changes |
-| <sub><code>2026-10-08</code></sub> | [**unaccent-search**](https://github.com/kaveraa/unaccent-search) [`v2.0.4`](https://packagist.org/packages/kaveraa/unaccent-search) | Accent and case insensitive SQL search, without a database extension |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/shipping-dark.17308494.svg">
+  <img src="assets/shipping-light.154111ad.svg" alt="Latest releases: site-audit 0.1.0, api-gouv-publique-fr 1.1.0, laravel-keycloak-sanctum 1.0.4, slug-history 1.0.4, unaccent-search 2.0.4" width="100%">
+</picture>
 <!-- shipping-log:end -->
 
 ### Packages

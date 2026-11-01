@@ -147,5 +147,5 @@
   ],
   "heroStyle": "terminal-system",
   "packageStyle": "shell",
-  "shippingStyle": "table"
+  "shippingStyle": "gitlog"
 }

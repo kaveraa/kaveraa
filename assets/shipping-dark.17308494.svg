@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="234" viewBox="0 0 900 234" role="img" aria-label="Latest releases: site-audit 0.1.0, api-gouv-publique-fr 1.1.0, laravel-keycloak-sanctum 1.0.4, slug-history 1.0.4, unaccent-search 2.0.4">
+  <title>Shipping log</title>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .out { opacity: 0; animation: show .01s linear forwards; }
+    .rise { opacity: 0; animation: rise .5s cubic-bezier(.2,.7,.2,1) forwards; }
+    .pop { opacity: 0; animation: pop .4s cubic-bezier(.2,.7,.2,1) forwards; transform-box: fill-box; transform-origin: center; }
+    .draw { stroke-dasharray: 2000; stroke-dashoffset: 2000; animation: draw 1.4s cubic-bezier(.4,0,.2,1) forwards; }
+    @keyframes show { to { opacity: 1; } }
+    @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes pop { from { opacity: 0; transform: scale(.3); } to { opacity: 1; transform: scale(1); } }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .out, .rise, .pop { animation: none; opacity: 1; transform: none; } .draw { animation: none; stroke-dashoffset: 0; } }
+  </style>
+  <defs><clipPath id="frame"><rect width="900" height="234" rx="18"/></clipPath></defs>
+  <g clip-path="url(#frame)">
+    <rect width="900" height="234" fill="#0a0a0b"/>
+    <rect x="0.5" y="0.5" width="899" height="233" rx="18" fill="none" stroke="rgba(255,255,255,0.08)"/>
+    
+    <line class="draw" x1="40" y1="71" x2="40" y2="191" stroke="rgba(255,255,255,0.10)" stroke-width="2" style="animation-delay:.8s"/>
+    <clipPath id="c"><rect x="40" y="26" width="0" height="26"><animate attributeName="width" from="14" to="214" dur="0.75s" begin="0.2s" fill="freeze"/></rect></clipPath>
+    <g clip-path="url(#c)">
+      <text class="mono" x="40" y="44" text-anchor="start" font-size="14" font-weight="700" fill="#c0392b">$</text>
+      <text class="mono" x="58" y="44" font-size="14" fill="#faf6f3" textLength="193.2" lengthAdjust="spacingAndGlyphs">git log --releases -n 5</text>
+    </g>
+    
+    <g class="out" style="animation-delay:0.90s">
+      <circle cx="40" cy="71" r="4.5" fill="#c0392b" stroke="#c0392b" stroke-width="1.5"/>
+      <text class="mono" x="60" y="76" text-anchor="start" font-size="13" font-weight="700" fill="#c0392b">v0.1.0</text>
+      <text class="mono" x="136" y="76" text-anchor="start" font-size="13" font-weight="600" fill="#faf6f3">site-audit</text>
+      <text x="860" y="76" text-anchor="end" font-size="12" class="mono" fill="#857a76">2026-10-08</text>
+      <text x="352" y="76" font-size="12.5" fill="#b5aaa6">Audit a website you own from the command line</text>
+    </g>
+    <g class="out" style="animation-delay:1.06s">
+      <circle cx="40" cy="101" r="4.5" fill="#0a0a0b" stroke="#857a76" stroke-width="1.5"/>
+      <text class="mono" x="60" y="106" text-anchor="start" font-size="13" font-weight="700" fill="#c0392b">v1.1.0</text>
+      <text class="mono" x="136" y="106" text-anchor="start" font-size="13" font-weight="600" fill="#faf6f3">api-gouv-publique-fr</text>
+      <text x="860" y="106" text-anchor="end" font-size="12" class="mono" fill="#857a76">2026-10-08</text>
+      <text x="352" y="106" font-size="12.5" fill="#b5aaa6">Typed client for French public APIs</text>
+    </g>
+    <g class="out" style="animation-delay:1.22s">
+      <circle cx="40" cy="131" r="4.5" fill="#0a0a0b" stroke="#857a76" stroke-width="1.5"/>
+      <text class="mono" x="60" y="136" text-anchor="start" font-size="13" font-weight="700" fill="#c0392b">v1.0.4</text>
+      <text class="mono" x="136" y="136" text-anchor="start" font-size="13" font-weight="600" fill="#faf6f3">laravel-keycloak-sanctum</text>
+      <text x="860" y="136" text-anchor="end" font-size="12" class="mono" fill="#857a76">2026-10-08</text>
+      <text x="352" y="136" font-size="12.5" fill="#b5aaa6">Keycloak SSO for a SPA backed by a Laravel API</text>
+    </g>
+    <g class="out" style="animation-delay:1.38s">
+      <circle cx="40" cy="161" r="4.5" fill="#0a0a0b" stroke="#857a76" stroke-width="1.5"/>
+      <text class="mono" x="60" y="166" text-anchor="start" font-size="13" font-weight="700" fill="#c0392b">v1.0.4</text>
+      <text class="mono" x="136" y="166" text-anchor="start" font-size="13" font-weight="600" fill="#faf6f3">slug-history</text>
+      <text x="860" y="166" text-anchor="end" font-size="12" class="mono" fill="#857a76">2026-10-08</text>
+      <text x="352" y="166" font-size="12.5" fill="#b5aaa6">Keep old URLs working when a slug changes</text>
+    </g>
+    <g class="out" style="animation-delay:1.54s">
+      <circle cx="40" cy="191" r="4.5" fill="#0a0a0b" stroke="#857a76" stroke-width="1.5"/>
+      <text class="mono" x="60" y="196" text-anchor="start" font-size="13" font-weight="700" fill="#c0392b">v2.0.4</text>
+      <text class="mono" x="136" y="196" text-anchor="start" font-size="13" font-weight="600" fill="#faf6f3">unaccent-search</text>
+      <text x="860" y="196" text-anchor="end" font-size="12" class="mono" fill="#857a76">2026-10-08</text>
+      <text x="352" y="196" font-size="12.5" fill="#b5aaa6">Accent and case insensitive SQL search, without a d…</text>
+    </g>
+  </g>
+</svg>

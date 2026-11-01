@@ -69,7 +69,7 @@ const languageBars = (languages, t, x, y, w) => {
       return `
       <g class="rise" style="animation-delay:${(0.3 + i * 0.08).toFixed(2)}s">
         <text x="${lx}" y="${ly + 10}" font-size="12" font-weight="600" fill="${t.text}">${esc(lang.name)}</text>
-        <text x="${lx + cw}" y="${ly + 10}" text-anchor="end" font-size="11.5" class="mono" fill="${t.faint}">${(lang.share * 100).toFixed(1)}%</text>
+        <text x="${lx + cw}" y="${ly + 10}" text-anchor="end" font-size="11.5" class="mono" fill="${t.faint}">${(() => { const pct = Math.round(lang.share * 1000) / 10; return Number.isInteger(pct) ? pct : pct.toFixed(1); })()}%</text>
         <rect x="${lx}" y="${ly + 15}" width="${cw}" height="5" rx="2.5" fill="${t.bar}"/>
         <rect x="${lx}" y="${ly + 15}" width="${barW}" height="5" rx="2.5" fill="${color}" class="grow" style="animation-delay:${(0.5 + i * 0.08).toFixed(2)}s"/>
       </g>`;
@@ -138,8 +138,14 @@ export function renderActivity({ stats, theme: t }) {
 
     <line x1="${rightX - 28}" y1="30" x2="${rightX - 28}" y2="${gridY + 7 * (CELL + GAP) + 6}" stroke="${t.cardStroke}"/>
     <line x1="${gridX}" y1="${H - 68}" x2="${W - gridX}" y2="${H - 68}" stroke="${t.cardStroke}"/>
-    <text x="${rightX}" y="36" font-size="11" font-weight="700" letter-spacing=".5" fill="${t.faint}">${gh?.repos ? `LANGUAGES · ${gh.repos} REPOS${gh.privateRepos ? " INCL. PRIVATE" : ""}` : "LANGUAGES"}</text>
-    ${languageBars(gh?.languages, t, rightX, 58, rightW)}
+    <text x="${rightX}" y="36" font-size="11" font-weight="700" letter-spacing=".5" fill="${t.faint}">${
+      stats.languages.curated
+        ? 'LANGUAGES · PROFICIENCY'
+        : gh?.repos
+          ? `LANGUAGES · ${gh.repos} REPOS${gh.privateRepos ? ' INCL. PRIVATE' : ''}`
+          : 'LANGUAGES'
+    }</text>
+    ${languageBars(stats.languages.list, t, rightX, 58, rightW)}
   </g>
 </svg>
 `;

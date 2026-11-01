@@ -150,7 +150,7 @@ const languages = config.languages?.length
         .filter((l) => l.share != null),
     }
   : { curated: false, list: github?.languages ?? [] };
-const stats = { packages, github, totals, releasesLast90, weeks, spark, streak, languages, builtAt: now.toISOString() };
+const stats = { packages, github, totals, releasesLast90, weeks, spark, streak, languages, activityStyle: config.activityStyle, builtAt: now.toISOString() };
 
 // 3. Render. Every asset is written under a content-hashed file name
 // (hero-dark.3f2a1c9e.svg) so GitHub's image proxy and browsers can never

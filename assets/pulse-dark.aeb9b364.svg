@@ -87,7 +87,7 @@
     </g>
     <g class="rise" style="animation-delay:0.70s">
       <rect x="808.8" y="158" width="34" height="6" rx="4" fill="#c0392b" class="bar" style="animation-delay:0.75s"/>
-      <text x="825.8" y="150" text-anchor="middle" font-size="10.5" class="mono" fill="#857a76">179</text>
+      <text x="825.8" y="150" text-anchor="middle" font-size="10.5" class="mono" fill="#857a76">181</text>
       <text x="825.8" y="182" text-anchor="middle" font-size="11" fill="#857a76">Nov</text>
       
     </g>

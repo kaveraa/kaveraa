@@ -150,7 +150,9 @@ const languages = config.languages?.length
         .filter((l) => l.share != null),
     }
   : { curated: false, list: github?.languages ?? [] };
-const stats = { packages, github, totals, releasesLast90, weeks, spark, streak, languages, activityStyle: config.activityStyle, builtAt: now.toISOString() };
+// The ASCII portrait used by the neofetch hero, when one has been generated.
+const portrait = existsSync(rel('data/portrait.txt')) ? await readFile(rel('data/portrait.txt'), 'utf8') : null;
+const stats = { packages, github, totals, releasesLast90, weeks, spark, streak, languages, portrait, activityStyle: config.activityStyle, builtAt: now.toISOString() };
 
 // 3. Render. Every asset is written under a content-hashed file name
 // (hero-dark.3f2a1c9e.svg) so GitHub's image proxy and browsers can never

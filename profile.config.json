@@ -4,6 +4,12 @@
   "firstName": "Augustin",
   "title": "Full-stack developer",
   "location": "Auvergne, France",
+  "system": {
+    "Uptime": "7+ years in production",
+    "Back-end": "PHP, Laravel, Symfony, Node.js",
+    "Front-end": "TypeScript, Vue 3, React",
+    "Languages.Real": "French, English"
+  },
   "website": "https://augustin-kavera.fr",
   "typewriter": [
     "I build line-of-business apps for the public sector.",
@@ -145,7 +151,7 @@
       "summary": "Prepare a user-picked photo for upload: decode HEIC, apply camera orientation, resize and strip GPS location."
     }
   ],
-  "heroStyle": "terminal-system",
+  "heroStyle": "neofetch",
   "packageStyle": "shell",
   "shippingStyle": "gitlog",
   "stackStyle": "tree",

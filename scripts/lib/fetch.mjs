@@ -94,6 +94,7 @@ const CONTRIBUTIONS_QUERY = `
       contributionsCollection {
         contributionYears
         totalCommitContributions
+        restrictedContributionsCount
         contributionCalendar {
           totalContributions
           weeks { contributionDays { date contributionCount } }
@@ -217,7 +218,7 @@ export async function fetchGitHub(login, token, extraRepos = []) {
     // All-time totals: one contributionsCollection per year, in a single request.
     const years = user.contributionsCollection.contributionYears ?? [];
     const yearQuery = `query($login: String!) { user(login: $login) { ${years
-      .map((y) => `y${y}: contributionsCollection(from: "${y}-01-01T00:00:00Z", to: "${y}-12-31T23:59:59Z") { totalCommitContributions contributionCalendar { totalContributions } }`)
+      .map((y) => `y${y}: contributionsCollection(from: "${y}-01-01T00:00:00Z", to: "${y}-12-31T23:59:59Z") { totalCommitContributions restrictedContributionsCount contributionCalendar { totalContributions } }`)
       .join(' ')} } }`;
     let commitsTotal = null;
     let contributionsTotal = null;
@@ -232,7 +233,10 @@ export async function fetchGitHub(login, token, extraRepos = []) {
         commitsTotal = 0;
         contributionsTotal = 0;
         for (const y of years) {
-          commitsTotal += yearly.data.user[`y${y}`].totalCommitContributions;
+          // Commits in repositories the token cannot open (an organisation
+          // that blocks it) only surface as "restricted" contributions, so
+          // they are added back: without them the count misses whole orgs.
+          commitsTotal += yearly.data.user[`y${y}`].totalCommitContributions + yearly.data.user[`y${y}`].restrictedContributionsCount;
           contributionsTotal += yearly.data.user[`y${y}`].contributionCalendar.totalContributions;
         }
       } catch (err) {
@@ -244,7 +248,7 @@ export async function fetchGitHub(login, token, extraRepos = []) {
       .sort((a, b) => b.share - a.share)
       .slice(0, 12);
     return {
-      commits: user.contributionsCollection.totalCommitContributions,
+      commits: user.contributionsCollection.totalCommitContributions + user.contributionsCollection.restrictedContributionsCount,
       contributions: user.contributionsCollection.contributionCalendar.totalContributions,
       commitsTotal,
       contributionsTotal,

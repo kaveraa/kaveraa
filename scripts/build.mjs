@@ -169,7 +169,7 @@ for (const theme of Object.values(themes)) {
     emit(`assets/badges/${badge.id}-${theme.name}.svg`, renderBadge({ badge, theme }));
   }
   for (const pkg of config.packages) {
-    emit(`assets/packages/${pkg.assetId}-${theme.name}.svg`, renderPackage({ pkg, data: packages[pkg.name], theme, now }));
+    emit(`assets/packages/${pkg.assetId}-${theme.name}.svg`, renderPackage({ pkg, data: packages[pkg.name], theme, now, style: config.packageStyle }));
   }
 }
 const wanted = new Set([...assets.values()].map((a) => a.hashed));

@@ -35,7 +35,7 @@ export function systemBlock({ config, stats, theme: t, x: originX = 44, y: origi
   // Logo: last 8 weeks of the contribution grid, as big cells.
   const weeks = (stats.weeks ?? []).slice(-8);
   const max = Math.max(1, ...weeks.flat().map((d) => d?.count ?? 0));
-  const cell = 18;
+  const cell = 16;
   const gap = 5;
   const logoX = originX;
   const logoY = originY;
@@ -50,7 +50,7 @@ export function systemBlock({ config, stats, theme: t, x: originX = 44, y: origi
   );
   const logoW = weeks.length * (cell + gap) - gap;
 
-  const textX = logoX + logoW + 48;
+  const textX = logoX + logoW + 40;
   let y = originY + 14;
   let time = start;
   const lines = [];

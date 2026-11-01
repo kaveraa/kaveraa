@@ -13,6 +13,7 @@ import { renderActivity } from './lib/render-activity.mjs';
 import { renderBadge } from './lib/render-badge.mjs';
 import { renderHero } from './lib/render-hero.mjs';
 import { renderPackage } from './lib/render-package.mjs';
+import { renderPulse } from './lib/render-pulse.mjs';
 import { renderStack } from './lib/render-stack.mjs';
 import { themes } from './lib/theme.mjs';
 import { dayKey } from './lib/util.mjs';
@@ -163,6 +164,7 @@ for (const theme of Object.values(themes)) {
   emit(`assets/hero-${theme.name}.svg`, renderHero({ config, stats, theme }));
   emit(`assets/activity-${theme.name}.svg`, renderActivity({ stats, theme }));
   emit(`assets/stack-${theme.name}.svg`, renderStack({ config, theme }));
+  emit(`assets/pulse-${theme.name}.svg`, renderPulse({ config, stats, theme, now }));
   for (const badge of config.badges ?? []) {
     emit(`assets/badges/${badge.id}-${theme.name}.svg`, renderBadge({ badge, theme }));
   }

@@ -113,7 +113,51 @@ const CONTRIBUTIONS_QUERY = `
   }
 `;
 
-export async function fetchGitHub(login, token) {
+// Repositories named in config.extraRepos are fetched one by one, so a repo
+// the "contributed to" list misses (organisation, old contribution) still
+// counts. A repo the token cannot see is skipped with a warning.
+async function fetchExtraRepos(extraRepos, token) {
+  if (!extraRepos?.length) return [];
+  const aliases = extraRepos.map((full, i) => {
+    const [owner, name] = full.split('/');
+    return `r${i}: repository(owner: ${JSON.stringify(owner)}, name: ${JSON.stringify(name)}) { ...repoFields }`;
+  });
+  const query = `${CONTRIBUTIONS_QUERY.split('query(')[0]} query { ${aliases.join(' ')} }`;
+  const { data, errors } = await getJson('https://api.github.com/graphql', {
+    method: 'POST',
+    body: JSON.stringify({ query }),
+    headers: { authorization: `bearer ${token}`, 'content-type': 'application/json' },
+  });
+  for (const e of errors ?? []) warn('github extra repo', e);
+  return extraRepos.map((full, i) => data?.[`r${i}`] ?? null).filter(Boolean);
+}
+
+// Logs what the token can see, as counts only (never private repo names),
+// to diagnose an organisation repository that does not resolve.
+async function logTokenScope(extraRepos, token) {
+  const owners = [...new Set(extraRepos.map((full) => full.split('/')[0]))];
+  const aliases = owners.map(
+    (o, i) => `o${i}: organization(login: ${JSON.stringify(o)}) { login viewerIsAMember repositories(first: 1, privacy: PRIVATE) { totalCount } }`,
+  );
+  try {
+    const { data, errors } = await getJson('https://api.github.com/graphql', {
+      method: 'POST',
+      body: JSON.stringify({ query: `query { viewer { login organizations(first: 100) { totalCount } } ${aliases.join(' ')} }` }),
+      headers: { authorization: `bearer ${token}`, 'content-type': 'application/json' },
+    });
+    const kind = token.startsWith('ghp_') ? 'classic' : token.startsWith('github_pat_') ? 'fine-grained' : token.startsWith('ghs_') ? 'actions' : 'unknown';
+    console.log(`  token user: ${data?.viewer?.login ?? '?'}, token type: ${kind}, organisations visible: ${data?.viewer?.organizations?.totalCount ?? '?'}`);
+    owners.forEach((o, i) => {
+      const org = data?.[`o${i}`];
+      if (org) console.log(`  org ${o}: visible, member=${org.viewerIsAMember}, private repos visible=${org.repositories.totalCount}`);
+      else console.log(`  org ${o}: not visible (${errors?.find((e) => e.path?.[0] === `o${i}`)?.message ?? 'no data'})`);
+    });
+  } catch (err) {
+    warn('token scope', err);
+  }
+}
+
+export async function fetchGitHub(login, token, extraRepos = []) {
   if (!token) {
     console.warn('  ! GITHUB_TOKEN not set, skipping GitHub data');
     return null;
@@ -132,9 +176,16 @@ export async function fetchGitHub(login, token) {
     );
     // Owned repositories plus every repository the user contributed to
     // (private ones included when the token can see them), deduplicated.
+    console.log(`  repositories: owned=${user.repositories.nodes.length}, contributed to=${user.contributed.nodes.length}`);
     const repos = new Map();
     for (const repo of [...user.repositories.nodes, ...user.contributed.nodes]) {
       if (repo && !repo.isFork) repos.set(repo.nameWithOwner, repo);
+    }
+    if (extraRepos.length) await logTokenScope(extraRepos, token);
+    for (const repo of await fetchExtraRepos(extraRepos, token)) repos.set(repo.nameWithOwner, repo);
+    const known = new Set([...repos.keys()].map((k) => k.toLowerCase()));
+    for (const full of extraRepos) {
+      if (!known.has(full.toLowerCase())) console.warn(`  ! extra repo ${full} not visible to the token`);
     }
     // Each repository weighs the same: its languages are normalised to shares
     // first, then averaged. A single project with huge compiled assets can
@@ -186,7 +237,7 @@ export async function fetchGitHub(login, token) {
     const totalBytes = [...languageBytes.values()].reduce((a, b) => a + b, 0) || 1;
     const languages = [...languageBytes.entries()]
       .sort((a, b) => b[1] - a[1])
-      .slice(0, 5)
+      .slice(0, 8)
       .map(([name, bytes]) => ({ name, share: bytes / totalBytes }));
     return {
       commits: user.contributionsCollection.totalCommitContributions,

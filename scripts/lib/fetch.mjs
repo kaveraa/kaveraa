@@ -203,10 +203,15 @@ export async function fetchGitHub(login, token, extraRepos = []) {
         repo.languages.edges.map((e) => [e.node.name, Number((e.size / total).toFixed(4))]),
       );
     }
-    const languageBytes = new Map();
+    // A language's value is its average share across the repositories that
+    // use it, not across every repository: "when I use it, how much of the
+    // project is it" rather than "how often do I use it".
+    const languageSum = new Map();
+    const languageCount = new Map();
     for (const shares of Object.values(perRepo)) {
       for (const [name, share] of Object.entries(shares)) {
-        languageBytes.set(name, (languageBytes.get(name) ?? 0) + share);
+        languageSum.set(name, (languageSum.get(name) ?? 0) + share);
+        languageCount.set(name, (languageCount.get(name) ?? 0) + 1);
       }
     }
     // All-time totals: one contributionsCollection per year, in a single request.
@@ -234,11 +239,10 @@ export async function fetchGitHub(login, token, extraRepos = []) {
         warn('github all-time totals', err);
       }
     }
-    const totalBytes = [...languageBytes.values()].reduce((a, b) => a + b, 0) || 1;
-    const languages = [...languageBytes.entries()]
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 8)
-      .map(([name, bytes]) => ({ name, share: bytes / totalBytes }));
+    const languages = [...languageSum.entries()]
+      .map(([name, sum]) => ({ name, share: sum / languageCount.get(name), repos: languageCount.get(name) }))
+      .sort((a, b) => b.share - a.share)
+      .slice(0, 12);
     return {
       commits: user.contributionsCollection.totalCommitContributions,
       contributions: user.contributionsCollection.contributionCalendar.totalContributions,

@@ -5,7 +5,7 @@ on:
     - cron: "17 5 * * *"
   workflow_dispatch:
   push:
-    branches: [main, feature/elegant-hamilton-no06nj]
+    branches: [main]
     paths:
       - profile.config.json
       - scripts/**

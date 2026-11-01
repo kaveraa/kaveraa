@@ -71,6 +71,14 @@
       "Sentry"
     ]
   },
+  "stackSummary": [
+    "PHP",
+    "Laravel/Symfony",
+    "Vue/React",
+    "TypeScript",
+    "Node.js",
+    "PostgreSQL"
+  ],
   "languages": [
     {
       "name": "PHP",

@@ -18,7 +18,9 @@ const mono = (text, x, y, fill, weight = 400) =>
 // Returns the markup, its height and the time at which its animation ends.
 export function systemBlock({ config, stats, theme: t, x: originX = 44, y: originY = 62, start = 0.7 }) {
   const gh = stats.github;
-  const stack = Object.values(config.stack ?? {}).flat().slice(0, 6).join(' · ');
+  // stackSummary is the short, grouped line for the card; the full stack
+  // block lives further down the page.
+  const stack = (config.stackSummary ?? Object.values(config.stack ?? {}).flat().slice(0, 6)).join(' · ');
   const rows = [
     ['role', config.title.toLowerCase()],
     ['location', config.location],

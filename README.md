@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.39e97bdd.svg">
-    <img src="assets/hero-light.b89eea50.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.de2c8706.svg">
+    <img src="assets/hero-light.444c1ff2.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
   </picture>
   <p>
     <a href="https://augustin-kavera.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/site-dark.e9f3b2af.svg"><img src="assets/badges/site-light.f2d4aafc.svg" alt="site: augustin-kavera.fr" height="24"></picture></a>

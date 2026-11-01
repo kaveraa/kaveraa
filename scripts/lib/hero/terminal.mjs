@@ -17,7 +17,7 @@ const mono = (text, x, y, fill, extra = '') =>
   `<text class="mono" x="${x}" y="${y}" font-size="${SIZE}" fill="${fill}" textLength="${(text.length * CHAR).toFixed(1)}" lengthAdjust="spacingAndGlyphs" ${extra}>${esc(text)}</text>`;
 
 export function renderHero({ config, stats, theme: t }) {
-  const stackLine = Object.values(config.stack ?? {}).flat().slice(0, 8).join('  ');
+  const stackLine = (config.stackSummary ?? Object.values(config.stack ?? {}).flat().slice(0, 8)).join('  ');
   const metrics = [
     ['packages', config.packages.length],
     ['releases', stats.totals.releases],

@@ -14,6 +14,7 @@ import { renderBadge } from './lib/render-badge.mjs';
 import { renderHero } from './lib/render-hero.mjs';
 import { renderPackage } from './lib/render-package.mjs';
 import { renderPulse } from './lib/render-pulse.mjs';
+import { renderGitLog, renderList, renderTimeline } from './lib/render-shipping.mjs';
 import { renderStack } from './lib/render-stack.mjs';
 import { themes } from './lib/theme.mjs';
 import { dayKey } from './lib/util.mjs';
@@ -194,16 +195,41 @@ const replaceSection = (markdown, name, body) => {
   return markdown.replace(re, `$1\n${body}\n$2`);
 };
 
-const feed = config.packages
+const shipped = config.packages
   .map((pkg) => ({ pkg, data: packages[pkg.name] }))
   .filter(({ data }) => data?.releasedAt)
   .sort((a, b) => new Date(b.data.releasedAt) - new Date(a.data.releasedAt))
   .slice(0, 5)
-  .map(({ pkg, data }) => {
-    const date = data.releasedAt.slice(0, 10);
-    return `| <sub><code>${date}</code></sub> | [**${pkg.name}**](${pkg.repo}) [\`v${data.version}\`](${data.url}) | ${pkg.summary.split(/[:(]/)[0].trim()} |`;
-  });
+  .map(({ pkg, data }) => ({
+    name: pkg.name,
+    version: data.version,
+    releasedAt: data.releasedAt,
+    summary: pkg.summary.split(/[:(]/)[0].trim(),
+    registry: pkg.registry,
+    repo: pkg.repo,
+    url: data.url,
+  }));
+const feed = shipped.map(
+  (e) => `| <sub><code>${e.releasedAt.slice(0, 10)}</code></sub> | [**${e.name}**](${e.repo}) [\`v${e.version}\`](${e.url}) | ${e.summary} |`,
+);
 const feedTable = ['| Released | Package | What shipped |', '| :-- | :-- | :-- |', ...feed].join('\n');
+// Shipping log style: table (default, markdown), list (markdown), gitlog or timeline (SVG).
+const shippingStyle = config.shippingStyle ?? 'table';
+if (shippingStyle === 'gitlog' || shippingStyle === 'timeline') {
+  const render = shippingStyle === 'gitlog' ? renderGitLog : renderTimeline;
+  for (const theme of Object.values(themes)) emit(`assets/shipping-${theme.name}.svg`, render({ entries: shipped, theme, now }));
+  const wanted2 = new Set([...assets.values()].map((a) => a.hashed));
+  for (const file of await readdir(rel('assets'))) {
+    if (file.startsWith('shipping-') && !wanted2.has(`assets/${file}`)) await unlink(rel('assets', file));
+  }
+  for (const [base, { hashed, content }] of assets) if (base.startsWith('assets/shipping-')) await writeFile(rel(hashed), content);
+}
+const shippingBlock =
+  shippingStyle === 'list'
+    ? renderList({ entries: shipped, now })
+    : shippingStyle === 'gitlog' || shippingStyle === 'timeline'
+      ? `<picture>\n  <source media="(prefers-color-scheme: dark)" srcset="assets/shipping-dark.svg">\n  <img src="assets/shipping-light.svg" alt="Latest releases: ${shipped.map((e) => `${e.name} ${e.version}`).join(', ')}" width="100%">\n</picture>`
+      : feedTable;
 
 const card = (pkg) =>
   `    <td width="50%"><a href="${pkg.repo}"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/${pkg.assetId}-dark.svg"><img src="assets/packages/${pkg.assetId}-light.svg" alt="${pkg.name}: ${pkg.summary.replace(/"/g, '&quot;')}" width="100%"></picture></a></td>`;
@@ -227,7 +253,7 @@ const packagesBlock = pages
   .join('\n\n');
 
 let readme = await readFile(rel('README.md'), 'utf8');
-readme = replaceSection(readme, 'shipping-log', feedTable);
+readme = replaceSection(readme, 'shipping-log', shippingBlock);
 readme = replaceSection(readme, 'packages', packagesBlock);
 
 // Point every asset reference in the README at the current hashed file.

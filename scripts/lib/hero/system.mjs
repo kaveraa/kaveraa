@@ -18,7 +18,9 @@ const mono = (text, x, y, fill, weight = 400) =>
 // Returns the markup, its height and the time at which its animation ends.
 export function systemBlock({ config, stats, theme: t, x: originX = 44, y: originY = 62, start = 0.7 }) {
   const gh = stats.github;
-  const stack = Object.values(config.stack ?? {}).flat().slice(0, 6).join(' · ');
+  // stackSummary is the short, grouped line for the card; the full stack
+  // block lives further down the page.
+  const stack = (config.stackSummary ?? Object.values(config.stack ?? {}).flat().slice(0, 6)).join(' · ');
   const rows = [
     ['role', config.title.toLowerCase()],
     ['location', config.location],
@@ -33,7 +35,7 @@ export function systemBlock({ config, stats, theme: t, x: originX = 44, y: origi
   // Logo: last 8 weeks of the contribution grid, as big cells.
   const weeks = (stats.weeks ?? []).slice(-8);
   const max = Math.max(1, ...weeks.flat().map((d) => d?.count ?? 0));
-  const cell = 18;
+  const cell = 16;
   const gap = 5;
   const logoX = originX;
   const logoY = originY;
@@ -48,7 +50,7 @@ export function systemBlock({ config, stats, theme: t, x: originX = 44, y: origi
   );
   const logoW = weeks.length * (cell + gap) - gap;
 
-  const textX = logoX + logoW + 48;
+  const textX = logoX + logoW + 40;
   let y = originY + 14;
   let time = start;
   const lines = [];

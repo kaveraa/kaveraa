@@ -76,8 +76,7 @@
     "Laravel/Symfony",
     "Vue/React",
     "TypeScript",
-    "Node.js",
-    "PostgreSQL"
+    "Node.js"
   ],
   "languages": [
     {

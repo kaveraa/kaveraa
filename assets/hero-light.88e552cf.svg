@@ -105,7 +105,7 @@
     </g>
     <g class="out" style="animation-delay:1.77s">
       <text class="mono" x="263" y="210" font-size="13.5" font-weight="400" fill="#a93226" textLength="40.5" lengthAdjust="spacingAndGlyphs">stack</text>
-      <text class="mono" x="376.4" y="210" font-size="13.5" font-weight="400" fill="#1c1917" textLength="558.9" lengthAdjust="spacingAndGlyphs">PHP · Laravel/Symfony · Vue/React · TypeScript · Node.js · PostgreSQL</text>
+      <text class="mono" x="376.4" y="210" font-size="13.5" font-weight="400" fill="#1c1917" textLength="453.6" lengthAdjust="spacingAndGlyphs">PHP · Laravel/Symfony · Vue/React · TypeScript · Node.js</text>
     </g>
     <g class="out" style="animation-delay:1.95s">
       <text class="mono" x="263" y="233" font-size="13.5" font-weight="400" fill="#a93226" textLength="64.8" lengthAdjust="spacingAndGlyphs">packages</text>

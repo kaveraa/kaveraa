@@ -71,6 +71,36 @@
       "Sentry"
     ]
   },
+  "languages": [
+    {
+      "name": "PHP",
+      "level": 91
+    },
+    {
+      "name": "JavaScript",
+      "level": 86
+    },
+    {
+      "name": "Vue",
+      "level": 78
+    },
+    {
+      "name": "TypeScript",
+      "level": 72
+    },
+    {
+      "name": "Twig",
+      "level": 64
+    },
+    {
+      "name": "C#",
+      "level": 37
+    },
+    {
+      "name": "Python",
+      "level": 27
+    }
+  ],
   "extraRepos": [],
   "packagesPerPage": 8,
   "packageOverrides": [

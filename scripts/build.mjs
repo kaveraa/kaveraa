@@ -136,7 +136,12 @@ if (github?.days) {
   }
 }
 
-const stats = { packages, github, totals, releasesLast90, weeks, spark, streak, builtAt: now.toISOString() };
+// Languages: self-assessed levels from the config when given, otherwise the
+// share computed from the repositories.
+const languages = config.languages?.length
+  ? { curated: true, list: config.languages.map((l) => ({ name: l.name, share: l.level / 100 })) }
+  : { curated: false, list: github?.languages ?? [] };
+const stats = { packages, github, totals, releasesLast90, weeks, spark, streak, languages, builtAt: now.toISOString() };
 
 // 3. Render. Every asset is written under a content-hashed file name
 // (hero-dark.3f2a1c9e.svg) so GitHub's image proxy and browsers can never

@@ -74,8 +74,8 @@ I build line-of-business applications for the public sector with **Laravel**, **
 ### Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.7bd0bf1b.svg">
-  <img src="assets/activity-light.c99647a0.svg" alt="Contribution heatmap and language breakdown" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.268ac690.svg">
+  <img src="assets/activity-light.5f79999e.svg" alt="Contribution heatmap and language breakdown" width="100%">
 </picture>
 
 ### How I work

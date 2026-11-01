@@ -79,7 +79,7 @@ for (const pkg of pkgList) {
 config.packages = pkgList;
 
 console.log('Fetching GitHub data');
-const github = (await fetchGitHub(config.login, process.env.GITHUB_TOKEN)) ?? previous.github ?? null;
+const github = (await fetchGitHub(config.login, process.env.GITHUB_TOKEN, config.extraRepos ?? [])) ?? previous.github ?? null;
 console.log(`  ${github ? '✓' : '-'} contributions`);
 
 // 2. Derive the numbers the renderers need.

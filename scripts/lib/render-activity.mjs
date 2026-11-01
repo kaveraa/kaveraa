@@ -49,19 +49,29 @@ const monthLabels = (weeks, t, x, y) => {
   return out.join('\n      ');
 };
 
+// Up to eight languages, laid out in two columns of four.
 const languageBars = (languages, t, x, y, w) => {
   if (!languages?.length) return `<text x="${x}" y="${y + 14}" font-size="12" fill="${t.faint}">Language data appears after the first scheduled build.</text>`;
+  const perColumn = 4;
+  const gap = 24;
+  const columns = languages.length > perColumn ? 2 : 1;
+  const colW = (w - gap * (columns - 1)) / columns;
   return languages
+    .slice(0, perColumn * 2)
     .map((lang, i) => {
-      const ly = y + i * 26;
+      const col = Math.floor(i / perColumn);
+      const row = i % perColumn;
+      const lx = x + col * (colW + gap);
+      const ly = y + row * 30;
+      const cw = colW;
       const color = languageColors[lang.name] ?? lang.color ?? t.accent;
-      const barW = Math.max(6, Math.round(w * lang.share));
+      const barW = Math.max(6, Math.round(cw * lang.share));
       return `
-      <g class="rise" style="animation-delay:${(0.3 + i * 0.1).toFixed(2)}s">
-        <text x="${x}" y="${ly + 10}" font-size="12" font-weight="600" fill="${t.text}">${esc(lang.name)}</text>
-        <text x="${x + w}" y="${ly + 10}" text-anchor="end" font-size="11.5" class="mono" fill="${t.faint}">${(lang.share * 100).toFixed(1)}%</text>
-        <rect x="${x}" y="${ly + 15}" width="${w}" height="5" rx="2.5" fill="${t.bar}"/>
-        <rect x="${x}" y="${ly + 15}" width="${barW}" height="5" rx="2.5" fill="${color}" class="grow" style="animation-delay:${(0.5 + i * 0.1).toFixed(2)}s"/>
+      <g class="rise" style="animation-delay:${(0.3 + i * 0.08).toFixed(2)}s">
+        <text x="${lx}" y="${ly + 10}" font-size="12" font-weight="600" fill="${t.text}">${esc(lang.name)}</text>
+        <text x="${lx + cw}" y="${ly + 10}" text-anchor="end" font-size="11.5" class="mono" fill="${t.faint}">${(lang.share * 100).toFixed(1)}%</text>
+        <rect x="${lx}" y="${ly + 15}" width="${cw}" height="5" rx="2.5" fill="${t.bar}"/>
+        <rect x="${lx}" y="${ly + 15}" width="${barW}" height="5" rx="2.5" fill="${color}" class="grow" style="animation-delay:${(0.5 + i * 0.08).toFixed(2)}s"/>
       </g>`;
     })
     .join('');

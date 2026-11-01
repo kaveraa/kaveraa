@@ -71,6 +71,7 @@
       "Sentry"
     ]
   },
+  "extraRepos": [],
   "packagesPerPage": 8,
   "packageOverrides": [
     {

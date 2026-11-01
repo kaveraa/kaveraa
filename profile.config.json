@@ -74,31 +74,29 @@
   "languages": [
     {
       "name": "PHP",
-      "level": 91
+      "level": 91.4
     },
     {
       "name": "JavaScript",
-      "level": 86
+      "level": 86.2
     },
     {
       "name": "Vue",
-      "level": 78
+      "level": 78.6
     },
     {
       "name": "TypeScript",
-      "level": 72
+      "level": 72.3
     },
     {
       "name": "Twig",
-      "level": 64
+      "level": 64.8
     },
     {
-      "name": "C#",
-      "level": 37
+      "name": "C#"
     },
     {
-      "name": "Python",
-      "level": 27
+      "name": "Python"
     }
   ],
   "extraRepos": [],

@@ -256,45 +256,45 @@
     
       <g class="rise" style="animation-delay:0.30s">
         <text x="513" y="68" font-size="12" font-weight="600" fill="#faf6f3">PHP</text>
-        <text x="674.5" y="68" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">91%</text>
+        <text x="674.5" y="68" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">91.4%</text>
         <rect x="513" y="73" width="161.5" height="5" rx="2.5" fill="rgba(255,255,255,0.08)"/>
-        <rect x="513" y="73" width="147" height="5" rx="2.5" fill="#c0392b" class="grow" style="animation-delay:0.50s"/>
+        <rect x="513" y="73" width="148" height="5" rx="2.5" fill="#c0392b" class="grow" style="animation-delay:0.50s"/>
       </g>
       <g class="rise" style="animation-delay:0.38s">
         <text x="513" y="98" font-size="12" font-weight="600" fill="#faf6f3">JavaScript</text>
-        <text x="674.5" y="98" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">86%</text>
+        <text x="674.5" y="98" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">86.2%</text>
         <rect x="513" y="103" width="161.5" height="5" rx="2.5" fill="rgba(255,255,255,0.08)"/>
         <rect x="513" y="103" width="139" height="5" rx="2.5" fill="#9cc6bd" class="grow" style="animation-delay:0.58s"/>
       </g>
       <g class="rise" style="animation-delay:0.46s">
         <text x="513" y="128" font-size="12" font-weight="600" fill="#faf6f3">Vue</text>
-        <text x="674.5" y="128" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">78%</text>
+        <text x="674.5" y="128" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">78.6%</text>
         <rect x="513" y="133" width="161.5" height="5" rx="2.5" fill="rgba(255,255,255,0.08)"/>
-        <rect x="513" y="133" width="126" height="5" rx="2.5" fill="#d98b5c" class="grow" style="animation-delay:0.66s"/>
+        <rect x="513" y="133" width="127" height="5" rx="2.5" fill="#d98b5c" class="grow" style="animation-delay:0.66s"/>
       </g>
       <g class="rise" style="animation-delay:0.54s">
         <text x="513" y="158" font-size="12" font-weight="600" fill="#faf6f3">TypeScript</text>
-        <text x="674.5" y="158" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">72%</text>
+        <text x="674.5" y="158" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">72.3%</text>
         <rect x="513" y="163" width="161.5" height="5" rx="2.5" fill="rgba(255,255,255,0.08)"/>
-        <rect x="513" y="163" width="116" height="5" rx="2.5" fill="#6fa89c" class="grow" style="animation-delay:0.74s"/>
+        <rect x="513" y="163" width="117" height="5" rx="2.5" fill="#6fa89c" class="grow" style="animation-delay:0.74s"/>
       </g>
       <g class="rise" style="animation-delay:0.62s">
         <text x="698.5" y="68" font-size="12" font-weight="600" fill="#faf6f3">Twig</text>
-        <text x="860" y="68" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">64%</text>
+        <text x="860" y="68" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">64.8%</text>
         <rect x="698.5" y="73" width="161.5" height="5" rx="2.5" fill="rgba(255,255,255,0.08)"/>
-        <rect x="698.5" y="73" width="103" height="5" rx="2.5" fill="#c98a5c" class="grow" style="animation-delay:0.82s"/>
+        <rect x="698.5" y="73" width="105" height="5" rx="2.5" fill="#c98a5c" class="grow" style="animation-delay:0.82s"/>
       </g>
       <g class="rise" style="animation-delay:0.70s">
         <text x="698.5" y="98" font-size="12" font-weight="600" fill="#faf6f3">C#</text>
-        <text x="860" y="98" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">37%</text>
+        <text x="860" y="98" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">35.1%</text>
         <rect x="698.5" y="103" width="161.5" height="5" rx="2.5" fill="rgba(255,255,255,0.08)"/>
-        <rect x="698.5" y="103" width="60" height="5" rx="2.5" fill="#b86f8c" class="grow" style="animation-delay:0.90s"/>
+        <rect x="698.5" y="103" width="57" height="5" rx="2.5" fill="#b86f8c" class="grow" style="animation-delay:0.90s"/>
       </g>
       <g class="rise" style="animation-delay:0.78s">
         <text x="698.5" y="128" font-size="12" font-weight="600" fill="#faf6f3">Python</text>
-        <text x="860" y="128" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">27%</text>
+        <text x="860" y="128" text-anchor="end" font-size="11.5" class="mono" fill="#857a76">15%</text>
         <rect x="698.5" y="133" width="161.5" height="5" rx="2.5" fill="rgba(255,255,255,0.08)"/>
-        <rect x="698.5" y="133" width="44" height="5" rx="2.5" fill="#d9a35c" class="grow" style="animation-delay:0.98s"/>
+        <rect x="698.5" y="133" width="24" height="5" rx="2.5" fill="#d9a35c" class="grow" style="animation-delay:0.98s"/>
       </g>
   </g>
 </svg>

@@ -258,9 +258,9 @@
   },
   "github": {
     "commits": 465,
-    "contributions": 5834,
+    "contributions": 5835,
     "commitsTotal": 465,
-    "contributionsTotal": 6845,
+    "contributionsTotal": 6846,
     "days": [
       [
         "2025-11-02",
@@ -1720,46 +1720,74 @@
       ],
       [
         "2026-11-01",
-        139
+        140
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.2943485820647563
-      },
-      {
-        "name": "JavaScript",
-        "share": 0.21832428474191354
-      },
-      {
-        "name": "TypeScript",
-        "share": 0.18807844048091413
+        "share": 0.5367411764705882,
+        "repos": 17
       },
       {
         "name": "Vue",
-        "share": 0.16699731929430667
-      },
-      {
-        "name": "HTML",
-        "share": 0.0465462123338269
+        "share": 0.51768,
+        "repos": 10
       },
       {
         "name": "Twig",
-        "share": 0.022642446764926952
+        "share": 0.35095,
+        "repos": 2
       },
       {
         "name": "C#",
-        "share": 0.022632769127044806
+        "share": 0.3508,
+        "repos": 2
+      },
+      {
+        "name": "TypeScript",
+        "share": 0.3429588235294118,
+        "repos": 17
+      },
+      {
+        "name": "JavaScript",
+        "share": 0.3222809523809524,
+        "repos": 21
+      },
+      {
+        "name": "HTML",
+        "share": 0.20612857142857144,
+        "repos": 7
       },
       {
         "name": "Python",
-        "share": 0.014529360340394783
+        "share": 0.1501333333333333,
+        "repos": 3
+      },
+      {
+        "name": "Shell",
+        "share": 0.04638,
+        "repos": 5
+      },
+      {
+        "name": "CSS",
+        "share": 0.029233333333333333,
+        "repos": 12
+      },
+      {
+        "name": "Blade",
+        "share": 0.021840000000000002,
+        "repos": 10
+      },
+      {
+        "name": "PowerShell",
+        "share": 0.0014,
+        "repos": 1
       }
     ],
     "stars": 0,
     "repos": 32,
     "privateRepos": 20
   },
-  "builtAt": "2026-11-01T15:23:07.441Z"
+  "builtAt": "2026-11-01T15:30:33.968Z"
 }

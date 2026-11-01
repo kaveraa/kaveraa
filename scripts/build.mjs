@@ -136,10 +136,17 @@ if (github?.days) {
   }
 }
 
-// Languages: self-assessed levels from the config when given, otherwise the
-// share computed from the repositories.
+// Languages: the config lists what to show. An entry with a level is a
+// self-assessed score; an entry without one takes the share computed from
+// the repositories. Without the key, the computed list is shown as is.
+const computedShare = (name) => github?.languages?.find((l) => l.name.toLowerCase() === name.toLowerCase())?.share;
 const languages = config.languages?.length
-  ? { curated: true, list: config.languages.map((l) => ({ name: l.name, share: l.level / 100 })) }
+  ? {
+      curated: true,
+      list: config.languages
+        .map((l) => ({ name: l.name, share: l.level != null ? l.level / 100 : computedShare(l.name) }))
+        .filter((l) => l.share != null),
+    }
   : { curated: false, list: github?.languages ?? [] };
 const stats = { packages, github, totals, releasesLast90, weeks, spark, streak, languages, builtAt: now.toISOString() };
 

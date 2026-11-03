@@ -144,33 +144,6 @@
       "id": "kaveraa/unaccent-search",
       "name": "unaccent-search"
     },
-    "keycloak-sanctum-vue": {
-      "description": "Vue 3 client for Keycloak login (SSO) with a Laravel API: Sanctum token, user, roles, router guard, authenticated fetch and inactivity logout.",
-      "keywords": [
-        "vue",
-        "vue3",
-        "keycloak",
-        "sanctum",
-        "laravel",
-        "sso",
-        "oidc",
-        "authentication",
-        "vue-router"
-      ],
-      "repo": "git+https://github.com/kaveraa/keycloak-sanctum-vue.git",
-      "language": "TypeScript",
-      "version": "1.1.0",
-      "releasedAt": "2026-10-08T10:29:31.566Z",
-      "releases": 5,
-      "downloads": 455,
-      "period": "month",
-      "monthly": 455,
-      "stars": null,
-      "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
-      "registry": "npm",
-      "id": "@kaveraa/keycloak-sanctum-vue",
-      "name": "keycloak-sanctum-vue"
-    },
     "prepare-image": {
       "description": "Turn the photo someone just picked into an image you can upload: HEIC converted, orientation applied, resized, and location metadata removed.",
       "keywords": [
@@ -191,14 +164,41 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:27:18.844Z",
       "releases": 4,
-      "downloads": 402,
+      "downloads": 237,
       "period": "month",
-      "monthly": 402,
+      "monthly": 237,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
       "id": "@kaveraa/prepare-image",
       "name": "prepare-image"
+    },
+    "keycloak-sanctum-vue": {
+      "description": "Vue 3 client for Keycloak login (SSO) with a Laravel API: Sanctum token, user, roles, router guard, authenticated fetch and inactivity logout.",
+      "keywords": [
+        "vue",
+        "vue3",
+        "keycloak",
+        "sanctum",
+        "laravel",
+        "sso",
+        "oidc",
+        "authentication",
+        "vue-router"
+      ],
+      "repo": "git+https://github.com/kaveraa/keycloak-sanctum-vue.git",
+      "language": "TypeScript",
+      "version": "1.1.0",
+      "releasedAt": "2026-10-08T10:29:31.566Z",
+      "releases": 5,
+      "downloads": 259,
+      "period": "month",
+      "monthly": 259,
+      "stars": null,
+      "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
+      "registry": "npm",
+      "id": "@kaveraa/keycloak-sanctum-vue",
+      "name": "keycloak-sanctum-vue"
     },
     "site-audit": {
       "description": "Audit a website you own from the command line: SEO, security headers, TLS and known vulnerabilities, with a fix for every finding.",
@@ -219,9 +219,9 @@
       "version": "0.1.0",
       "releasedAt": "2026-10-08T12:51:17.385Z",
       "releases": 1,
-      "downloads": 317,
+      "downloads": 322,
       "period": "month",
-      "monthly": 317,
+      "monthly": 322,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
       "registry": "npm",
@@ -246,9 +246,9 @@
       "version": "0.1.2",
       "releasedAt": "2026-10-08T10:38:05.078Z",
       "releases": 2,
-      "downloads": 316,
+      "downloads": 235,
       "period": "month",
-      "monthly": 316,
+      "monthly": 235,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
@@ -1725,17 +1725,21 @@
       [
         "2026-11-02",
         0
+      ],
+      [
+        "2026-11-03",
+        0
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.5367411764705882,
+        "share": 0.5365882352941176,
         "repos": 17
       },
       {
         "name": "Vue",
-        "share": 0.51768,
+        "share": 0.51799,
         "repos": 10
       },
       {
@@ -1755,7 +1759,7 @@
       },
       {
         "name": "JavaScript",
-        "share": 0.3238857142857143,
+        "share": 0.3238809523809523,
         "repos": 21
       },
       {
@@ -1775,7 +1779,7 @@
       },
       {
         "name": "CSS",
-        "share": 0.029233333333333333,
+        "share": 0.0292,
         "repos": 12
       },
       {
@@ -1793,5 +1797,5 @@
     "repos": 32,
     "privateRepos": 20
   },
-  "builtAt": "2026-11-02T13:26:53.831Z"
+  "builtAt": "2026-11-03T12:44:55.896Z"
 }

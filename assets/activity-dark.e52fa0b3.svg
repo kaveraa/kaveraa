@@ -28,7 +28,7 @@
       <text x="262.5" y="96" font-size="10.5" font-weight="600" letter-spacing=".3" fill="#857a76">CONTRIBUTIONS · ALL TIME</text>
     </g><g class="rise" style="animation-delay:0.26s">
       <rect x="457.0" y="32" width="198.5" height="84" rx="14" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.10)"/>
-      <text x="475.0" y="74" font-size="26" font-weight="800" letter-spacing="-.5" fill="#faf6f3">1</text>
+      <text x="475.0" y="74" font-size="26" font-weight="800" letter-spacing="-.5" fill="#faf6f3">0</text>
       <text x="475.0" y="96" font-size="10.5" font-weight="600" letter-spacing=".3" fill="#857a76">CURRENT STREAK · DAYS</text>
     </g><g class="rise" style="animation-delay:0.34s">
       <rect x="669.5" y="32" width="198.5" height="84" rx="14" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.10)"/>

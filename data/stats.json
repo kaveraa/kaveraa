@@ -23,7 +23,7 @@
       "releases": 7,
       "downloads": 9,
       "period": "total",
-      "monthly": 2,
+      "monthly": 0,
       "stars": 0,
       "url": "https://packagist.org/packages/kaveraa/api-gouv-publique-fr",
       "registry": "packagist",
@@ -52,7 +52,7 @@
       "releases": 5,
       "downloads": 7,
       "period": "total",
-      "monthly": 2,
+      "monthly": 1,
       "stars": 0,
       "url": "https://packagist.org/packages/kaveraa/data-lifecycle",
       "registry": "packagist",
@@ -80,7 +80,7 @@
       "releases": 5,
       "downloads": 4,
       "period": "total",
-      "monthly": 1,
+      "monthly": 0,
       "stars": 0,
       "url": "https://packagist.org/packages/kaveraa/laravel-keycloak-sanctum",
       "registry": "packagist",
@@ -109,7 +109,7 @@
       "releases": 5,
       "downloads": 9,
       "period": "total",
-      "monthly": 1,
+      "monthly": 0,
       "stars": 0,
       "url": "https://packagist.org/packages/kaveraa/slug-history",
       "registry": "packagist",
@@ -137,7 +137,7 @@
       "releases": 8,
       "downloads": 8,
       "period": "total",
-      "monthly": 2,
+      "monthly": 1,
       "stars": 0,
       "url": "https://packagist.org/packages/kaveraa/unaccent-search",
       "registry": "packagist",
@@ -163,9 +163,9 @@
       "version": "0.1.0",
       "releasedAt": "2026-10-08T12:51:17.385Z",
       "releases": 1,
-      "downloads": 326,
+      "downloads": 328,
       "period": "month",
-      "monthly": 326,
+      "monthly": 328,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
       "registry": "npm",
@@ -190,9 +190,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:29:31.566Z",
       "releases": 5,
-      "downloads": 251,
+      "downloads": 246,
       "period": "month",
-      "monthly": 251,
+      "monthly": 246,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
       "registry": "npm",
@@ -219,9 +219,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:27:18.844Z",
       "releases": 4,
-      "downloads": 232,
+      "downloads": 230,
       "period": "month",
-      "monthly": 232,
+      "monthly": 230,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
@@ -1741,17 +1741,21 @@
       [
         "2026-11-06",
         0
+      ],
+      [
+        "2026-11-07",
+        0
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.5365529411764706,
+        "share": 0.5365882352941176,
         "repos": 17
       },
       {
         "name": "Vue",
-        "share": 0.51877,
+        "share": 0.5186499999999999,
         "repos": 10
       },
       {
@@ -1761,7 +1765,7 @@
       },
       {
         "name": "TypeScript",
-        "share": 0.3265833333333334,
+        "share": 0.32662222222222226,
         "repos": 18
       },
       {
@@ -1771,12 +1775,12 @@
       },
       {
         "name": "JavaScript",
-        "share": 0.3221619047619047,
+        "share": 0.3218238095238095,
         "repos": 21
       },
       {
         "name": "HTML",
-        "share": 0.20827142857142858,
+        "share": 0.20761428571428572,
         "repos": 7
       },
       {
@@ -1786,12 +1790,12 @@
       },
       {
         "name": "Python",
-        "share": 0.14453333333333332,
+        "share": 0.14843333333333333,
         "repos": 3
       },
       {
         "name": "CSS",
-        "share": 0.028983333333333333,
+        "share": 0.028975,
         "repos": 12
       },
       {
@@ -1809,5 +1813,5 @@
     "repos": 32,
     "privateRepos": 20
   },
-  "builtAt": "2026-11-06T12:54:50.518Z"
+  "builtAt": "2026-11-07T11:41:27.337Z"
 }

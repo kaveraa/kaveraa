@@ -144,33 +144,32 @@
       "id": "kaveraa/unaccent-search",
       "name": "unaccent-search"
     },
-    "site-audit": {
-      "description": "Audit a website you own from the command line: SEO, security headers, TLS and known vulnerabilities, with a fix for every finding.",
+    "keycloak-sanctum-vue": {
+      "description": "Vue 3 client for Keycloak login (SSO) with a Laravel API: Sanctum token, user, roles, router guard, authenticated fetch and inactivity logout.",
       "keywords": [
-        "seo",
-        "security",
-        "audit",
-        "headers",
-        "tls",
-        "csp",
-        "hsts",
-        "vulnerabilities",
-        "osv",
-        "cli"
+        "vue",
+        "vue3",
+        "keycloak",
+        "sanctum",
+        "laravel",
+        "sso",
+        "oidc",
+        "authentication",
+        "vue-router"
       ],
-      "repo": "git+https://github.com/kaveraa/site-audit.git",
-      "language": "JavaScript",
-      "version": "0.1.0",
-      "releasedAt": "2026-10-08T12:51:17.385Z",
-      "releases": 1,
-      "downloads": 69,
+      "repo": "git+https://github.com/kaveraa/keycloak-sanctum-vue.git",
+      "language": "TypeScript",
+      "version": "1.1.0",
+      "releasedAt": "2026-10-08T10:29:31.566Z",
+      "releases": 5,
+      "downloads": 57,
       "period": "month",
-      "monthly": 69,
+      "monthly": 57,
       "stars": null,
-      "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
+      "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
       "registry": "npm",
-      "id": "@kaveraa/site-audit",
-      "name": "site-audit"
+      "id": "@kaveraa/keycloak-sanctum-vue",
+      "name": "keycloak-sanctum-vue"
     },
     "prepare-image": {
       "description": "Turn the photo someone just picked into an image you can upload: HEIC converted, orientation applied, resized, and location metadata removed.",
@@ -192,41 +191,42 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:27:18.844Z",
       "releases": 4,
-      "downloads": 53,
+      "downloads": 45,
       "period": "month",
-      "monthly": 53,
+      "monthly": 45,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
       "id": "@kaveraa/prepare-image",
       "name": "prepare-image"
     },
-    "keycloak-sanctum-vue": {
-      "description": "Vue 3 client for Keycloak login (SSO) with a Laravel API: Sanctum token, user, roles, router guard, authenticated fetch and inactivity logout.",
+    "site-audit": {
+      "description": "Audit a website you own from the command line: SEO, security headers, TLS and known vulnerabilities, with a fix for every finding.",
       "keywords": [
-        "vue",
-        "vue3",
-        "keycloak",
-        "sanctum",
-        "laravel",
-        "sso",
-        "oidc",
-        "authentication",
-        "vue-router"
+        "seo",
+        "security",
+        "audit",
+        "headers",
+        "tls",
+        "csp",
+        "hsts",
+        "vulnerabilities",
+        "osv",
+        "cli"
       ],
-      "repo": "git+https://github.com/kaveraa/keycloak-sanctum-vue.git",
-      "language": "TypeScript",
-      "version": "1.1.0",
-      "releasedAt": "2026-10-08T10:29:31.566Z",
-      "releases": 5,
-      "downloads": 61,
+      "repo": "git+https://github.com/kaveraa/site-audit.git",
+      "language": "JavaScript",
+      "version": "0.1.0",
+      "releasedAt": "2026-10-08T12:51:17.385Z",
+      "releases": 1,
+      "downloads": 63,
       "period": "month",
-      "monthly": 61,
+      "monthly": 63,
       "stars": null,
-      "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
+      "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
       "registry": "npm",
-      "id": "@kaveraa/keycloak-sanctum-vue",
-      "name": "keycloak-sanctum-vue"
+      "id": "@kaveraa/site-audit",
+      "name": "site-audit"
     },
     "followtheme": {
       "description": "A scoped theme follows the overlays it opens: dialogs, popovers and toasts portalled to body keep the theme of the section that opened them. React, Vue, any portal library.",
@@ -246,9 +246,9 @@
       "version": "0.1.2",
       "releasedAt": "2026-10-08T10:38:05.078Z",
       "releases": 2,
-      "downloads": 43,
+      "downloads": 37,
       "period": "month",
-      "monthly": 43,
+      "monthly": 37,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
@@ -1725,17 +1725,21 @@
       [
         "2026-11-09",
         0
+      ],
+      [
+        "2026-11-10",
+        0
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.5365823529411765,
+        "share": 0.5366235294117646,
         "repos": 17
       },
       {
         "name": "Vue",
-        "share": 0.5186599999999999,
+        "share": 0.51865,
         "repos": 10
       },
       {
@@ -1745,12 +1749,12 @@
       },
       {
         "name": "TypeScript",
-        "share": 0.3308222222222223,
+        "share": 0.33081111111111117,
         "repos": 18
       },
       {
         "name": "JavaScript",
-        "share": 0.3243523809523809,
+        "share": 0.3243428571428571,
         "repos": 21
       },
       {
@@ -1775,7 +1779,7 @@
       },
       {
         "name": "CSS",
-        "share": 0.02896666666666667,
+        "share": 0.028958333333333336,
         "repos": 12
       },
       {
@@ -1793,5 +1797,5 @@
     "repos": 32,
     "privateRepos": 20
   },
-  "builtAt": "2026-11-09T13:50:27.317Z"
+  "builtAt": "2026-11-10T13:25:56.498Z"
 }

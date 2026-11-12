@@ -144,63 +144,6 @@
       "id": "kaveraa/unaccent-search",
       "name": "unaccent-search"
     },
-    "site-audit": {
-      "description": "Audit a website you own from the command line: SEO, security headers, TLS and known vulnerabilities, with a fix for every finding.",
-      "keywords": [
-        "seo",
-        "security",
-        "audit",
-        "headers",
-        "tls",
-        "csp",
-        "hsts",
-        "vulnerabilities",
-        "osv",
-        "cli"
-      ],
-      "repo": "git+https://github.com/kaveraa/site-audit.git",
-      "language": "JavaScript",
-      "version": "0.1.0",
-      "releasedAt": "2026-10-08T12:51:17.385Z",
-      "releases": 1,
-      "downloads": 53,
-      "period": "month",
-      "monthly": 53,
-      "stars": null,
-      "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
-      "registry": "npm",
-      "id": "@kaveraa/site-audit",
-      "name": "site-audit"
-    },
-    "prepare-image": {
-      "description": "Turn the photo someone just picked into an image you can upload: HEIC converted, orientation applied, resized, and location metadata removed.",
-      "keywords": [
-        "image",
-        "upload",
-        "heic",
-        "exif",
-        "orientation",
-        "resize",
-        "compress",
-        "webp",
-        "privacy",
-        "gps",
-        "browser"
-      ],
-      "repo": "git+https://github.com/kaveraa/prepare-image.git",
-      "language": "TypeScript",
-      "version": "1.1.0",
-      "releasedAt": "2026-10-08T10:27:18.844Z",
-      "releases": 4,
-      "downloads": 43,
-      "period": "month",
-      "monthly": 43,
-      "stars": null,
-      "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
-      "registry": "npm",
-      "id": "@kaveraa/prepare-image",
-      "name": "prepare-image"
-    },
     "keycloak-sanctum-vue": {
       "description": "Vue 3 client for Keycloak login (SSO) with a Laravel API: Sanctum token, user, roles, router guard, authenticated fetch and inactivity logout.",
       "keywords": [
@@ -227,6 +170,63 @@
       "registry": "npm",
       "id": "@kaveraa/keycloak-sanctum-vue",
       "name": "keycloak-sanctum-vue"
+    },
+    "site-audit": {
+      "description": "Audit a website you own from the command line: SEO, security headers, TLS and known vulnerabilities, with a fix for every finding.",
+      "keywords": [
+        "seo",
+        "security",
+        "audit",
+        "headers",
+        "tls",
+        "csp",
+        "hsts",
+        "vulnerabilities",
+        "osv",
+        "cli"
+      ],
+      "repo": "git+https://github.com/kaveraa/site-audit.git",
+      "language": "JavaScript",
+      "version": "0.1.0",
+      "releasedAt": "2026-10-08T12:51:17.385Z",
+      "releases": 1,
+      "downloads": 54,
+      "period": "month",
+      "monthly": 54,
+      "stars": null,
+      "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
+      "registry": "npm",
+      "id": "@kaveraa/site-audit",
+      "name": "site-audit"
+    },
+    "prepare-image": {
+      "description": "Turn the photo someone just picked into an image you can upload: HEIC converted, orientation applied, resized, and location metadata removed.",
+      "keywords": [
+        "image",
+        "upload",
+        "heic",
+        "exif",
+        "orientation",
+        "resize",
+        "compress",
+        "webp",
+        "privacy",
+        "gps",
+        "browser"
+      ],
+      "repo": "git+https://github.com/kaveraa/prepare-image.git",
+      "language": "TypeScript",
+      "version": "1.1.0",
+      "releasedAt": "2026-10-08T10:27:18.844Z",
+      "releases": 4,
+      "downloads": 46,
+      "period": "month",
+      "monthly": 46,
+      "stars": null,
+      "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
+      "registry": "npm",
+      "id": "@kaveraa/prepare-image",
+      "name": "prepare-image"
     },
     "followtheme": {
       "description": "A scoped theme follows the overlays it opens: dialogs, popovers and toasts portalled to body keep the theme of the section that opened them. React, Vue, any portal library.",
@@ -1733,17 +1733,21 @@
       [
         "2026-11-11",
         0
+      ],
+      [
+        "2026-11-12",
+        0
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.5354941176470589,
+        "share": 0.5356529411764707,
         "repos": 17
       },
       {
         "name": "Vue",
-        "share": 0.5188499999999999,
+        "share": 0.5190699999999999,
         "repos": 10
       },
       {
@@ -1753,12 +1757,12 @@
       },
       {
         "name": "TypeScript",
-        "share": 0.34951578947368417,
+        "share": 0.3495736842105263,
         "repos": 19
       },
       {
         "name": "JavaScript",
-        "share": 0.3172681818181818,
+        "share": 0.3201227272727272,
         "repos": 22
       },
       {
@@ -1768,7 +1772,7 @@
       },
       {
         "name": "HTML",
-        "share": 0.2048714285714286,
+        "share": 0.1986571428571429,
         "repos": 7
       },
       {
@@ -1778,22 +1782,22 @@
       },
       {
         "name": "Python",
-        "share": 0.1425,
+        "share": 0.13326666666666667,
         "repos": 3
       },
       {
         "name": "CSS",
-        "share": 0.03744615384615385,
+        "share": 0.037669230769230774,
         "repos": 13
       },
       {
         "name": "Blade",
-        "share": 0.021340000000000005,
+        "share": 0.021320000000000002,
         "repos": 10
       },
       {
         "name": "Dockerfile",
-        "share": 0.0047,
+        "share": 0.0046,
         "repos": 1
       }
     ],
@@ -1801,5 +1805,5 @@
     "repos": 34,
     "privateRepos": 22
   },
-  "builtAt": "2026-11-11T12:40:45.308Z"
+  "builtAt": "2026-11-12T13:43:21.696Z"
 }

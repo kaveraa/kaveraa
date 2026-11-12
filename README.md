@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.e6868580.svg">
-    <img src="assets/hero-light.33109970.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.c8d96429.svg">
+    <img src="assets/hero-light.fd14533e.svg" alt="Augustin Kavera, full-stack developer in Auvergne, France" width="100%">
   </picture>
   <p>
     <a href="https://augustin-kavera.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/badges/site-dark.e9f3b2af.svg"><img src="assets/badges/site-light.f2d4aafc.svg" alt="site: augustin-kavera.fr" height="24"></picture></a>
@@ -27,7 +27,7 @@ I build line-of-business applications for the public sector with **Laravel**, **
 <!-- packages:start -->
 <table>
   <tr>
-    <td width="50%"><a href="https://github.com/kaveraa/site-audit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/site-audit-dark.86fdeff0.svg"><img src="assets/packages/site-audit-light.8ad04c12.svg" alt="site-audit: Audit a website you own from the command line: SEO, security headers, TLS and known vulnerabilities, with a fix for every finding." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/site-audit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/site-audit-dark.707c488d.svg"><img src="assets/packages/site-audit-light.8576ee6d.svg" alt="site-audit: Audit a website you own from the command line: SEO, security headers, TLS and known vulnerabilities, with a fix for every finding." width="100%"></picture></a></td>
     <td width="50%"><a href="https://github.com/kaveraa/api-gouv-publique-fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/api-gouv-publique-fr-dark.dafdc401.svg"><img src="assets/packages/api-gouv-publique-fr-light.19380813.svg" alt="api-gouv-publique-fr: Typed client for French public APIs: company search by SIREN or SIRET, address search and the Geo API, with a Laravel bridge, validation rules and test fakes." width="100%"></picture></a></td>
   </tr>
   <tr>
@@ -49,7 +49,7 @@ I build line-of-business applications for the public sector with **Laravel**, **
 
 <table>
   <tr>
-    <td width="50%"><a href="https://github.com/kaveraa/prepare-image"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/prepare-image-dark.7e5ef303.svg"><img src="assets/packages/prepare-image-light.68efc49a.svg" alt="prepare-image: Prepare a user-picked photo for upload: decode HEIC, apply camera orientation, resize and strip GPS location." width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/kaveraa/prepare-image"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/packages/prepare-image-dark.27cdcd29.svg"><img src="assets/packages/prepare-image-light.5d555605.svg" alt="prepare-image: Prepare a user-picked photo for upload: decode HEIC, apply camera orientation, resize and strip GPS location." width="100%"></picture></a></td>
     <td width="50%"></td>
   </tr>
 </table>
@@ -78,8 +78,8 @@ I build line-of-business applications for the public sector with **Laravel**, **
 ### Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.8e0368bc.svg">
-  <img src="assets/activity-light.8b3e0157.svg" alt="Contribution heatmap and language breakdown" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.0731ace8.svg">
+  <img src="assets/activity-light.fb2e0806.svg" alt="Contribution heatmap and language breakdown" width="100%">
 </picture>
 
 ### How I work
@@ -97,6 +97,6 @@ I build line-of-business applications for the public sector with **Laravel**, **
 
 <div align="center">
 <!-- built:start -->
-<sub>Assets regenerated 2026-11-11 by <a href="https://github.com/kaveraa/kaveraa/actions">a scheduled workflow</a>. No third-party stat cards, everything on this page is rendered from <a href="https://github.com/kaveraa/kaveraa/tree/main/scripts">scripts/</a>.</sub>
+<sub>Assets regenerated 2026-11-12 by <a href="https://github.com/kaveraa/kaveraa/actions">a scheduled workflow</a>. No third-party stat cards, everything on this page is rendered from <a href="https://github.com/kaveraa/kaveraa/tree/main/scripts">scripts/</a>.</sub>
 <!-- built:end -->
 </div>

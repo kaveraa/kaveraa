@@ -162,9 +162,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:29:31.566Z",
       "releases": 5,
-      "downloads": 57,
+      "downloads": 59,
       "period": "month",
-      "monthly": 57,
+      "monthly": 59,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
       "registry": "npm",
@@ -190,9 +190,9 @@
       "version": "0.1.0",
       "releasedAt": "2026-10-08T12:51:17.385Z",
       "releases": 1,
-      "downloads": 52,
+      "downloads": 54,
       "period": "month",
-      "monthly": 52,
+      "monthly": 54,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
       "registry": "npm",
@@ -219,9 +219,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:27:18.844Z",
       "releases": 4,
-      "downloads": 46,
+      "downloads": 48,
       "period": "month",
-      "monthly": 46,
+      "monthly": 48,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
@@ -246,9 +246,9 @@
       "version": "0.1.2",
       "releasedAt": "2026-10-08T10:38:05.078Z",
       "releases": 2,
-      "downloads": 36,
+      "downloads": 38,
       "period": "month",
-      "monthly": 36,
+      "monthly": 38,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
@@ -257,10 +257,10 @@
     }
   },
   "github": {
-    "commits": 507,
-    "contributions": 702,
-    "commitsTotal": 507,
-    "contributionsTotal": 703,
+    "commits": 560,
+    "contributions": 779,
+    "commitsTotal": 560,
+    "contributionsTotal": 780,
     "days": [
       [
         "2025-11-09",
@@ -1740,19 +1740,28 @@
       ],
       [
         "2026-11-13",
-        39
+        116
+      ],
+      [
+        "2026-11-14",
+        0
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.5354294117647059,
+        "share": 0.5354176470588237,
         "repos": 17
       },
       {
         "name": "Vue",
-        "share": 0.5196,
+        "share": 0.51956,
         "repos": 10
+      },
+      {
+        "name": "TypeScript",
+        "share": 0.3551473684210527,
+        "repos": 19
       },
       {
         "name": "Twig",
@@ -1760,43 +1769,38 @@
         "repos": 2
       },
       {
-        "name": "TypeScript",
-        "share": 0.3495578947368422,
-        "repos": 19
-      },
-      {
         "name": "JavaScript",
-        "share": 0.3170045454545454,
+        "share": 0.3046136363636363,
         "repos": 22
       },
       {
         "name": "C#",
-        "share": 0.28985,
+        "share": 0.2646,
         "repos": 2
       },
       {
         "name": "HTML",
-        "share": 0.18747500000000003,
-        "repos": 8
-      },
-      {
-        "name": "Shell",
-        "share": 0.1484125,
+        "share": 0.219325,
         "repos": 8
       },
       {
         "name": "Python",
-        "share": 0.13326666666666667,
+        "share": 0.1336,
         "repos": 3
       },
       {
+        "name": "Shell",
+        "share": 0.12794444444444444,
+        "repos": 9
+      },
+      {
         "name": "CSS",
-        "share": 0.03545,
+        "share": 0.035300000000000005,
         "repos": 14
       },
       {
         "name": "Blade",
-        "share": 0.021320000000000002,
+        "share": 0.021310000000000003,
         "repos": 10
       },
       {
@@ -1809,5 +1813,5 @@
     "repos": 34,
     "privateRepos": 22
   },
-  "builtAt": "2026-11-13T13:03:13.508Z"
+  "builtAt": "2026-11-14T12:07:50.519Z"
 }

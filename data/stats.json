@@ -162,9 +162,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:29:31.566Z",
       "releases": 5,
-      "downloads": 60,
+      "downloads": 62,
       "period": "month",
-      "monthly": 60,
+      "monthly": 62,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
       "registry": "npm",
@@ -190,9 +190,9 @@
       "version": "0.1.0",
       "releasedAt": "2026-10-08T12:51:17.385Z",
       "releases": 1,
-      "downloads": 55,
+      "downloads": 53,
       "period": "month",
-      "monthly": 55,
+      "monthly": 53,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
       "registry": "npm",
@@ -219,9 +219,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:27:18.844Z",
       "releases": 4,
-      "downloads": 48,
+      "downloads": 49,
       "period": "month",
-      "monthly": 48,
+      "monthly": 49,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
@@ -246,9 +246,9 @@
       "version": "0.1.2",
       "releasedAt": "2026-10-08T10:38:05.078Z",
       "releases": 2,
-      "downloads": 38,
+      "downloads": 37,
       "period": "month",
-      "monthly": 38,
+      "monthly": 37,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
@@ -1721,12 +1721,16 @@
       [
         "2026-11-15",
         0
+      ],
+      [
+        "2026-11-16",
+        0
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.5354176470588237,
+        "share": 0.5397411764705883,
         "repos": 17
       },
       {
@@ -1736,42 +1740,42 @@
       },
       {
         "name": "TypeScript",
-        "share": 0.3571105263157896,
+        "share": 0.36034736842105275,
         "repos": 19
       },
       {
-        "name": "Twig",
-        "share": 0.35150000000000003,
-        "repos": 2
-      },
-      {
         "name": "JavaScript",
-        "share": 0.30286818181818176,
+        "share": 0.30284999999999995,
         "repos": 22
       },
       {
+        "name": "Twig",
+        "share": 0.2901,
+        "repos": 2
+      },
+      {
         "name": "C#",
-        "share": 0.2623,
+        "share": 0.2511,
         "repos": 2
       },
       {
         "name": "HTML",
-        "share": 0.2185375,
+        "share": 0.21845,
         "repos": 8
       },
       {
         "name": "Python",
-        "share": 0.1375333333333333,
+        "share": 0.13703333333333334,
         "repos": 3
       },
       {
         "name": "Shell",
-        "share": 0.12794444444444444,
+        "share": 0.12792222222222221,
         "repos": 9
       },
       {
         "name": "CSS",
-        "share": 0.035300000000000005,
+        "share": 0.036242857142857146,
         "repos": 14
       },
       {
@@ -1789,5 +1793,5 @@
     "repos": 34,
     "privateRepos": 22
   },
-  "builtAt": "2026-11-15T12:41:36.394Z"
+  "builtAt": "2026-11-16T13:34:53.405Z"
 }

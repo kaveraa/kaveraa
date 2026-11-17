@@ -162,42 +162,14 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:29:31.566Z",
       "releases": 5,
-      "downloads": 62,
+      "downloads": 57,
       "period": "month",
-      "monthly": 62,
+      "monthly": 57,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
       "registry": "npm",
       "id": "@kaveraa/keycloak-sanctum-vue",
       "name": "keycloak-sanctum-vue"
-    },
-    "site-audit": {
-      "description": "Audit a website you own from the command line: SEO, security headers, TLS and known vulnerabilities, with a fix for every finding.",
-      "keywords": [
-        "seo",
-        "security",
-        "audit",
-        "headers",
-        "tls",
-        "csp",
-        "hsts",
-        "vulnerabilities",
-        "osv",
-        "cli"
-      ],
-      "repo": "git+https://github.com/kaveraa/site-audit.git",
-      "language": "JavaScript",
-      "version": "0.1.0",
-      "releasedAt": "2026-10-08T12:51:17.385Z",
-      "releases": 1,
-      "downloads": 53,
-      "period": "month",
-      "monthly": 53,
-      "stars": null,
-      "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
-      "registry": "npm",
-      "id": "@kaveraa/site-audit",
-      "name": "site-audit"
     },
     "prepare-image": {
       "description": "Turn the photo someone just picked into an image you can upload: HEIC converted, orientation applied, resized, and location metadata removed.",
@@ -219,14 +191,42 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:27:18.844Z",
       "releases": 4,
-      "downloads": 49,
+      "downloads": 43,
       "period": "month",
-      "monthly": 49,
+      "monthly": 43,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
       "id": "@kaveraa/prepare-image",
       "name": "prepare-image"
+    },
+    "site-audit": {
+      "description": "Audit a website you own from the command line: SEO, security headers, TLS and known vulnerabilities, with a fix for every finding.",
+      "keywords": [
+        "seo",
+        "security",
+        "audit",
+        "headers",
+        "tls",
+        "csp",
+        "hsts",
+        "vulnerabilities",
+        "osv",
+        "cli"
+      ],
+      "repo": "git+https://github.com/kaveraa/site-audit.git",
+      "language": "JavaScript",
+      "version": "0.1.0",
+      "releasedAt": "2026-10-08T12:51:17.385Z",
+      "releases": 1,
+      "downloads": 54,
+      "period": "month",
+      "monthly": 54,
+      "stars": null,
+      "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
+      "registry": "npm",
+      "id": "@kaveraa/site-audit",
+      "name": "site-audit"
     },
     "followtheme": {
       "description": "A scoped theme follows the overlays it opens: dialogs, popovers and toasts portalled to body keep the theme of the section that opened them. React, Vue, any portal library.",
@@ -246,9 +246,9 @@
       "version": "0.1.2",
       "releasedAt": "2026-10-08T10:38:05.078Z",
       "releases": 2,
-      "downloads": 37,
+      "downloads": 32,
       "period": "month",
-      "monthly": 37,
+      "monthly": 32,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
@@ -1725,47 +1725,51 @@
       [
         "2026-11-16",
         0
+      ],
+      [
+        "2026-11-17",
+        0
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.5397411764705883,
+        "share": 0.5397764705882353,
         "repos": 17
       },
       {
         "name": "Vue",
-        "share": 0.51956,
+        "share": 0.51955,
         "repos": 10
       },
       {
         "name": "TypeScript",
-        "share": 0.36034736842105275,
+        "share": 0.36110000000000014,
         "repos": 19
       },
       {
         "name": "JavaScript",
-        "share": 0.30284999999999995,
+        "share": 0.3022363636363636,
         "repos": 22
       },
       {
         "name": "Twig",
-        "share": 0.2901,
+        "share": 0.28995,
         "repos": 2
       },
       {
         "name": "C#",
-        "share": 0.2511,
+        "share": 0.25175,
         "repos": 2
       },
       {
         "name": "HTML",
-        "share": 0.21845,
+        "share": 0.2183,
         "repos": 8
       },
       {
         "name": "Python",
-        "share": 0.13703333333333334,
+        "share": 0.13686666666666666,
         "repos": 3
       },
       {
@@ -1775,7 +1779,7 @@
       },
       {
         "name": "CSS",
-        "share": 0.036242857142857146,
+        "share": 0.03617142857142858,
         "repos": 14
       },
       {
@@ -1785,7 +1789,7 @@
       },
       {
         "name": "Dockerfile",
-        "share": 0.0046,
+        "share": 0.0045,
         "repos": 1
       }
     ],
@@ -1793,5 +1797,5 @@
     "repos": 34,
     "privateRepos": 22
   },
-  "builtAt": "2026-11-16T13:34:53.405Z"
+  "builtAt": "2026-11-17T14:19:54.428Z"
 }

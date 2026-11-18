@@ -162,9 +162,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:29:31.566Z",
       "releases": 5,
-      "downloads": 57,
+      "downloads": 53,
       "period": "month",
-      "monthly": 57,
+      "monthly": 53,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
       "registry": "npm",
@@ -191,9 +191,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:27:18.844Z",
       "releases": 4,
-      "downloads": 43,
+      "downloads": 40,
       "period": "month",
-      "monthly": 43,
+      "monthly": 40,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
@@ -219,9 +219,9 @@
       "version": "0.1.0",
       "releasedAt": "2026-10-08T12:51:17.385Z",
       "releases": 1,
-      "downloads": 54,
+      "downloads": 51,
       "period": "month",
-      "monthly": 54,
+      "monthly": 51,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
       "registry": "npm",
@@ -246,9 +246,9 @@
       "version": "0.1.2",
       "releasedAt": "2026-10-08T10:38:05.078Z",
       "releases": 2,
-      "downloads": 32,
+      "downloads": 29,
       "period": "month",
-      "monthly": 32,
+      "monthly": 29,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
@@ -1729,28 +1729,27 @@
       [
         "2026-11-17",
         0
+      ],
+      [
+        "2026-11-18",
+        0
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.5397764705882353,
-        "repos": 17
+        "share": 0.5451499999999999,
+        "repos": 18
       },
       {
         "name": "Vue",
-        "share": 0.51955,
-        "repos": 10
+        "share": 0.4758272727272727,
+        "repos": 11
       },
       {
         "name": "TypeScript",
-        "share": 0.36110000000000014,
-        "repos": 19
-      },
-      {
-        "name": "JavaScript",
-        "share": 0.3022363636363636,
-        "repos": 22
+        "share": 0.35017000000000015,
+        "repos": 20
       },
       {
         "name": "Twig",
@@ -1758,34 +1757,39 @@
         "repos": 2
       },
       {
+        "name": "JavaScript",
+        "share": 0.2776083333333333,
+        "repos": 24
+      },
+      {
         "name": "C#",
-        "share": 0.25175,
+        "share": 0.2563,
         "repos": 2
       },
       {
         "name": "HTML",
-        "share": 0.2183,
+        "share": 0.21817499999999998,
         "repos": 8
       },
       {
         "name": "Python",
-        "share": 0.13686666666666666,
+        "share": 0.1368,
         "repos": 3
       },
       {
         "name": "Shell",
-        "share": 0.12792222222222221,
+        "share": 0.12791111111111111,
         "repos": 9
       },
       {
         "name": "CSS",
-        "share": 0.03617142857142858,
-        "repos": 14
+        "share": 0.04378666666666667,
+        "repos": 15
       },
       {
         "name": "Blade",
-        "share": 0.021310000000000003,
-        "repos": 10
+        "share": 0.02033636363636364,
+        "repos": 11
       },
       {
         "name": "Dockerfile",
@@ -1794,8 +1798,8 @@
       }
     ],
     "stars": 0,
-    "repos": 34,
-    "privateRepos": 22
+    "repos": 35,
+    "privateRepos": 23
   },
-  "builtAt": "2026-11-17T14:19:54.428Z"
+  "builtAt": "2026-11-18T13:54:13.658Z"
 }

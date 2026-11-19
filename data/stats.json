@@ -171,6 +171,34 @@
       "id": "@kaveraa/keycloak-sanctum-vue",
       "name": "keycloak-sanctum-vue"
     },
+    "site-audit": {
+      "description": "Audit a website you own from the command line: SEO, security headers, TLS and known vulnerabilities, with a fix for every finding.",
+      "keywords": [
+        "seo",
+        "security",
+        "audit",
+        "headers",
+        "tls",
+        "csp",
+        "hsts",
+        "vulnerabilities",
+        "osv",
+        "cli"
+      ],
+      "repo": "git+https://github.com/kaveraa/site-audit.git",
+      "language": "JavaScript",
+      "version": "0.1.0",
+      "releasedAt": "2026-10-08T12:51:17.385Z",
+      "releases": 1,
+      "downloads": 51,
+      "period": "month",
+      "monthly": 51,
+      "stars": null,
+      "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
+      "registry": "npm",
+      "id": "@kaveraa/site-audit",
+      "name": "site-audit"
+    },
     "prepare-image": {
       "description": "Turn the photo someone just picked into an image you can upload: HEIC converted, orientation applied, resized, and location metadata removed.",
       "keywords": [
@@ -200,34 +228,6 @@
       "id": "@kaveraa/prepare-image",
       "name": "prepare-image"
     },
-    "site-audit": {
-      "description": "Audit a website you own from the command line: SEO, security headers, TLS and known vulnerabilities, with a fix for every finding.",
-      "keywords": [
-        "seo",
-        "security",
-        "audit",
-        "headers",
-        "tls",
-        "csp",
-        "hsts",
-        "vulnerabilities",
-        "osv",
-        "cli"
-      ],
-      "repo": "git+https://github.com/kaveraa/site-audit.git",
-      "language": "JavaScript",
-      "version": "0.1.0",
-      "releasedAt": "2026-10-08T12:51:17.385Z",
-      "releases": 1,
-      "downloads": 51,
-      "period": "month",
-      "monthly": 51,
-      "stars": null,
-      "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
-      "registry": "npm",
-      "id": "@kaveraa/site-audit",
-      "name": "site-audit"
-    },
     "followtheme": {
       "description": "A scoped theme follows the overlays it opens: dialogs, popovers and toasts portalled to body keep the theme of the section that opened them. React, Vue, any portal library.",
       "keywords": [
@@ -246,9 +246,9 @@
       "version": "0.1.2",
       "releasedAt": "2026-10-08T10:38:05.078Z",
       "releases": 2,
-      "downloads": 29,
+      "downloads": 30,
       "period": "month",
-      "monthly": 29,
+      "monthly": 30,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
@@ -1733,22 +1733,26 @@
       [
         "2026-11-18",
         0
+      ],
+      [
+        "2026-11-19",
+        0
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.5451499999999999,
+        "share": 0.5392277777777776,
         "repos": 18
       },
       {
         "name": "Vue",
-        "share": 0.4758272727272727,
+        "share": 0.5027090909090908,
         "repos": 11
       },
       {
         "name": "TypeScript",
-        "share": 0.35017000000000015,
+        "share": 0.3462400000000001,
         "repos": 20
       },
       {
@@ -1758,7 +1762,7 @@
       },
       {
         "name": "JavaScript",
-        "share": 0.2776083333333333,
+        "share": 0.27696249999999994,
         "repos": 24
       },
       {
@@ -1768,12 +1772,12 @@
       },
       {
         "name": "HTML",
-        "share": 0.21817499999999998,
+        "share": 0.21846249999999998,
         "repos": 8
       },
       {
         "name": "Python",
-        "share": 0.1368,
+        "share": 0.13670000000000002,
         "repos": 3
       },
       {
@@ -1783,12 +1787,12 @@
       },
       {
         "name": "CSS",
-        "share": 0.04378666666666667,
+        "share": 0.037720000000000004,
         "repos": 15
       },
       {
         "name": "Blade",
-        "share": 0.02033636363636364,
+        "share": 0.01979090909090909,
         "repos": 11
       },
       {
@@ -1801,5 +1805,5 @@
     "repos": 35,
     "privateRepos": 23
   },
-  "builtAt": "2026-11-18T13:54:13.658Z"
+  "builtAt": "2026-11-19T14:22:28.970Z"
 }

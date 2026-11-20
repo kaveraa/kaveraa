@@ -97,6 +97,6 @@ I build line-of-business applications for the public sector with **Laravel**, **
 
 <div align="center">
 <!-- built:start -->
-<sub>Assets regenerated 2026-11-19 by <a href="https://github.com/kaveraa/kaveraa/actions">a scheduled workflow</a>. No third-party stat cards, everything on this page is rendered from <a href="https://github.com/kaveraa/kaveraa/tree/main/scripts">scripts/</a>.</sub>
+<sub>Assets regenerated 2026-11-20 by <a href="https://github.com/kaveraa/kaveraa/actions">a scheduled workflow</a>. No third-party stat cards, everything on this page is rendered from <a href="https://github.com/kaveraa/kaveraa/tree/main/scripts">scripts/</a>.</sub>
 <!-- built:end -->
 </div>

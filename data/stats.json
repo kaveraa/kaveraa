@@ -162,9 +162,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:29:31.566Z",
       "releases": 5,
-      "downloads": 53,
+      "downloads": 58,
       "period": "month",
-      "monthly": 53,
+      "monthly": 58,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
       "registry": "npm",
@@ -219,9 +219,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:27:18.844Z",
       "releases": 4,
-      "downloads": 40,
+      "downloads": 45,
       "period": "month",
-      "monthly": 40,
+      "monthly": 45,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
@@ -1741,6 +1741,10 @@
       [
         "2026-11-20",
         0
+      ],
+      [
+        "2026-11-21",
+        0
       ]
     ],
     "languages": [
@@ -1756,7 +1760,7 @@
       },
       {
         "name": "TypeScript",
-        "share": 0.34606000000000015,
+        "share": 0.34616000000000013,
         "repos": 20
       },
       {
@@ -1766,7 +1770,7 @@
       },
       {
         "name": "JavaScript",
-        "share": 0.27693749999999995,
+        "share": 0.2766708333333333,
         "repos": 24
       },
       {
@@ -1776,7 +1780,7 @@
       },
       {
         "name": "HTML",
-        "share": 0.21846249999999998,
+        "share": 0.2190125,
         "repos": 8
       },
       {
@@ -1809,5 +1813,5 @@
     "repos": 35,
     "privateRepos": 23
   },
-  "builtAt": "2026-11-20T13:58:01.952Z"
+  "builtAt": "2026-11-21T13:25:40.910Z"
 }

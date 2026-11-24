@@ -162,9 +162,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:29:31.566Z",
       "releases": 5,
-      "downloads": 56,
+      "downloads": 61,
       "period": "month",
-      "monthly": 56,
+      "monthly": 61,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/keycloak-sanctum-vue",
       "registry": "npm",
@@ -190,9 +190,9 @@
       "version": "0.1.0",
       "releasedAt": "2026-10-08T12:51:17.385Z",
       "releases": 1,
-      "downloads": 51,
+      "downloads": 47,
       "period": "month",
-      "monthly": 51,
+      "monthly": 47,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
       "registry": "npm",
@@ -219,9 +219,9 @@
       "version": "1.1.0",
       "releasedAt": "2026-10-08T10:27:18.844Z",
       "releases": 4,
-      "downloads": 44,
+      "downloads": 49,
       "period": "month",
-      "monthly": 44,
+      "monthly": 49,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/prepare-image",
       "registry": "npm",
@@ -1725,22 +1725,26 @@
       [
         "2026-11-23",
         0
+      ],
+      [
+        "2026-11-24",
+        0
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.5405722222222221,
+        "share": 0.5406166666666666,
         "repos": 18
       },
       {
         "name": "Vue",
-        "share": 0.5029090909090909,
+        "share": 0.5027818181818181,
         "repos": 11
       },
       {
         "name": "TypeScript",
-        "share": 0.34523000000000004,
+        "share": 0.34584000000000004,
         "repos": 20
       },
       {
@@ -1750,22 +1754,22 @@
       },
       {
         "name": "JavaScript",
-        "share": 0.27686249999999996,
+        "share": 0.27694166666666664,
         "repos": 24
       },
       {
         "name": "C#",
-        "share": 0.26155,
+        "share": 0.2609,
         "repos": 2
       },
       {
         "name": "HTML",
-        "share": 0.21849999999999997,
+        "share": 0.21755,
         "repos": 8
       },
       {
         "name": "Python",
-        "share": 0.1356,
+        "share": 0.1342,
         "repos": 3
       },
       {
@@ -1775,7 +1779,7 @@
       },
       {
         "name": "CSS",
-        "share": 0.036860000000000004,
+        "share": 0.036853333333333335,
         "repos": 15
       },
       {
@@ -1793,5 +1797,5 @@
     "repos": 35,
     "privateRepos": 23
   },
-  "builtAt": "2026-11-23T15:54:29.336Z"
+  "builtAt": "2026-11-24T15:48:39.314Z"
 }

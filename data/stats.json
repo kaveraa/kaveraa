@@ -171,34 +171,6 @@
       "id": "@kaveraa/keycloak-sanctum-vue",
       "name": "keycloak-sanctum-vue"
     },
-    "site-audit": {
-      "description": "Audit a website you own from the command line: SEO, security headers, TLS and known vulnerabilities, with a fix for every finding.",
-      "keywords": [
-        "seo",
-        "security",
-        "audit",
-        "headers",
-        "tls",
-        "csp",
-        "hsts",
-        "vulnerabilities",
-        "osv",
-        "cli"
-      ],
-      "repo": "git+https://github.com/kaveraa/site-audit.git",
-      "language": "JavaScript",
-      "version": "0.1.0",
-      "releasedAt": "2026-10-08T12:51:17.385Z",
-      "releases": 1,
-      "downloads": 45,
-      "period": "month",
-      "monthly": 45,
-      "stars": null,
-      "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
-      "registry": "npm",
-      "id": "@kaveraa/site-audit",
-      "name": "site-audit"
-    },
     "prepare-image": {
       "description": "Turn the photo someone just picked into an image you can upload: HEIC converted, orientation applied, resized, and location metadata removed.",
       "keywords": [
@@ -228,6 +200,34 @@
       "id": "@kaveraa/prepare-image",
       "name": "prepare-image"
     },
+    "site-audit": {
+      "description": "Audit a website you own from the command line: SEO, security headers, TLS and known vulnerabilities, with a fix for every finding.",
+      "keywords": [
+        "seo",
+        "security",
+        "audit",
+        "headers",
+        "tls",
+        "csp",
+        "hsts",
+        "vulnerabilities",
+        "osv",
+        "cli"
+      ],
+      "repo": "git+https://github.com/kaveraa/site-audit.git",
+      "language": "JavaScript",
+      "version": "0.1.0",
+      "releasedAt": "2026-10-08T12:51:17.385Z",
+      "releases": 1,
+      "downloads": 45,
+      "period": "month",
+      "monthly": 45,
+      "stars": null,
+      "url": "https://www.npmjs.com/package/@kaveraa/site-audit",
+      "registry": "npm",
+      "id": "@kaveraa/site-audit",
+      "name": "site-audit"
+    },
     "followtheme": {
       "description": "A scoped theme follows the overlays it opens: dialogs, popovers and toasts portalled to body keep the theme of the section that opened them. React, Vue, any portal library.",
       "keywords": [
@@ -246,9 +246,9 @@
       "version": "0.1.2",
       "releasedAt": "2026-10-08T10:38:05.078Z",
       "releases": 2,
-      "downloads": 29,
+      "downloads": 30,
       "period": "month",
-      "monthly": 29,
+      "monthly": 30,
       "stars": null,
       "url": "https://www.npmjs.com/package/@kaveraa/followtheme",
       "registry": "npm",
@@ -257,10 +257,10 @@
     }
   },
   "github": {
-    "commits": 9050,
-    "contributions": 9269,
-    "commitsTotal": 10072,
-    "contributionsTotal": 10292,
+    "commits": 9105,
+    "contributions": 9324,
+    "commitsTotal": 10127,
+    "contributionsTotal": 10347,
     "days": [
       [
         "2025-11-23",
@@ -1732,23 +1732,27 @@
       ],
       [
         "2026-11-25",
-        6
+        22
+      ],
+      [
+        "2026-11-26",
+        39
       ]
     ],
     "languages": [
       {
         "name": "PHP",
-        "share": 0.54015,
+        "share": 0.5399833333333333,
         "repos": 18
       },
       {
         "name": "Vue",
-        "share": 0.5038454545454545,
+        "share": 0.5041636363636363,
         "repos": 11
       },
       {
         "name": "TypeScript",
-        "share": 0.34582499999999994,
+        "share": 0.34602,
         "repos": 20
       },
       {
@@ -1758,22 +1762,22 @@
       },
       {
         "name": "JavaScript",
-        "share": 0.2769541666666666,
+        "share": 0.27772916666666664,
         "repos": 24
       },
       {
         "name": "C#",
-        "share": 0.2609,
+        "share": 0.26115,
         "repos": 2
       },
       {
         "name": "HTML",
-        "share": 0.21736250000000001,
+        "share": 0.2153625,
         "repos": 8
       },
       {
         "name": "Python",
-        "share": 0.13396666666666668,
+        "share": 0.13163333333333335,
         "repos": 3
       },
       {
@@ -1783,12 +1787,12 @@
       },
       {
         "name": "CSS",
-        "share": 0.03678666666666667,
+        "share": 0.03678000000000001,
         "repos": 15
       },
       {
         "name": "Blade",
-        "share": 0.01992727272727273,
+        "share": 0.01991818181818182,
         "repos": 11
       },
       {
@@ -1801,5 +1805,5 @@
     "repos": 35,
     "privateRepos": 23
   },
-  "builtAt": "2026-11-25T15:32:33.510Z"
+  "builtAt": "2026-11-26T15:07:00.410Z"
 }
